@@ -1,0 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_cGnTFt": {
+      "type": "image-banner",
+      "blocks": {
+        "countdown_timer_AkHhzg": {
+          "type": "countdown_timer",
+          "settings": {
+            "end_datetime": "2025-11-09 23:59",
+            "expired_message": "",
+            "labels_below": true,
+            "timer_style": "text",
+            "scale_timer": 100,
+            "scale_timer_mobile": 80
+          }
+        }
+      },
+      "block_order": [
+        "countdown_timer_AkHhzg"
+      ],
+      "name": "t:sections.image-banner.presets.name__2",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "full-width-enabled": true,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/Design_sans_titre_16.webp",
+        "desktop_text_vertical_position": "bottom",
+        "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_16.webp",
+        "mobile_text_vertical_position": "bottom",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "#ffffff",
+        "section-color-overlay": "#ffffff",
+        "section-color-overlay-opacity": 0,
+        "color-body-text": "#ffffff",
+        "text-container-color": "#000000",
+        "color-overlay-opacity": 0,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "lcp_optimize": false
+      }
+    },
+    "button_qwHq7w": {
+      "type": "button",
+      "name": "t:sections.button.presets.name",
+      "settings": {
+        "button_select": "primary",
+        "button_horizontal_position": "center",
+        "button_label": "Je veux ce rituel du matin",
+        "button_link": "shopify://products/magic-hair™",
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "background_color": "#6180dc"
+      }
+    }
+  },
+  "order": [
+    "image_banner_cGnTFt",
+    "button_qwHq7w"
+  ]
+}
