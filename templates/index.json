@@ -43,11 +43,11 @@
         "mobile_text_vertical_position": "bottom",
         "mobile_text_horizontal_position": "center",
         "color-heading": "#ffffff",
-        "section-color-overlay": "#ffffff",
+        "section-color-overlay": "#000000",
         "section-color-overlay-opacity": 0,
         "color-body-text": "#ffffff",
         "text-container-color": "#000000",
-        "color-overlay-opacity": 0,
+        "color-overlay-opacity": 30,
         "margin-top": 0,
         "margin-bottom": 0,
         "lcp_optimize": false
