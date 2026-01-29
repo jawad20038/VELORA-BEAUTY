@@ -11,22 +11,6 @@
   "sections": {
     "image_banner_cGnTFt": {
       "type": "image-banner",
-      "blocks": {
-        "countdown_timer_AkHhzg": {
-          "type": "countdown_timer",
-          "settings": {
-            "end_datetime": "2025-11-09 23:59",
-            "expired_message": "",
-            "labels_below": true,
-            "timer_style": "text",
-            "scale_timer": 100,
-            "scale_timer_mobile": 80
-          }
-        }
-      },
-      "block_order": [
-        "countdown_timer_AkHhzg"
-      ],
       "name": "t:sections.image-banner.presets.name__2",
       "settings": {
         "advanced_heading": false,
