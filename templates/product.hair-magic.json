@@ -54,30 +54,28 @@
         "image_yUXV9e": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/VOGUE_revista_-_logo_2.png",
             "link": ""
           }
         },
         "image_WdWfk4": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1.webp",
             "link": ""
           }
         },
         "image_EeMmHM": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.webp",
             "link": ""
           }
         },
         "image_hh3eVf": {
           "type": "image",
           "settings": {
-            "link": ""
-          }
-        },
-        "image_RhVTAm": {
-          "type": "image",
-          "settings": {
+            "desktop_image": "shopify://shop_images/logo-seo_1.webp",
             "link": ""
           }
         }
@@ -86,8 +84,7 @@
         "image_yUXV9e",
         "image_WdWfk4",
         "image_EeMmHM",
-        "image_hh3eVf",
-        "image_RhVTAm"
+        "image_hh3eVf"
       ],
       "name": "t:sections.brands.settings.presets.name",
       "settings": {
