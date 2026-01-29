@@ -31,18 +31,18 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/Design_sans_titre_16.webp",
-        "desktop_text_vertical_position": "top",
+        "desktop_image": "shopify://shop_images/Design_sans_titre_63.png",
+        "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_16.webp",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_62.png",
         "mobile_text_vertical_position": "top",
         "mobile_text_horizontal_position": "left",
         "color-heading": "rgba(0,0,0,0)",
-        "section-color-overlay": "rgba(0,0,0,0)",
-        "section-color-overlay-opacity": 0,
+        "section-color-overlay": "#000000",
+        "section-color-overlay-opacity": 30,
         "color-body-text": "#ffffff",
-        "text-container-color": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 0,
+        "text-container-color": "#000000",
+        "color-overlay-opacity": 20,
         "margin-top": 0,
         "margin-bottom": 0,
         "lcp_optimize": true
@@ -54,35 +54,30 @@
         "image_yUXV9e": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/GQ_Logo_svg.png",
             "link": ""
           }
         },
         "image_WdWfk4": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Men_s_Health_logo_black_1.png",
             "link": ""
           }
         },
         "image_EeMmHM": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Logo-konbini_svg.png",
             "link": ""
           }
         },
         "image_hh3eVf": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Logo-Journal-du-Geek.png",
             "link": ""
           }
         },
         "image_RhVTAm": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Logo_BFMTV__2025.png",
             "link": ""
           }
         }
