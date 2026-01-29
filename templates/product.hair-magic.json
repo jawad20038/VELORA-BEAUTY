@@ -39,7 +39,7 @@
         "mobile_text_horizontal_position": "left",
         "color-heading": "rgba(0,0,0,0)",
         "section-color-overlay": "#000000",
-        "section-color-overlay-opacity": 30,
+        "section-color-overlay-opacity": 20,
         "color-body-text": "#ffffff",
         "text-container-color": "#000000",
         "color-overlay-opacity": 20,
