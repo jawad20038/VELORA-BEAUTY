@@ -244,7 +244,7 @@
         "heading_9rhf8G": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Une nouvelle façon de gérer les racines grises</p>",
+            "heading": "<p>Pourquoi toutes les solutions “classiques” vous coûtent plus qu’elles ne vous apportent</p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 30,
@@ -253,6 +253,20 @@
             "heading_mt": 0,
             "heading_mt_mobile": 0,
             "heading_color": "#000000"
+          }
+        },
+        "text_PBP3wM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Des rendez-vous répétés chez le coiffeur aux colorations et sprays maison…<br/>comparez <strong>ce que vous payez vraiment</strong>, et ce que vos cheveux subissent.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 20,
+            "text_size_mobile": 16,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_color": "#121212"
           }
         },
         "table_row_zLHDjd": {
@@ -312,25 +326,29 @@
       },
       "block_order": [
         "heading_9rhf8G",
+        "text_PBP3wM",
         "table_row_zLHDjd",
         "table_row_LGQdEq",
         "table_row_C9Fiba"
       ],
       "name": "SS - Comparison table #22",
       "settings": {
-        "content_max_width": 80,
+        "content_max_width": 100,
         "content_align": "center",
         "content_align_mobile": "center",
         "table_columns": 3,
-        "table_radius": 20,
-        "table_mt": 40,
-        "table_mt_mobile": 24,
+        "table_radius": 10,
+        "table_mt": 30,
+        "table_mt_mobile": 30,
         "table_column_border_thickness": 2,
-        "first_heading": "Our Brand",
+        "first_heading": "Hair Magic+",
+        "first_heading_image": "shopify://shop_images/Design_sans_titre_-_2026-01-30T195218.421.webp",
         "first_heading_url": "",
         "second_heading": "Other 1",
+        "second_heading_image": "shopify://shop_images/ChatGPT_Image_30_janv._2026_19_52_59.webp",
         "second_heading_url": "",
         "third_heading": "Other 2",
+        "third_heading_image": "shopify://shop_images/Design_sans_titre_-_2026-01-30T194753.112.webp",
         "third_heading_url": "",
         "fourth_heading": "Other 3",
         "fourth_heading_url": "",
