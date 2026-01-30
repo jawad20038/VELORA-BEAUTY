@@ -37,22 +37,60 @@
         "lcp_optimize": false
       }
     },
-    "button_qwHq7w": {
-      "type": "button",
-      "name": "t:sections.button.presets.name",
+    "brands_Qqqitm": {
+      "type": "brands",
+      "blocks": {
+        "image_TDiKVa": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/VOGUE_revista_-_logo_2.png",
+            "link": ""
+          }
+        },
+        "image_BJDVpH": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1.webp",
+            "link": ""
+          }
+        },
+        "image_7wpd7G": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.webp",
+            "link": ""
+          }
+        },
+        "image_AhiTP4": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/logo-seo_1.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TDiKVa",
+        "image_BJDVpH",
+        "image_7wpd7G",
+        "image_AhiTP4"
+      ],
+      "name": "t:sections.brands.settings.presets.name",
       "settings": {
-        "button_select": "primary",
-        "button_horizontal_position": "center",
-        "button_label": "Je veux ce rituel du matin",
-        "button_link": "shopify://products/magic-hair™",
-        "margin-top": 0,
-        "margin-bottom": 0,
-        "background_color": "#6180dc"
+        "advanced_heading": false,
+        "heading": "Vu sur",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "animation": "marquee",
+        "animation_speed": "50",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     }
   },
   "order": [
     "image_banner_cGnTFt",
-    "button_qwHq7w"
+    "brands_Qqqitm"
   ]
 }
