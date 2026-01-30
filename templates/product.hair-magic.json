@@ -23,35 +23,18 @@
     "ss_hero_pro_erTEPK": {
       "type": "ss-hero-pro",
       "blocks": {
-        "heading_XTgdLm": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Racines grises invisibles en quelques secondes.</p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_accent_font": "playfair_n4",
-            "heading_size": 42,
-            "heading_size_mobile": 30,
-            "heading_advanced": false,
-            "heading_height": 130,
-            "heading_mt": 8,
-            "heading_mt_mobile": 8,
-            "heading_color": "#000000",
-            "heading_accent_color": "#b49272"
-          }
-        },
         "review_f9cg88": {
           "type": "review",
           "settings": {
             "stars_count": 4.5,
             "stars_size": 16,
-            "stars_size_mobile": 14,
+            "stars_size_mobile": 13,
             "stars_gap": 2,
-            "review": "<p>Rated 4.9/5 by 5,000+ reviews</p>",
+            "review": "<p><strong>4,8/5</strong> <strong>·</strong> <strong>Approuvé par des milliers de femmes</strong></p>",
             "review_custom": false,
             "review_font": "josefin_sans_n4",
             "review_size": 14,
-            "review_size_mobile": 12,
+            "review_size_mobile": 13,
             "review_advanced": false,
             "review_height": 130,
             "review_mt": 0,
@@ -67,10 +50,27 @@
             "review_padding_vertical_mobile": 8,
             "review_color": "#000000",
             "review_bg_color": "#FFFFFF",
-            "review_border_color": "#FFFFFF",
+            "review_border_color": "#b49272",
             "stars_color": "#FFFFFF",
             "stars_bg_color": "#00B67A",
             "stars_bg_half_color": "#DDDDDD"
+          }
+        },
+        "heading_XTgdLm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Racines grises <strong>invisibles</strong> en quelques <em>secondes</em>.</p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_accent_font": "playfair_n4",
+            "heading_size": 42,
+            "heading_size_mobile": 30,
+            "heading_advanced": true,
+            "heading_height": 130,
+            "heading_mt": 8,
+            "heading_mt_mobile": 8,
+            "heading_color": "#000000",
+            "heading_accent_color": "#b49272"
           }
         },
         "verified_wgMzpF": {
@@ -94,8 +94,8 @@
         }
       },
       "block_order": [
-        "heading_XTgdLm",
         "review_f9cg88",
+        "heading_XTgdLm",
         "verified_wgMzpF"
       ],
       "name": "SS - Hero pro 💎",
@@ -150,9 +150,9 @@
         "padding_top": 36,
         "padding_bottom": 36,
         "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "width": "page",
-        "content_width": 1200,
+        "padding_horizontal_mobile": 0,
+        "width": "custom",
+        "content_width": 2000,
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": false
