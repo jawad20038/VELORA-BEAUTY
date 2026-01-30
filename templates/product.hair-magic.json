@@ -258,7 +258,7 @@
         "text_PBP3wM": {
           "type": "text",
           "settings": {
-            "text": "<p>Des rendez-vous répétés chez le coiffeur aux colorations et sprays maison…<br/>comparez <strong>ce que vous payez vraiment</strong>, et ce que vos cheveux subissent.</p>",
+            "text": "<p>Des <strong>rendez-vous répétés</strong> chez le coiffeur aux <strong>colorations</strong> et <strong>sprays</strong> maison…<br/>comparez <strong>ce que vous payez vraiment</strong>, et ce que vos cheveux <strong>subissent</strong>.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 18,
