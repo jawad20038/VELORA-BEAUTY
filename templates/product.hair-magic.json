@@ -244,29 +244,15 @@
         "heading_9rhf8G": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Comparison table #22</h2>",
+            "heading": "<p>Une nouvelle façon de gérer les racines grises</p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
-            "heading_size": 26,
-            "heading_size_mobile": 26,
+            "heading_size": 30,
+            "heading_size_mobile": 22,
             "heading_height": 130,
             "heading_mt": 0,
             "heading_mt_mobile": 0,
-            "heading_color": "#121212"
-          }
-        },
-        "text_zdiCGF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tell your story</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 20,
-            "text_size_mobile": 16,
-            "text_height": 150,
-            "text_mt": 24,
-            "text_mt_mobile": 16,
-            "text_color": "#121212"
+            "heading_color": "#000000"
           }
         },
         "table_row_zLHDjd": {
@@ -326,7 +312,6 @@
       },
       "block_order": [
         "heading_9rhf8G",
-        "text_zdiCGF",
         "table_row_zLHDjd",
         "table_row_LGQdEq",
         "table_row_C9Fiba"
