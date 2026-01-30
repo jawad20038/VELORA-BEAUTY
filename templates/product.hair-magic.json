@@ -50,7 +50,7 @@
         "text_kR8QwF": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>HairMagic+</strong> offre une couvrance <strong>naturelle</strong> et <strong>immédiate</strong> pour des cheveux plus nets, plus denses, plus sûrs — chaque jour.</p>",
+            "text": "<p><strong>HairMagic+</strong> offre une couvrance <strong>naturelle</strong> et <strong>immédiate</strong> pour des cheveux plus <strong>nets</strong>, plus <strong>denses</strong>, plus <strong>sûrs</strong> — chaque<strong> jour</strong>.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 18,
