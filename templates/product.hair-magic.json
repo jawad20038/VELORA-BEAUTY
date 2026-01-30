@@ -162,6 +162,31 @@
         "lazy": false
       }
     },
+    "rich_text_pnPRPG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zARWgM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>VU SUR</strong></p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_zARWgM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "background_gradient": "",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "brands_hWRAg4": {
       "type": "brands",
       "blocks": {
@@ -202,14 +227,14 @@
       ],
       "name": "t:sections.brands.settings.presets.name",
       "settings": {
-        "advanced_heading": true,
-        "heading": "VU SUR",
-        "heading_richtext": "<h5>VU SUR</h5>",
+        "advanced_heading": false,
+        "heading": "",
+        "heading_richtext": "",
         "animation": "marquee",
         "animation_speed": "50",
         "color-body-text": "#000000",
-        "background_color": "#e8ded4",
-        "margin-top": 20,
+        "background_color": "#ffffff",
+        "margin-top": 0,
         "margin-bottom": 0
       }
     },
@@ -278,6 +303,7 @@
     "breadcrumbs",
     "custom_liquid_EieQRg",
     "ss_hero_pro_erTEPK",
+    "rich_text_pnPRPG",
     "brands_hWRAg4",
     "main"
   ]
