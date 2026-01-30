@@ -322,6 +322,96 @@
             "sixth_column": "",
             "sixth_column_icon": "cross"
           }
+        },
+        "table_row_aAnaxt": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Respect du cuir chevelu",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "Variable",
+            "second_column_icon": "none",
+            "third_column": "Souvent agressif",
+            "third_column_icon": "none",
+            "fourth_column": "",
+            "fourth_column_icon": "cross",
+            "fifth_column": "",
+            "fifth_column_icon": "cross",
+            "sixth_column": "",
+            "sixth_column_icon": "cross"
+          }
+        },
+        "table_row_Cd99qe": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Effet naturel (même de près)",
+            "first_column": "Indétectable",
+            "first_column_icon": "none",
+            "second_column": "",
+            "second_column_icon": "check",
+            "third_column": "Souvent visible",
+            "third_column_icon": "none",
+            "fourth_column": "",
+            "fourth_column_icon": "cross",
+            "fifth_column": "",
+            "fifth_column_icon": "cross",
+            "sixth_column": "",
+            "sixth_column_icon": "cross"
+          }
+        },
+        "table_row_LPPbpJ": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Tenue toute la journée",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "check",
+            "third_column": "Transfert / coule",
+            "third_column_icon": "none",
+            "fourth_column": "",
+            "fourth_column_icon": "cross",
+            "fifth_column": "",
+            "fifth_column_icon": "cross",
+            "sixth_column": "",
+            "sixth_column_icon": "cross"
+          }
+        },
+        "table_row_GQMRAz": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Convient aux cheveux matures",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "Pas toujours",
+            "second_column_icon": "none",
+            "third_column": "Rarement",
+            "third_column_icon": "none",
+            "fourth_column": "",
+            "fourth_column_icon": "cross",
+            "fifth_column": "",
+            "fifth_column_icon": "cross",
+            "sixth_column": "",
+            "sixth_column_icon": "cross"
+          }
+        },
+        "table_row_YyYEdc": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Soin capillaire inclus",
+            "first_column": "Oui, nourrit et protège",
+            "first_column_icon": "none",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "cross",
+            "fourth_column": "",
+            "fourth_column_icon": "cross",
+            "fifth_column": "",
+            "fifth_column_icon": "cross",
+            "sixth_column": "",
+            "sixth_column_icon": "cross"
+          }
         }
       },
       "block_order": [
@@ -329,7 +419,12 @@
         "text_PBP3wM",
         "table_row_zLHDjd",
         "table_row_LGQdEq",
-        "table_row_C9Fiba"
+        "table_row_C9Fiba",
+        "table_row_aAnaxt",
+        "table_row_Cd99qe",
+        "table_row_LPPbpJ",
+        "table_row_GQMRAz",
+        "table_row_YyYEdc"
       ],
       "name": "SS - Comparison table #22",
       "settings": {
