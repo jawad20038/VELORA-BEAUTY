@@ -266,7 +266,7 @@
             "text_height": 150,
             "text_mt": 24,
             "text_mt_mobile": 16,
-            "text_color": "#121212"
+            "text_color": "#000000"
           }
         },
         "table_row_zLHDjd": {
@@ -484,19 +484,19 @@
         "value_height": 150,
         "value_icon_size": 24,
         "value_icon_size_mobile": 24,
-        "column_heading_active_color": "#121212",
+        "column_heading_active_color": "#000000",
         "value_active_color": "#6CB324",
         "table_column_active_bg_color": "#FCFFEA",
         "table_bg_image_active_color": "#c6d182",
         "table_column_active_border_color": "#9DB324",
-        "column_heading_color": "#121212",
+        "column_heading_color": "#000000",
         "value_color": "#FF1616",
         "table_column_bg_color": "#FFF3F3",
         "table_bg_image_color": "#f1aaaa",
         "table_column_border_color": "#FF1616",
         "heading_image_border_color": "#121212",
-        "row_heading_color": "#121212",
-        "row_heading_border_color": "#121212",
+        "row_heading_color": "#000000",
+        "row_heading_border_color": "#000000",
         "value_icon_active_color": "#6CB324",
         "value_icon_color": "#FF1616",
         "background_color": "#f7f9fd",
