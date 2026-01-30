@@ -41,35 +41,65 @@
             "heading_size_mobile": 30,
             "heading_advanced": true,
             "heading_height": 130,
-            "heading_mt": 8,
-            "heading_mt_mobile": 8,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
             "heading_color": "#000000",
             "heading_accent_color": "#b49272"
           }
         },
-        "verified_wgMzpF": {
-          "type": "verified",
+        "text_kR8QwF": {
+          "type": "text",
           "settings": {
-            "icon_size": 16,
-            "icon_size_mobile": 16,
-            "icon": "shield_check",
-            "text": "<p>30-Day Money-Back Guarantee</p>",
+            "text": "<p><strong>HairMagic+</strong> offre une couvrance <strong>naturelle</strong> et <strong>immédiate</strong> pour des cheveux plus nets, plus denses, plus sûrs — chaque jour.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
-            "text_size": 14,
+            "text_size": 18,
             "text_size_mobile": 14,
-            "text_advanced": false,
+            "text_advanced": true,
             "text_height": 150,
-            "text_mt": 16,
-            "text_mt_mobile": 16,
-            "icon_color": "#000000",
+            "text_mt": 10,
+            "text_mt_mobile": 10,
             "text_color": "#000000"
+          }
+        },
+        "review_Pb8UqJ": {
+          "type": "review",
+          "settings": {
+            "stars_count": 4.5,
+            "stars_size": 16,
+            "stars_size_mobile": 14,
+            "stars_gap": 2,
+            "review": "<p><strong>4,9/5</strong> basée sur plus de 18'000 avis</p>",
+            "review_custom": false,
+            "review_font": "josefin_sans_n4",
+            "review_size": 14,
+            "review_size_mobile": 12,
+            "review_advanced": true,
+            "review_height": 130,
+            "review_mt": 10,
+            "review_mt_mobile": 10,
+            "background": true,
+            "review_bg_opacity": 1,
+            "enable_blur": true,
+            "review_radius": 10,
+            "review_border_thickness": 1,
+            "review_padding_horizontal": 12,
+            "review_padding_horizontal_mobile": 12,
+            "review_padding_vertical": 8,
+            "review_padding_vertical_mobile": 8,
+            "review_color": "#000000",
+            "review_bg_color": "#ffffff",
+            "review_border_color": "#b49272",
+            "stars_color": "#ffffff",
+            "stars_bg_color": "#00b67a",
+            "stars_bg_half_color": "#dddddd"
           }
         }
       },
       "block_order": [
         "heading_XTgdLm",
-        "verified_wgMzpF"
+        "text_kR8QwF",
+        "review_Pb8UqJ"
       ],
       "name": "SS - Hero pro 💎",
       "settings": {
