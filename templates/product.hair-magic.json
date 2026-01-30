@@ -180,8 +180,8 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
+        "color-body-text": "#000000",
+        "background_color": "#f7f9fd",
         "background_gradient": "",
         "margin-top": 0,
         "margin-bottom": 0
@@ -233,7 +233,7 @@
         "animation": "marquee",
         "animation_speed": "50",
         "color-body-text": "#000000",
-        "background_color": "#ffffff",
+        "background_color": "#f7f9fd",
         "margin-top": 0,
         "margin-bottom": 0
       }
@@ -247,8 +247,8 @@
             "heading": "<h2>Comparison table #22</h2>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
-            "heading_size": 40,
-            "heading_size_mobile": 40,
+            "heading_size": 26,
+            "heading_size_mobile": 26,
             "heading_height": 130,
             "heading_mt": 0,
             "heading_mt_mobile": 0,
