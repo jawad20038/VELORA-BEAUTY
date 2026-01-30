@@ -87,10 +87,47 @@
         "margin-top": 20,
         "margin-bottom": 0
       }
+    },
+    "featured_collection_8cfCD3": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "Bestseller",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "disable_on_mobile": false,
+        "hide_empty_section": false,
+        "collection": "",
+        "product_list": [
+          "hairmagic-hairline-powder"
+        ],
+        "products_to_show": 4,
+        "enable_stack_products": false,
+        "show_view_all": true,
+        "button_select": "primary",
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "16",
+        "make_products_full_width": true,
+        "number_of_column_mobile": 2.1,
+        "spacing_mobile": "16",
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "enable_vendor_link": false,
+        "show_product_rating": false,
+        "enable_quick_add_button": false,
+        "color-body-text": "transparent",
+        "background_color": "#fcf8fc",
+        "margin-top": 0,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
     "image_banner_cGnTFt",
-    "brands_Qqqitm"
+    "brands_Qqqitm",
+    "featured_collection_8cfCD3"
   ]
 }
