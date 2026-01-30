@@ -9,6 +9,144 @@
  */
 {
   "sections": {
+    "ss_hero_pro_KenXKk": {
+      "type": "ss-hero-pro",
+      "blocks": {
+        "review_89Q6Hm": {
+          "type": "review",
+          "settings": {
+            "stars_count": 4.5,
+            "stars_size": 16,
+            "stars_size_mobile": 14,
+            "stars_gap": 2,
+            "review": "<p>Rated 4.9/5 by 5,000+ reviews</p>",
+            "review_custom": false,
+            "review_font": "josefin_sans_n4",
+            "review_size": 14,
+            "review_size_mobile": 12,
+            "review_advanced": false,
+            "review_height": 130,
+            "review_mt": 0,
+            "review_mt_mobile": 0,
+            "background": true,
+            "review_bg_opacity": 0.3,
+            "enable_blur": true,
+            "review_radius": 10,
+            "review_border_thickness": 1,
+            "review_padding_horizontal": 12,
+            "review_padding_horizontal_mobile": 12,
+            "review_padding_vertical": 8,
+            "review_padding_vertical_mobile": 8,
+            "review_color": "#000000",
+            "review_bg_color": "#b49272",
+            "review_border_color": "#000000",
+            "stars_color": "#FFFFFF",
+            "stars_bg_color": "#00B67A",
+            "stars_bg_half_color": "#DDDDDD"
+          }
+        },
+        "heading_LCLMQY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Hero <strong>pro</strong></h1>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_accent_font": "playfair_n4",
+            "heading_size": 56,
+            "heading_size_mobile": 36,
+            "heading_advanced": false,
+            "heading_height": 130,
+            "heading_mt": 8,
+            "heading_mt_mobile": 8,
+            "heading_color": "#000000",
+            "heading_accent_color": "#b49272"
+          }
+        },
+        "verified_YpgXVq": {
+          "type": "verified",
+          "settings": {
+            "icon_size": 16,
+            "icon_size_mobile": 16,
+            "icon": "shield_check",
+            "text": "<p>30-Day Money-Back Guarantee</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 14,
+            "text_size_mobile": 14,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 16,
+            "text_mt_mobile": 16,
+            "icon_color": "#000000",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "review_89Q6Hm",
+        "heading_LCLMQY",
+        "verified_YpgXVq"
+      ],
+      "name": "SS - Hero pro 💎",
+      "settings": {
+        "hero_height": "full_screen",
+        "hero_fixed_height": 600,
+        "hero_fixed_height_mobile": 600,
+        "content_max_width": 50,
+        "enable_split_layout": false,
+        "content_align": "left",
+        "content_align_mobile": "center",
+        "content_vertical_align": "center",
+        "content_vertical_align_mobile": "end",
+        "features_advanced": false,
+        "features_mt": 20,
+        "features_mt_mobile": 20,
+        "features_gap": 24,
+        "features_gap_mobile": 12,
+        "feature_background": false,
+        "feature_bg_opacity": 0.3,
+        "feature_enable_blur": true,
+        "feature_radius": 100,
+        "feature_border_thickness": 1,
+        "feature_padding_horizontal": 12,
+        "feature_padding_horizontal_mobile": 12,
+        "feature_padding_vertical": 6,
+        "feature_padding_vertical_mobile": 6,
+        "feature_icon_size": 18,
+        "feature_icon_size_mobile": 16,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 14,
+        "feature_text_height": 150,
+        "feature_icon_color": "#FFFFFF",
+        "feature_text_color": "#FFFFFF",
+        "feature_bg_color": "#FFFFFF",
+        "feature_border_color": "#FFFFFF",
+        "layout_bg_type": "image",
+        "bg_image": "shopify://shop_images/Ajouter_un_titre_39.webp",
+        "bg_image_mobile": "shopify://shop_images/Ajouter_un_titre_38.webp",
+        "bg_overlay": 0,
+        "bg_overlay_color": "#000000",
+        "background_style": "solid",
+        "background_color": "#121212",
+        "background_gradient": "radial-gradient(rgba(30, 30, 36, 1), rgba(5, 5, 5, 1) 100%)",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 100,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": false
+      }
+    },
     "breadcrumbs": {
       "type": "main-breadcrumbs",
       "disabled": true,
@@ -18,34 +156,6 @@
         "background_color": "#ffffff",
         "margin-top": 12,
         "margin-bottom": 12
-      }
-    },
-    "image_banner_a4rMtj": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name__2",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "",
-        "heading_richtext": "<h2>Your headline here</h2>",
-        "full-width-enabled": true,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/Design_sans_titre_63.png",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "left",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_62.png",
-        "mobile_text_vertical_position": "top",
-        "mobile_text_horizontal_position": "left",
-        "color-heading": "rgba(0,0,0,0)",
-        "section-color-overlay": "#000000",
-        "section-color-overlay-opacity": 20,
-        "color-body-text": "#ffffff",
-        "text-container-color": "#000000",
-        "color-overlay-opacity": 20,
-        "margin-top": 0,
-        "margin-bottom": 0,
-        "lcp_optimize": true
       }
     },
     "brands_hWRAg4": {
@@ -93,8 +203,8 @@
         "heading_richtext": "<h5>VU SUR</h5>",
         "animation": "marquee",
         "animation_speed": "50",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
+        "color-body-text": "#000000",
+        "background_color": "#e8ded4",
         "margin-top": 20,
         "margin-bottom": 0
       }
@@ -161,8 +271,8 @@
     }
   },
   "order": [
+    "ss_hero_pro_KenXKk",
     "breadcrumbs",
-    "image_banner_a4rMtj",
     "brands_hWRAg4",
     "main"
   ]
