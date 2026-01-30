@@ -669,8 +669,8 @@
         "show-thumbnails-mobile": false,
         "text_color": "#000000",
         "background_color": "#ffffff",
-        "margin-top": 0,
-        "margin-bottom": 20
+        "margin-top": 20,
+        "margin-bottom": 0
       }
     }
   },
