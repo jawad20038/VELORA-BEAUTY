@@ -9,10 +9,64 @@
  */
 {
   "sections": {
-    "ss_hero_pro_KenXKk": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "full-width-enabled": true,
+        "text_color": "#151515",
+        "background_color": "#ffffff",
+        "margin-top": 12,
+        "margin-bottom": 12
+      }
+    },
+    "ss_hero_pro_erTEPK": {
       "type": "ss-hero-pro",
       "blocks": {
-        "review_89Q6Hm": {
+        "caption_D93AWT": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Caption</p>",
+            "caption_custom": false,
+            "caption_font": "josefin_sans_n4",
+            "caption_size": 12,
+            "caption_size_mobile": 12,
+            "caption_advanced": false,
+            "caption_height": 130,
+            "caption_mt": 0,
+            "caption_mt_mobile": 0,
+            "background": false,
+            "caption_bg_opacity": 0.3,
+            "enable_blur": true,
+            "caption_radius": 100,
+            "caption_border_thickness": 1,
+            "caption_padding_horizontal": 12,
+            "caption_padding_horizontal_mobile": 12,
+            "caption_padding_vertical": 6,
+            "caption_padding_vertical_mobile": 6,
+            "caption_color": "#FFFFFF",
+            "caption_bg_color": "#FFFFFF",
+            "caption_border_color": "#FFFFFF"
+          }
+        },
+        "heading_XTgdLm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Hero <strong>pro</strong></h1>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_accent_font": "playfair_n4",
+            "heading_size": 56,
+            "heading_size_mobile": 36,
+            "heading_advanced": false,
+            "heading_height": 130,
+            "heading_mt": 8,
+            "heading_mt_mobile": 8,
+            "heading_color": "#000000",
+            "heading_accent_color": "#AFAFAF"
+          }
+        },
+        "review_f9cg88": {
           "type": "review",
           "settings": {
             "stars_count": 4.5,
@@ -37,32 +91,30 @@
             "review_padding_horizontal_mobile": 12,
             "review_padding_vertical": 8,
             "review_padding_vertical_mobile": 8,
-            "review_color": "#000000",
-            "review_bg_color": "#e8ded4",
-            "review_border_color": "#000000",
+            "review_color": "#FFFFFF",
+            "review_bg_color": "#FFFFFF",
+            "review_border_color": "#FFFFFF",
             "stars_color": "#FFFFFF",
             "stars_bg_color": "#00B67A",
             "stars_bg_half_color": "#DDDDDD"
           }
         },
-        "heading_LCLMQY": {
-          "type": "heading",
+        "text_g4WfYx": {
+          "type": "text",
           "settings": {
-            "heading": "<h1>Hero <strong>pro</strong></h1>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_accent_font": "playfair_n4",
-            "heading_size": 56,
-            "heading_size_mobile": 36,
-            "heading_advanced": false,
-            "heading_height": 130,
-            "heading_mt": 8,
-            "heading_mt_mobile": 8,
-            "heading_color": "#000000",
-            "heading_accent_color": "#b49272"
+            "text": "<p>Tell your story</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 18,
+            "text_size_mobile": 14,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 20,
+            "text_mt_mobile": 20,
+            "text_color": "#FFFFFF"
           }
         },
-        "verified_YpgXVq": {
+        "verified_wgMzpF": {
           "type": "verified",
           "settings": {
             "icon_size": 16,
@@ -77,15 +129,17 @@
             "text_height": 150,
             "text_mt": 16,
             "text_mt_mobile": 16,
-            "icon_color": "#000000",
-            "text_color": "#000000"
+            "icon_color": "#FFFFFF",
+            "text_color": "#FFFFFF"
           }
         }
       },
       "block_order": [
-        "review_89Q6Hm",
-        "heading_LCLMQY",
-        "verified_YpgXVq"
+        "caption_D93AWT",
+        "heading_XTgdLm",
+        "review_f9cg88",
+        "text_g4WfYx",
+        "verified_wgMzpF"
       ],
       "name": "SS - Hero pro 💎",
       "settings": {
@@ -97,7 +151,7 @@
         "content_align": "left",
         "content_align_mobile": "center",
         "content_vertical_align": "center",
-        "content_vertical_align_mobile": "end",
+        "content_vertical_align_mobile": "start",
         "features_advanced": false,
         "features_mt": 20,
         "features_mt_mobile": 20,
@@ -124,10 +178,10 @@
         "feature_bg_color": "#FFFFFF",
         "feature_border_color": "#FFFFFF",
         "layout_bg_type": "image",
-        "bg_image": "shopify://shop_images/Ajouter_un_titre_39.webp",
-        "bg_image_mobile": "shopify://shop_images/Ajouter_un_titre_38.webp",
-        "bg_overlay": 0,
-        "bg_overlay_color": "#000000",
+        "bg_image": "shopify://shop_images/magnifics_upscale-mk6F5cecVIWf4C5h47hm-Design_sans_titre_63.webp",
+        "bg_image_mobile": "shopify://shop_images/updated_image.webp",
+        "bg_overlay": 0.2,
+        "bg_overlay_color": "#121212",
         "background_style": "solid",
         "background_color": "#121212",
         "background_gradient": "radial-gradient(rgba(30, 30, 36, 1), rgba(5, 5, 5, 1) 100%)",
@@ -136,8 +190,8 @@
         "margin_bottom": 0,
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
-        "padding_top": 80,
-        "padding_bottom": 100,
+        "padding_top": 36,
+        "padding_bottom": 36,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
         "width": "page",
@@ -145,17 +199,6 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": false
-      }
-    },
-    "breadcrumbs": {
-      "type": "main-breadcrumbs",
-      "disabled": true,
-      "settings": {
-        "full-width-enabled": true,
-        "text_color": "#151515",
-        "background_color": "#ffffff",
-        "margin-top": 12,
-        "margin-bottom": 12
       }
     },
     "brands_hWRAg4": {
@@ -271,8 +314,8 @@
     }
   },
   "order": [
-    "ss_hero_pro_KenXKk",
     "breadcrumbs",
+    "ss_hero_pro_erTEPK",
     "brands_hWRAg4",
     "main"
   ]
