@@ -30,38 +30,6 @@
     "ss_hero_pro_erTEPK": {
       "type": "ss-hero-pro",
       "blocks": {
-        "heading_XTgdLm": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Racines grises <strong>invisibles</strong> en quelques <em>secondes</em>.</p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_accent_font": "playfair_n4",
-            "heading_size": 42,
-            "heading_size_mobile": 30,
-            "heading_advanced": true,
-            "heading_height": 130,
-            "heading_mt": 0,
-            "heading_mt_mobile": 0,
-            "heading_color": "#000000",
-            "heading_accent_color": "#b49272"
-          }
-        },
-        "text_kR8QwF": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>HairMagic+</strong> offre une couvrance <strong>naturelle</strong> et <strong>immédiate</strong> pour des cheveux plus <strong>nets</strong>, plus <strong>denses</strong>, plus <strong>sûrs</strong> — chaque<strong> jour</strong>.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 18,
-            "text_size_mobile": 14,
-            "text_advanced": true,
-            "text_height": 150,
-            "text_mt": 10,
-            "text_mt_mobile": 10,
-            "text_color": "#000000"
-          }
-        },
         "review_Pb8UqJ": {
           "type": "review",
           "settings": {
@@ -94,12 +62,44 @@
             "stars_bg_color": "#00b67a",
             "stars_bg_half_color": "#dddddd"
           }
+        },
+        "heading_XTgdLm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Racines grises <strong>invisibles</strong> en quelques <em>secondes</em>.</p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_accent_font": "playfair_n4",
+            "heading_size": 42,
+            "heading_size_mobile": 30,
+            "heading_advanced": true,
+            "heading_height": 130,
+            "heading_mt": 20,
+            "heading_mt_mobile": 20,
+            "heading_color": "#000000",
+            "heading_accent_color": "#b49272"
+          }
+        },
+        "text_kR8QwF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>HairMagic+</strong> offre une couvrance <strong>naturelle</strong> et <strong>immédiate</strong> pour des cheveux plus <strong>nets</strong>, plus <strong>denses</strong>, plus <strong>sûrs</strong> — chaque<strong> jour</strong>.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 18,
+            "text_size_mobile": 14,
+            "text_advanced": true,
+            "text_height": 150,
+            "text_mt": 20,
+            "text_mt_mobile": 20,
+            "text_color": "#000000"
+          }
         }
       },
       "block_order": [
+        "review_Pb8UqJ",
         "heading_XTgdLm",
-        "text_kR8QwF",
-        "review_Pb8UqJ"
+        "text_kR8QwF"
       ],
       "name": "SS - Hero pro 💎",
       "settings": {
