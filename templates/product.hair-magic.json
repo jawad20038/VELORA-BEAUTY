@@ -517,6 +517,33 @@
         "lazy": true
       }
     },
+    "image_banner_m4njAJ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "Paraissez 10 ans plus jeunes",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/Ajouter_un_titre_40.webp",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "text-container-color": "transparent",
+        "color-overlay-opacity": 100,
+        "margin-top": 0,
+        "margin-bottom": 20,
+        "lcp_optimize": false
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -585,6 +612,7 @@
     "rich_text_pnPRPG",
     "brands_hWRAg4",
     "ss_comparison_table_22_D7qBj6",
+    "image_banner_m4njAJ",
     "main"
   ]
 }
