@@ -20,42 +20,16 @@
         "margin-bottom": 12
       }
     },
+    "custom_liquid_EieQRg": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"\">\n  \n<div id=\"shopify-block-ARVU2WVFCQTFhL21Lb__sternify_user_trust_with_names_crKDhK\" class=\"shopify-block shopify-app-block\"><style data-shopify=\"\">\n  @font-face {\n  font-family: Poppins;\n  font-weight: 400;\n  font-style: normal;\n  font-display: swap;\n  src: url(\"//miluna.at/cdn/fonts/poppins/poppins_n4.0ba78fa5af9b0e1a374041b3ceaadf0a43b41362.woff2\") format(\"woff2\"),\n       url(\"//miluna.at/cdn/fonts/poppins/poppins_n4.214741a72ff2596839fc9760ee7a770386cf16ca.woff\") format(\"woff\");\n}\n\n  .st_trustnames-wrapper * {\n    font-family: Poppins, sans-serif;\n    color: #000000;\n  }\n</style>\n\n<style>\n  /* Trust Name */\n\n  .st_trustnames-text-wrapper p {\n    all: unset !important;\n  }\n\n  .st_trustnames-wrapper {\n    display: flex;\n    gap: 10px;\n    padding: 12px;\n    align-items: center;\n    border-radius: 8px;\n  }\n\n  .st_trustnames-wrapper span {\n    font-size: 10px !important;\n  }\n\n  .st_trustnames-text {\n    display: inline-flex;\n    gap: 5px;\n  }\n\n  .st_trustnames-avatars-wrapper {\n    display: flex;\n    min-width: max-content;\n  }\n\n  .st_trustnames-avatars-wrapper img {\n    width: 35px;\n    height: 35px;\n    border: 0px solid #cccccc;\n    border-radius: 50%;\n    object-fit: cover;\n  }\n\n  .st_trustnames-verified {\n    width: 15px;\n    height: 15px;\n    object-position: center;\n    display: inline-block;\n  }\n</style>\n\n<div class=\"st_appblock_wrapper\" style=\"margin-top: -4px; margin-bottom: -4px\">\n  <div class=\"st_trustnames-wrapper\" style=\"background-color: #f9f9f9\">\n    <div class=\"st_trustnames-avatars-wrapper\">\n      <img loading=\"lazy\" width=\"371\" height=\"371\" src=\"https://cdn.shopify.com/s/files/1/0997/3271/7898/files/a17ce5c8-59d4-463c-a19c-d6fae8281ed3.webp?v=1768522239\" alt=\"\">\n      <img loading=\"lazy\" width=\"800\" height=\"1067\" style=\"margin-left: -10px;\" src=\"https://cdn.shopify.com/s/files/1/0997/3271/7898/files/8253d7c5-7be6-4ba6-9d43-bdeeb4dbf894.webp?v=1768940984\" alt=\"\">\n      \n    </div>\n    <span class=\"st_trustnames-text-wrapper\">\n      <div class=\"st_trustnames-text\">\n        <b>Sofia & Isabelle\n        </b>\n        \n          <img loading=\"lazy\" width=\"10\" height=\"10\" class=\"st_trustnames-verified\" src=\"https://cdn.shopify.com/extensions/019bdbad-780d-7b75-aeb5-3fd9c1b5fb5d/sternify-1088/assets/verified.svg\" alt=\"Verified icon\">\n        \n      </div>\n      <p>et <strong>plus de 67 258 femmes</strong> utilisent <strong>HairMagic+ </strong>pour des cheveux nets et naturels, sans coloration.</p>\n    </span>\n  </div>\n</div>\n</div>\n</div>"
+      }
+    },
     "ss_hero_pro_erTEPK": {
       "type": "ss-hero-pro",
       "blocks": {
-        "review_f9cg88": {
-          "type": "review",
-          "settings": {
-            "stars_count": 4.5,
-            "stars_size": 16,
-            "stars_size_mobile": 13,
-            "stars_gap": 2,
-            "review": "<p><strong>4,8/5</strong> <strong>·</strong> <strong>Approuvé par des milliers de femmes</strong></p>",
-            "review_custom": false,
-            "review_font": "josefin_sans_n4",
-            "review_size": 14,
-            "review_size_mobile": 13,
-            "review_advanced": false,
-            "review_height": 130,
-            "review_mt": 0,
-            "review_mt_mobile": 0,
-            "background": true,
-            "review_bg_opacity": 0.3,
-            "enable_blur": true,
-            "review_radius": 10,
-            "review_border_thickness": 1,
-            "review_padding_horizontal": 12,
-            "review_padding_horizontal_mobile": 12,
-            "review_padding_vertical": 8,
-            "review_padding_vertical_mobile": 8,
-            "review_color": "#000000",
-            "review_bg_color": "#FFFFFF",
-            "review_border_color": "#b49272",
-            "stars_color": "#FFFFFF",
-            "stars_bg_color": "#00B67A",
-            "stars_bg_half_color": "#DDDDDD"
-          }
-        },
         "heading_XTgdLm": {
           "type": "heading",
           "settings": {
@@ -94,7 +68,6 @@
         }
       },
       "block_order": [
-        "review_f9cg88",
         "heading_XTgdLm",
         "verified_wgMzpF"
       ],
@@ -130,13 +103,14 @@
         "feature_text_size": 16,
         "feature_text_size_mobile": 14,
         "feature_text_height": 150,
-        "feature_icon_color": "#FFFFFF",
-        "feature_text_color": "#FFFFFF",
-        "feature_bg_color": "#FFFFFF",
-        "feature_border_color": "#FFFFFF",
+        "feature_icon_color": "#ffffff",
+        "feature_text_color": "#ffffff",
+        "feature_bg_color": "#ffffff",
+        "feature_border_color": "#ffffff",
         "layout_bg_type": "image",
         "bg_image": "shopify://shop_images/magnifics_upscale-mk6F5cecVIWf4C5h47hm-Design_sans_titre_63.webp",
         "bg_image_mobile": "shopify://shop_images/updated_image.webp",
+        "bg_video_url": "",
         "bg_overlay": 0.1,
         "bg_overlay_color": "#121212",
         "background_style": "solid",
@@ -272,6 +246,7 @@
   },
   "order": [
     "breadcrumbs",
+    "custom_liquid_EieQRg",
     "ss_hero_pro_erTEPK",
     "brands_hWRAg4",
     "main"
