@@ -545,6 +545,74 @@
         "lcp_optimize": false
       }
     },
+    "multicolumn_kdANBW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_t7KGDD": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_A7thGe": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_xjdLwN": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "column_t7KGDD",
+        "column_A7thGe",
+        "column_xjdLwN"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "Multicolumn",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -602,7 +670,7 @@
         "text_color": "#000000",
         "background_color": "#ffffff",
         "margin-top": 0,
-        "margin-bottom": 0
+        "margin-bottom": 20
       }
     }
   },
@@ -614,6 +682,7 @@
     "brands_hWRAg4",
     "ss_comparison_table_22_D7qBj6",
     "image_banner_m4njAJ",
+    "multicolumn_kdANBW",
     "main"
   ]
 }
