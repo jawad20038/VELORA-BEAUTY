@@ -599,16 +599,16 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "advanced_heading": false,
-        "heading": "Multicolumn",
+        "heading": "Transformations HairMagic+",
         "heading_richtext": "<h2>Your headline here</h2>",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "full-width-enabled": false,
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "size_heading": 100,
         "size_heading_mobile": 100,
         "color-body-text": "transparent",
-        "background_color": "transparent",
+        "background_color": "#f7f9fd",
         "margin-top": 20,
         "margin-bottom": 20
       }
