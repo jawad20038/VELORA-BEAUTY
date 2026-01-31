@@ -275,6 +275,7 @@
         },
         "text_PBP3wM": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Des <strong>rendez-vous répétés</strong> chez le coiffeur aux <strong>colorations</strong> et <strong>sprays</strong> maison…<br/>comparez <strong>ce que vous payez vraiment</strong>, et ce que vos cheveux <strong>subissent</strong>.</p>",
             "text_custom": false,
