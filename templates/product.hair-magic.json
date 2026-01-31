@@ -1122,11 +1122,11 @@
         "heading_99NhwY": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>What our customers are saying</h2>",
+            "heading": "<p>La confiance de milliers de femmes</p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
-            "heading_size": 40,
-            "heading_size_mobile": 32,
+            "heading_size": 30,
+            "heading_size_mobile": 20,
             "heading_advanced": false,
             "heading_height": 120,
             "heading_mt": 0,
@@ -1134,14 +1134,14 @@
             "heading_align": "center",
             "heading_align_mobile": "center",
             "heading_max_width": 80,
-            "heading_color": "#121212"
+            "heading_color": "#000000"
           }
         },
         "rating_BC9krE": {
           "type": "rating",
           "settings": {
             "big_rating_text": "<p>4.8</p>",
-            "rating_text": "<p>Average Customer Rating</p>",
+            "rating_text": "<p>/5 Basé sur 14 946 avis vérifiés</p>",
             "rating_custom": false,
             "rating_font": "josefin_sans_n4",
             "rating_size": 14,
@@ -1151,7 +1151,7 @@
             "rating_mt_mobile": 12,
             "stars_size": 24,
             "stars_size_mobile": 20,
-            "text": "<p>Based on over 5,000+ happy reviews</p>",
+            "text": "<p>Des résultats visibles, approuvés chaque jour par celles qui l’utilisent.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -1159,11 +1159,11 @@
             "text_height": 150,
             "text_align": "right",
             "text_align_mobile": "center",
-            "big_rating_color": "#121212",
-            "rating_color": "#64748B",
+            "big_rating_color": "#000000",
+            "rating_color": "#000000",
             "stars_color": "#FFFFFF",
             "stars_bg_color": "#00B67A",
-            "text_color": "#121212"
+            "text_color": "#000000"
           }
         },
         "testimonial_iVjqeN": {
