@@ -238,6 +238,24 @@
         "margin-bottom": 0
       }
     },
+    "separator_4gbR4E": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": true,
+        "heading": "Separator",
+        "heading_richtext": "",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "transparent",
+        "color-section-background": "transparent",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "ss_comparison_table_22_D7qBj6": {
       "type": "ss-comparison-table-22",
       "blocks": {
@@ -517,6 +535,24 @@
         "lazy": true
       }
     },
+    "separator_7ybVmx": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": true,
+        "heading": "Separator",
+        "heading_richtext": "",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "transparent",
+        "color-section-background": "transparent",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "image_banner_m4njAJ": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -543,6 +579,24 @@
         "margin-top": 0,
         "margin-bottom": 20,
         "lcp_optimize": false
+      }
+    },
+    "separator_r4aYGT": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": true,
+        "heading": "Separator",
+        "heading_richtext": "",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "transparent",
+        "color-section-background": "transparent",
+        "margin-top": 0,
+        "margin-bottom": 0
       }
     },
     "multicolumn_kdANBW": {
@@ -632,7 +686,7 @@
         "margin-bottom": 20
       }
     },
-    "separator_HW9apK": {
+    "separator_X4Ceg8": {
       "type": "separator",
       "name": "t:sections.separator.presets.name",
       "settings": {
@@ -717,10 +771,13 @@
     "ss_hero_pro_erTEPK",
     "rich_text_pnPRPG",
     "brands_hWRAg4",
+    "separator_4gbR4E",
     "ss_comparison_table_22_D7qBj6",
+    "separator_7ybVmx",
     "image_banner_m4njAJ",
+    "separator_r4aYGT",
     "multicolumn_kdANBW",
-    "separator_HW9apK",
+    "separator_X4Ceg8",
     "main"
   ]
 }
