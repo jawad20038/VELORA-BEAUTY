@@ -762,16 +762,6 @@
           "settings": {
             "custom_liquid": "<div class=\"product__block product__block--custom_liquid\">\n\n<style>\n#preorder-info-hairmagic {\n  padding: 12px !important;\n  background: #f8f8f8;\n  margin: 22px auto 12px;\n  border-radius: 8px;\n  border: 1px solid #f1f1f4;\n  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 4px;\n  max-width: 600px;\n  text-align: left;\n}\n\n#preorder-info-hairmagic .wrap {\n  display: flex;\n  align-items: flex-start;\n  gap: 14px;\n}\n\n#preorder-info-hairmagic .icon {\n  flex-shrink: 0;\n}\n\n#preorder-info-hairmagic .icon img {\n  width: 42px;\n  height: auto;\n}\n\n#preorder-info-hairmagic h6 {\n  font-size: 16px;\n  font-weight: 600;\n  margin: 0 0 4px;\n  color: #111;\n}\n\n#preorder-info-hairmagic p {\n  font-size: 14px;\n  line-height: 1.45;\n  margin: 0;\n  color: #333;\n}\n\n#preorder-info-hairmagic b {\n  font-weight: 600;\n}\n\n/* Mobile optimisation */\n@media screen and (max-width: 767px) {\n  #preorder-info-hairmagic {\n    padding: 10px !important;\n  }\n  #preorder-info-hairmagic .icon img {\n    width: 34px;\n  }\n  #preorder-info-hairmagic h6 {\n    font-size: 15px;\n  }\n  #preorder-info-hairmagic p {\n    font-size: 13px;\n  }\n}\n</style>\n\n<div id=\"preorder-info-hairmagic\">\n  <div class=\"wrap\">\n    <div class=\"icon\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0572/8367/4154/files/winner.png?v=1740695965\" alt=\"Accès prioritaire\">\n    </div>\n    <div class=\"content\">\n      <h6>Pourquoi HairMagic+ est en précommande</h6>\n      <p>\n        HairMagic+ est fabriqué en <b>lots limités</b> afin de préserver la qualité de la formule\n        et le respect des cheveux sensibles.<br><br>\n        La demande actuelle dépasse nos prévisions — nous ouvrons donc un\n        <b>accès prioritaire</b> sur le prochain lot.<br><br>\n        <b>Vous êtes servie en priorité</b>, avant la remise en vente publique.\n      </p>\n    </div>\n  </div>\n</div>\n\n</div>"
           }
-        },
-        "collapsible_tab_VpMUi7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Pourquoi HairMagic+ est en précommande",
-            "content": "<p>HairMagic+ est fabriqué en lots limités pour garantir la qualité de la formule et le respect des cheveux sensibles.<br/>La demande actuelle dépasse nos prévisions — nous ouvrons donc un accès prioritaire sur le prochain lot.</p>",
-            "metafield_variables": "",
-            "page": "",
-            "icon": "check_mark"
-          }
         }
       },
       "block_order": [
@@ -782,8 +772,7 @@
         "custom_liquid_wVTqkN",
         "buy_buttons",
         "custom_liquid_qiQc7a",
-        "custom_liquid_UcP3Ey",
-        "collapsible_tab_VpMUi7"
+        "custom_liquid_UcP3Ey"
       ],
       "custom_css": [
         ".rte p:first-child,.rte ul:first-child,.rte li:first-child,.rte ol:first-child {margin-block-start: 0;}"
