@@ -722,15 +722,6 @@
             "size_text_mobile": 150
           }
         },
-        "price_P6DTFh": {
-          "type": "price",
-          "settings": {
-            "show_tax_included": true,
-            "show_shipping_policy": true,
-            "size_text": 140,
-            "size_text_mobile": 100
-          }
-        },
         "custom_liquid_EbQbJ9": {
           "type": "custom_liquid",
           "settings": {
@@ -767,7 +758,6 @@
       "block_order": [
         "custom_liquid_6qmEdL",
         "title",
-        "price_P6DTFh",
         "custom_liquid_EbQbJ9",
         "buy_buttons",
         "custom_liquid_qiQc7a",
