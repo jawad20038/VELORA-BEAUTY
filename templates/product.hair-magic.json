@@ -722,6 +722,12 @@
             "size_text_mobile": 150
           }
         },
+        "custom_liquid_LjCeP8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"hairmagic-ingredients-luxe\">\n  <div class=\"hairmagic-ingredients-title\">\n    Formule enrichie en actifs essentiels\n  </div>\n\n  <div class=\"hairmagic-ingredients-badges\">\n    <span class=\"ingredient-badge\">Huile d’Argan</span>\n    <span class=\"ingredient-badge\">Panthénol</span>\n    <span class=\"ingredient-badge\">Vitamine E</span>\n  </div>\n</div>\n\n<style>\n.hairmagic-ingredients-luxe {\n  margin-top: 10px;\n  margin-bottom: 18px;\n}\n\n.hairmagic-ingredients-title {\n  font-size: 14px;\n  font-weight: 600;\n  color: #111;\n  margin-bottom: 8px;\n  letter-spacing: -0.2px;\n}\n\n.hairmagic-ingredients-badges {\n  display: flex;\n  gap: 8px;\n  flex-wrap: wrap;\n}\n\n.ingredient-badge {\n  padding: 6px 12px;\n  font-size: 12.5px;\n  font-weight: 500;\n  color: #111;\n  background: #f5f5f7;\n  border: 1px solid #e6e6ea;\n  border-radius: 999px;\n  letter-spacing: -0.1px;\n  white-space: nowrap;\n}\n\n@media (max-width: 768px) {\n  .hairmagic-ingredients-title {\n    font-size: 13px;\n  }\n  .ingredient-badge {\n    font-size: 12px;\n    padding: 5px 10px;\n  }\n}\n</style>"
+          }
+        },
         "custom_liquid_EbQbJ9": {
           "type": "custom_liquid",
           "settings": {
@@ -777,6 +783,7 @@
       "block_order": [
         "custom_liquid_6qmEdL",
         "title",
+        "custom_liquid_LjCeP8",
         "custom_liquid_EbQbJ9",
         "kaching_bundles_app_block_TR3pAq",
         "custom_liquid_wVTqkN",
@@ -825,8 +832,8 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "color-body-text": "transparent",
-            "color-overlay": "transparent",
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
@@ -848,8 +855,8 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "color-body-text": "transparent",
-            "color-overlay": "transparent",
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
@@ -871,8 +878,8 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "color-body-text": "transparent",
-            "color-overlay": "transparent",
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
@@ -894,8 +901,8 @@
         "swipe_on_mobile": true,
         "full-width-enabled": false,
         "image_ratio": "adapt",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20
       }
