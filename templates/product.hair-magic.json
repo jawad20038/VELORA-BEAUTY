@@ -968,7 +968,7 @@
         "heading_CBm9RP": {
           "type": "heading",
           "settings": {
-            "heading": "<h2><strong>Money-Back</strong> Guarantee</h2>",
+            "heading": "<p>Essayez HairMagic+ en toute confiance avec notre garantie de remboursement de 30 jours !</p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -986,37 +986,16 @@
         "text_nFJEBD": {
           "type": "text",
           "settings": {
-            "text": "<p>Radical transparency. We built this to last, but if life happens, we've got you covered with our no-questions-asked replacement policy.</p>",
+            "text": "<p><strong>Les professionnels du cheveu et des milliers d’utilisatrices le confirment : HairMagic+ offre un résultat visible dès la première application.</strong><br/>Convaincus par son efficacité, nous vous offrons une <strong>garantie satisfait ou remboursé de 30 jours</strong>.<br/>Si HairMagic+ ne vous apporte pas le résultat attendu, <strong>nous vous remboursons intégralement</strong>.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 14,
-            "text_size_mobile": 14,
+            "text_size_mobile": 13,
             "text_advanced": false,
             "text_height": 150,
             "text_mt": 24,
             "text_mt_mobile": 16,
-            "text_color": "#121212"
-          }
-        },
-        "guarantee_7yDnMw": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "target",
-            "text": "<p>Guarantee text</p>"
-          }
-        },
-        "guarantee_PJTgBp": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "target",
-            "text": "<p>Guarantee text</p>"
-          }
-        },
-        "guarantee_dtQzjc": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "target",
-            "text": "<p>Guarantee text</p>"
+            "text_color": "#000000"
           }
         },
         "image_tA8iKP": {
@@ -1056,9 +1035,6 @@
         "icon_PzAcKK",
         "heading_CBm9RP",
         "text_nFJEBD",
-        "guarantee_7yDnMw",
-        "guarantee_PJTgBp",
-        "guarantee_dtQzjc",
         "image_tA8iKP",
         "image_XyhJtp",
         "image_fLCiHn",
