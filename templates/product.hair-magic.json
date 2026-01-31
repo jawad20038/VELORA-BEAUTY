@@ -1188,9 +1188,72 @@
           "type": "testimonial",
           "settings": {
             "stars_count": 5,
-            "title": "Absolutely perfect!",
-            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
-            "author": "<p><strong>Jane Doe</strong> — Verified Purchase</p>"
+            "title": "Je me sens à nouveau à l’aise",
+            "text": "<p>Les racines blanches me complexaient beaucoup. HairMagic+ couvre parfaitement sans effet “maquillage”. Je sors sans y penser.</p>",
+            "author": "<p><strong>Nathalie R.</strong> — 2 décembre</p>"
+          }
+        },
+        "testimonial_jRhExn": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "On dirait juste mes cheveux, en mieux",
+            "text": "<p>Aucun effet carton, aucune sensation lourde. Même de très près, c’est indétectable. Mon coiffeur n’a rien remarqué.</p>",
+            "author": "<p><strong>Émilie D.</strong> — 27 novembre</p>"
+          }
+        },
+        "testimonial_XyVGRG": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Rapide et efficace",
+            "text": "<p>Deux minutes le matin et c’est réglé. Le rendu reste naturel jusqu’au soir, même avec l’humidité.</p>",
+            "author": "<p><strong>Isabelle P.</strong> — 19 novembre</p>"
+          }
+        },
+        "testimonial_UU43fN": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Aucune irritation, enfin",
+            "text": "<p>J’ai le cuir chevelu très sensible. Avec HairMagic+, aucune démangeaison, aucune gêne. C’est le seul produit que je tolère.</p>",
+            "author": "<p><strong>Caroline B. </strong>— 11 novembre</p>"
+          }
+        },
+        "testimonial_azy4pG": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Un vrai soulagement",
+            "text": "<p>Je passais mon temps à vérifier mes cheveux dans les miroirs. Maintenant, je suis tranquille toute la journée.</p>",
+            "author": "<p><strong>Valérie T. </strong>— 4 novembre 2025</p>"
+          }
+        },
+        "testimonial_HXqEqW": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Le résultat est vraiment naturel",
+            "text": "<p>Les pigments se fixent sur les cheveux, pas sur la peau. Pas de traces, pas d’effet artificiel.</p>",
+            "author": "<p><strong>Julie A.</strong> — 28 octobre 2025</p>"
+          }
+        },
+        "testimonial_Hh8AUM": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Parfait pour les cheveux matures",
+            "text": "<p>Mes cheveux sont plus fins qu’avant. Le produit couvre sans les abîmer et reste très doux au toucher.</p>",
+            "author": "<p><strong>Martine G.</strong> — 17 octobre 2025</p>"
+          }
+        },
+        "testimonial_nHcGgN": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Je recommande sans hésiter",
+            "text": "<p>C’est devenu un réflexe dans ma routine. Simple, efficace, et surtout très discret.</p>",
+            "author": "<p><strong>Sandrine V.</strong> — 6 octobre 2025</p>"
           }
         },
         "feature_bKaTEi": {
@@ -1232,6 +1295,13 @@
         "testimonial_iVjqeN",
         "testimonial_jEjLA4",
         "testimonial_nE6UXJ",
+        "testimonial_jRhExn",
+        "testimonial_XyVGRG",
+        "testimonial_UU43fN",
+        "testimonial_azy4pG",
+        "testimonial_HXqEqW",
+        "testimonial_Hh8AUM",
+        "testimonial_nHcGgN",
         "feature_bKaTEi",
         "feature_k3TrJB",
         "feature_44ewkV",
