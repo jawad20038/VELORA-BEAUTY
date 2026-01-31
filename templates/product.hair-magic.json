@@ -551,9 +551,9 @@
         "column_A7thGe": {
           "type": "column",
           "settings": {
-            "heading": "Column",
+            "heading": "\" <em>Des cheveux plus denses, et cette confiance que j’avais oubliée.\"</em>",
             "heading_disable_on_mobile": false,
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pendant des années, ma ligne de cheveux clairsemée m’a complexée.<br/>J’ai essayé des sprays qui faisaient faux et collaient, mais HairMagic+ a tout changé.<br/>Il comble mes zones clairsemées de façon tellement naturelle que même ma coiffeuse n’a rien remarqué.</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
@@ -623,7 +623,7 @@
         "swipe_on_mobile": true,
         "full-width-enabled": false,
         "image_ratio": "adapt",
-        "column_alignment": "center",
+        "column_alignment": "left",
         "size_heading": 100,
         "size_heading_mobile": 100,
         "color-body-text": "rgba(0,0,0,0)",
