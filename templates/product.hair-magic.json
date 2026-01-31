@@ -906,6 +906,472 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
+    },
+    "ss_guarantee_7NAGWN": {
+      "type": "ss-guarantee",
+      "blocks": {
+        "icon_PzAcKK": {
+          "type": "icon",
+          "settings": {
+            "icon": "shield_check",
+            "guarantee_icon_size": 44,
+            "guarantee_icon_size_mobile": 44,
+            "guarantee_icon_radius": 0,
+            "guarantee_icon_border_thickness": 0,
+            "guarantee_advanced": false,
+            "guarantee_mt": 10,
+            "guarantee_mt_mobile": 10,
+            "guarantee_icon_color": "#121212",
+            "guarantee_icon_bg": "transparent",
+            "guarantee_icon_border_color": "#121212"
+          }
+        },
+        "heading_CBm9RP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>Money-Back</strong> Guarantee</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 32,
+            "heading_size_mobile": 24,
+            "heading_advanced": false,
+            "heading_height": 130,
+            "heading_mt": 10,
+            "heading_mt_mobile": 10,
+            "heading_color": "#121212",
+            "use_gradient": true,
+            "gradient_start": "#939393",
+            "gradient_end": "#121212"
+          }
+        },
+        "text_nFJEBD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Radical transparency. We built this to last, but if life happens, we've got you covered with our no-questions-asked replacement policy.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 14,
+            "text_size_mobile": 14,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_color": "#121212"
+          }
+        },
+        "button_UrtkBP": {
+          "type": "button",
+          "settings": {
+            "button": "Shop now",
+            "url": "",
+            "open_in_new_tab": false,
+            "button_style": "non_outline",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 14,
+            "button_size_mobile": 14,
+            "button_advanced": false,
+            "button_height": 100,
+            "button_padding_horizontal": 40,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 20,
+            "button_padding_vertical_mobile": 20,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 24,
+            "button_mt_mobile": 24,
+            "button_custom_styling": true,
+            "button_full_width_mobile": true,
+            "button_color": "#FFFFFF",
+            "button_hover_color": "#FFFFFF",
+            "button_bg_color": "#2D2D2D",
+            "button_bg_hover_color": "#2D2D2D",
+            "button_border_color": "#1A1A1A",
+            "button_border_hover_color": "#1A1A1A",
+            "button_shadow_color": "#000000"
+          }
+        },
+        "guarantee_7yDnMw": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "target",
+            "text": "<p>Guarantee text</p>"
+          }
+        },
+        "guarantee_PJTgBp": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "target",
+            "text": "<p>Guarantee text</p>"
+          }
+        },
+        "guarantee_dtQzjc": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "target",
+            "text": "<p>Guarantee text</p>"
+          }
+        },
+        "image_tA8iKP": {
+          "type": "image",
+          "settings": {
+            "rotate": 10,
+            "rotate_mobile": -5,
+            "image_hide_mobile": false
+          }
+        },
+        "image_XyhJtp": {
+          "type": "image",
+          "settings": {
+            "rotate": -10,
+            "rotate_mobile": 5,
+            "image_hide_mobile": false
+          }
+        },
+        "image_fLCiHn": {
+          "type": "image",
+          "settings": {
+            "rotate": -10,
+            "rotate_mobile": 10,
+            "image_hide_mobile": false
+          }
+        },
+        "image_F3DwUm": {
+          "type": "image",
+          "settings": {
+            "rotate": 10,
+            "rotate_mobile": 10,
+            "image_hide_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "icon_PzAcKK",
+        "heading_CBm9RP",
+        "text_nFJEBD",
+        "button_UrtkBP",
+        "guarantee_7yDnMw",
+        "guarantee_PJTgBp",
+        "guarantee_dtQzjc",
+        "image_tA8iKP",
+        "image_XyhJtp",
+        "image_fLCiHn",
+        "image_F3DwUm"
+      ],
+      "name": "SS - Guarantee",
+      "settings": {
+        "content_max_width": 60,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "content_vertical_align": "center",
+        "content_gap": 20,
+        "content_gap_mobile": 20,
+        "guarantees_advanced": false,
+        "guarantees_text_mt": 20,
+        "guarantees_text_mt_mobile": 16,
+        "guarantees_gap": 10,
+        "guarantees_gap_mobile": 10,
+        "guarantee_gap": 4,
+        "guarantee_gap_mobile": 4,
+        "guarantee_icon_size": 16,
+        "guarantee_icon_size_mobile": 16,
+        "guarantee_icon_radius": 0,
+        "guarantee_icon_border_thickness": 0,
+        "guarantee_text_custom": false,
+        "guarantee_text_font": "josefin_sans_n4",
+        "guarantee_text_size": 14,
+        "guarantee_text_size_mobile": 12,
+        "guarantee_text_height": 130,
+        "images_gap": 50,
+        "images_gap_mobile": 0,
+        "images_ratio": "portrait",
+        "images_ratio_mobile": "portrait",
+        "images_radius": 2,
+        "images_border_thickness": 8,
+        "guarantee_text_color": "#121212",
+        "guarantee_icon_color": "#121212",
+        "guarantee_icon_bg": "transparent",
+        "guarantee_icon_border_color": "#121212",
+        "images_border_color": "#FFFFFF",
+        "background_style": "solid",
+        "background_color": "#FFFFFF",
+        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "ss_testimonials_47_RkFWkM": {
+      "type": "ss-testimonials-47",
+      "blocks": {
+        "heading_99NhwY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>What our customers are saying</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 40,
+            "heading_size_mobile": 32,
+            "heading_advanced": false,
+            "heading_height": 120,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "center",
+            "heading_align_mobile": "center",
+            "heading_max_width": 80,
+            "heading_color": "#121212"
+          }
+        },
+        "rating_BC9krE": {
+          "type": "rating",
+          "settings": {
+            "big_rating_text": "<p>4.8</p>",
+            "rating_text": "<p>Average Customer Rating</p>",
+            "rating_custom": false,
+            "rating_font": "josefin_sans_n4",
+            "rating_size": 14,
+            "rating_size_mobile": 14,
+            "rating_height": 140,
+            "rating_mt": 16,
+            "rating_mt_mobile": 12,
+            "stars_size": 24,
+            "stars_size_mobile": 20,
+            "text": "<p>Based on over 5,000+ happy reviews</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_align": "right",
+            "text_align_mobile": "center",
+            "big_rating_color": "#121212",
+            "rating_color": "#64748B",
+            "stars_color": "#FFFFFF",
+            "stars_bg_color": "#00B67A",
+            "text_color": "#121212"
+          }
+        },
+        "testimonial_iVjqeN": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Absolutely perfect!",
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "author": "<p><strong>Jane Doe</strong> — Verified Purchase</p>"
+          }
+        },
+        "testimonial_jEjLA4": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Absolutely perfect!",
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "author": "<p><strong>Jane Doe</strong> — Verified Purchase</p>"
+          }
+        },
+        "testimonial_nE6UXJ": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "title": "Absolutely perfect!",
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "author": "<p><strong>Jane Doe</strong> — Verified Purchase</p>"
+          }
+        },
+        "feature_bKaTEi": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield_check",
+            "text": "Trusted by 50k+ Customers",
+            "hide_mobile": false
+          }
+        },
+        "feature_k3TrJB": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield_check",
+            "text": "Trusted by 50k+ Customers",
+            "hide_mobile": false
+          }
+        },
+        "feature_44ewkV": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield_check",
+            "text": "Trusted by 50k+ Customers",
+            "hide_mobile": false
+          }
+        },
+        "button_pVhGze": {
+          "type": "button",
+          "settings": {
+            "button": "Read All Stories",
+            "url": "",
+            "open_in_new_tab": false,
+            "button_style": "non_outline",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 16,
+            "button_size_mobile": 16,
+            "button_advanced": false,
+            "button_height": 100,
+            "button_padding_horizontal": 40,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 18,
+            "button_padding_vertical_mobile": 16,
+            "button_radius": 8,
+            "button_border_thickness": 1,
+            "button_mt": 40,
+            "button_mt_mobile": 32,
+            "button_align": "center",
+            "button_align_mobile": "center",
+            "button_shadow": false,
+            "button_color": "#FFFFFF",
+            "button_hover_color": "#FFFFFF",
+            "button_bg_color": "#121212",
+            "button_bg_hover_color": "#334155",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_99NhwY",
+        "rating_BC9krE",
+        "testimonial_iVjqeN",
+        "testimonial_jEjLA4",
+        "testimonial_nE6UXJ",
+        "feature_bKaTEi",
+        "feature_k3TrJB",
+        "feature_44ewkV",
+        "button_pVhGze"
+      ],
+      "name": "SS - Testimonials #47",
+      "settings": {
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_advanced": false,
+        "slider_gap": 24,
+        "slider_gap_mobile": 16,
+        "slider_mt": 40,
+        "slider_mt_mobile": 32,
+        "slider_mask_effect": false,
+        "slide_advanced": false,
+        "slide_padding_horizontal": 32,
+        "slide_padding_horizontal_mobile": 24,
+        "slide_padding_vertical": 32,
+        "slide_padding_vertical_mobile": 24,
+        "slide_radius": 16,
+        "slide_border_thickness": 1,
+        "slide_content_align": "left",
+        "slide_content_align_mobile": "left",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 18,
+        "title_size_mobile": 16,
+        "title_advanced": false,
+        "title_height": 140,
+        "title_mt": 16,
+        "title_mt_mobile": 12,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "text_advanced": false,
+        "text_height": 160,
+        "text_mt": 8,
+        "text_mt_mobile": 8,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 13,
+        "author_advanced": false,
+        "author_height": 140,
+        "author_mt": 16,
+        "author_mt_mobile": 12,
+        "slide_stars_size": 16,
+        "slide_stars_size_mobile": 14,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "arrow_size": 48,
+        "arrow_size_mobile": 40,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 7,
+        "arrow_border_thickness": 1,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "features_advanced": false,
+        "features_mt": 48,
+        "features_mt_mobile": 32,
+        "features_gap": 24,
+        "features_gap_mobile": 16,
+        "features_align": "center",
+        "feature_gap": 12,
+        "feature_gap_mobile": 8,
+        "feature_use_bg": true,
+        "feature_padding_horizontal": 24,
+        "feature_padding_horizontal_mobile": 16,
+        "feature_padding_vertical": 12,
+        "feature_padding_vertical_mobile": 10,
+        "feature_radius": 100,
+        "feature_border_thickness": 1,
+        "feature_icon_size": 20,
+        "feature_icon_size_mobile": 18,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 14,
+        "feature_text_size_mobile": 13,
+        "feature_text_height": 140,
+        "use_gradient": false,
+        "gradient_color": "linear-gradient(135deg, #6366F1 0%, #A855F7 50%, #EC4899 100%)",
+        "background_gradient_color": "linear-gradient(135deg, rgba(241, 245, 249, 1) 0%, rgba(248, 250, 252, 0.5) 100%)",
+        "title_color": "#121212",
+        "text_color": "#121212",
+        "author_color": "#666666",
+        "slide_bg_color": "#FFFFFF",
+        "slide_border_color": "#E2E8F0",
+        "slide_stars_color": "#FFFFFF",
+        "slide_stars_bg_color": "#00B67A",
+        "slide_stars_bg_half_color": "#DDDDDD",
+        "arrow_color": "#121212",
+        "arrow_hover_color": "#121212",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#F8FAFC",
+        "arrow_border_color": "#E2E8F0",
+        "arrow_border_hover_color": "#CBD5E1",
+        "feature_icon_color": "#121212",
+        "feature_text_color": "#121212",
+        "feature_bg_color": "#F8FAFC",
+        "feature_border_color": "#E2E8F0",
+        "background_style": "solid",
+        "background_color": "#FFFFFF",
+        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%)",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -922,6 +1388,8 @@
     "multicolumn_kdANBW",
     "separator_X4Ceg8",
     "main",
-    "grid_view_kU98in"
+    "grid_view_kU98in",
+    "ss_guarantee_7NAGWN",
+    "ss_testimonials_47_RkFWkM"
   ]
 }
