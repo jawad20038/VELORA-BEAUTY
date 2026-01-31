@@ -815,6 +815,24 @@
         "margin-bottom": 0
       }
     },
+    "separator_Hq69Lc": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "",
+        "heading_richtext": "<h2>Separator</h2>",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "transparent",
+        "color-section-background": "transparent",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "grid_view_kU98in": {
       "type": "grid-view",
       "blocks": {
@@ -825,7 +843,7 @@
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
-            "text": "Give customers details about the image or content on the template.",
+            "text": "Nourrit la fibre capillaire et préserve la douceur des cheveux fragilisés.",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
@@ -844,11 +862,11 @@
         "image_yPDHAR": {
           "type": "image",
           "settings": {
-            "heading": "Panthénol",
+            "heading": "Panthénol (Pro-vitamine B5)",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
-            "text": "Give customers details about the image or content on the template.",
+            "text": "Renforce le cheveu et améliore sa souplesse pour un aspect plus sain.",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
@@ -871,7 +889,7 @@
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
-            "text": "Give customers details about the image or content on the template.",
+            "text": "Aide à protéger le cuir chevelu du stress oxydatif et à maintenir son équilibre.",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
@@ -896,15 +914,33 @@
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
         "advanced_heading": false,
-        "title": "Grid view",
+        "title": "La couvrance qui prend soin de vos cheveux",
         "heading_richtext": "<h2>Your headline here</h2>",
         "swipe_on_mobile": true,
         "full-width-enabled": false,
         "image_ratio": "adapt",
         "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
+        "background_color": "#f7f9fd",
         "margin-top": 20,
         "margin-bottom": 20
+      }
+    },
+    "separator_U9k7Py": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": true,
+        "heading": "Separator",
+        "heading_richtext": "",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-section-background": "rgba(0,0,0,0)",
+        "margin-top": 0,
+        "margin-bottom": 0
       }
     },
     "ss_guarantee_7NAGWN": {
@@ -1112,6 +1148,24 @@
         "lazy": true
       }
     },
+    "separator_fPgnjV": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": true,
+        "heading": "Separator",
+        "heading_richtext": "",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-section-background": "rgba(0,0,0,0)",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "ss_testimonials_47_RkFWkM": {
       "type": "ss-testimonials-47",
       "blocks": {
@@ -1212,38 +1266,6 @@
             "text": "Trusted by 50k+ Customers",
             "hide_mobile": false
           }
-        },
-        "button_pVhGze": {
-          "type": "button",
-          "settings": {
-            "button": "Read All Stories",
-            "url": "",
-            "open_in_new_tab": false,
-            "button_style": "non_outline",
-            "button_custom": false,
-            "button_font": "josefin_sans_n4",
-            "button_size": 16,
-            "button_size_mobile": 16,
-            "button_advanced": false,
-            "button_height": 100,
-            "button_padding_horizontal": 40,
-            "button_padding_horizontal_mobile": 32,
-            "button_padding_vertical": 18,
-            "button_padding_vertical_mobile": 16,
-            "button_radius": 8,
-            "button_border_thickness": 1,
-            "button_mt": 40,
-            "button_mt_mobile": 32,
-            "button_align": "center",
-            "button_align_mobile": "center",
-            "button_shadow": false,
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
-            "button_bg_color": "#121212",
-            "button_bg_hover_color": "#334155",
-            "button_border_color": "#121212",
-            "button_border_hover_color": "#121212"
-          }
         }
       },
       "block_order": [
@@ -1254,8 +1276,7 @@
         "testimonial_nE6UXJ",
         "feature_bKaTEi",
         "feature_k3TrJB",
-        "feature_44ewkV",
-        "button_pVhGze"
+        "feature_44ewkV"
       ],
       "name": "SS - Testimonials #47",
       "settings": {
@@ -1352,10 +1373,10 @@
         "arrow_border_hover_color": "#CBD5E1",
         "feature_icon_color": "#121212",
         "feature_text_color": "#121212",
-        "feature_bg_color": "#F8FAFC",
+        "feature_bg_color": "#ffffff",
         "feature_border_color": "#E2E8F0",
         "background_style": "solid",
-        "background_color": "#FFFFFF",
+        "background_color": "#f7f9fd",
         "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%)",
         "border_color": "#121212",
         "margin_top": 0,
@@ -1388,8 +1409,11 @@
     "multicolumn_kdANBW",
     "separator_X4Ceg8",
     "main",
+    "separator_Hq69Lc",
     "grid_view_kU98in",
+    "separator_U9k7Py",
     "ss_guarantee_7NAGWN",
+    "separator_fPgnjV",
     "ss_testimonials_47_RkFWkM"
   ]
 }
