@@ -632,6 +632,24 @@
         "margin-bottom": 20
       }
     },
+    "separator_HW9apK": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": true,
+        "heading": "Separator",
+        "heading_richtext": "",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "transparent",
+        "color-section-background": "transparent",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -702,6 +720,7 @@
     "ss_comparison_table_22_D7qBj6",
     "image_banner_m4njAJ",
     "multicolumn_kdANBW",
+    "separator_HW9apK",
     "main"
   ]
 }
