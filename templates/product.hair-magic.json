@@ -821,7 +821,7 @@
         "image_BqBLfh": {
           "type": "image",
           "settings": {
-            "heading": "Column",
+            "heading": "<strong>Huile d’Argan</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -835,8 +835,8 @@
             "color-body-text": "rgba(0,0,0,0)",
             "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
+            "desktop_text_vertical_position": "bottom",
+            "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "bottom",
             "mobile_text_horizontal_position": "left"
           }
@@ -844,7 +844,7 @@
         "image_yPDHAR": {
           "type": "image",
           "settings": {
-            "heading": "Column",
+            "heading": "Panthénol",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -855,19 +855,19 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "color-body-text": "rgba(0,0,0,0)",
+            "color-body-text": "#000000",
             "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center"
+            "desktop_text_vertical_position": "bottom",
+            "desktop_text_horizontal_position": "left",
+            "mobile_text_vertical_position": "bottom",
+            "mobile_text_horizontal_position": "left"
           }
         },
         "image_9q8GTR": {
           "type": "image",
           "settings": {
-            "heading": "Column",
+            "heading": "Vitamine E",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -881,10 +881,10 @@
             "color-body-text": "rgba(0,0,0,0)",
             "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center"
+            "desktop_text_vertical_position": "bottom",
+            "desktop_text_horizontal_position": "left",
+            "mobile_text_vertical_position": "bottom",
+            "mobile_text_horizontal_position": "left"
           }
         }
       },
