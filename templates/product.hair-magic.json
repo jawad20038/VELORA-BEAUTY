@@ -1196,16 +1196,16 @@
         "feature_bKaTEi": {
           "type": "feature",
           "settings": {
-            "icon": "shield_check",
-            "text": "Trusted by 50k+ Customers",
+            "icon": "box",
+            "text": "Livraison gratuite",
             "hide_mobile": false
           }
         },
         "feature_k3TrJB": {
           "type": "feature",
           "settings": {
-            "icon": "shield_check",
-            "text": "Trusted by 50k+ Customers",
+            "icon": "headset",
+            "text": "Service client 7J/J",
             "hide_mobile": false
           }
         },
@@ -1213,7 +1213,15 @@
           "type": "feature",
           "settings": {
             "icon": "shield_check",
-            "text": "Trusted by 50k+ Customers",
+            "text": "Satisfait ou remboursé",
+            "hide_mobile": false
+          }
+        },
+        "feature_6hiDxd": {
+          "type": "feature",
+          "settings": {
+            "icon": "credit_card",
+            "text": "Paiement sécurisé",
             "hide_mobile": false
           }
         }
@@ -1226,7 +1234,8 @@
         "testimonial_nE6UXJ",
         "feature_bKaTEi",
         "feature_k3TrJB",
-        "feature_44ewkV"
+        "feature_44ewkV",
+        "feature_6hiDxd"
       ],
       "name": "SS - Testimonials #47",
       "settings": {
