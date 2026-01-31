@@ -728,6 +728,19 @@
             "custom_liquid": "<style>\n  .stock-badge {\n    background: #ecfdf3;\n    border-radius: 999px;\n    padding: 6px 14px;\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n  }\n\n  .stock-badge__dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: #16a34a;\n    animation: pulse 1.6s ease-in-out infinite;\n    flex-shrink: 0;\n  }\n\n  .stock-badge__text {\n    font-size: 13px;\n    font-weight: 500;\n    letter-spacing: 0.01em;\n    color: #065f46;\n    white-space: nowrap;\n  }\n\n  @keyframes pulse {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.35);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(1);\n      opacity: 1;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .stock-badge__text {\n      font-size: 13px;\n      white-space: normal;\n    }\n  }\n</style>\n\n<div class=\"stock-badge\">\n  <span class=\"stock-badge__dot\"></span>\n  <span class=\"stock-badge__text\">\n    Précommande ouverte · Accès prioritaire au prochain lot\n  </span>\n</div>"
           }
         },
+        "kaching_bundles_app_block_TR3pAq": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
+          }
+        },
+        "custom_liquid_wVTqkN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n\n  <div class=\"m-product-text\">\n\n    <div class=\"preorder-stock-section\" id=\"preorder-stock-1\">\n\n      <!-- BARRE DE PROGRESSION -->\n      <div class=\"preorder-progress-bar\">\n        <div class=\"preorder-progress\" style=\"width: 14%;\"></div>\n      </div>\n\n      <!-- TEXTE -->\n      <div class=\"preorder-text-container\">\n        <div class=\"preorder-stock-text\">\n          <strong class=\"stock-critical\">14%</strong> des unités encore disponibles\n        </div>\n        <div class=\"preorder-subtext\">\n          Dernières réservations ouvertes sur le <strong>prochain lot en production</strong>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n\n</div>\n\n<style>\n/* =========================\n   PRÉCOMMANDE – STOCK PREMIUM\n   MOBILE FIRST\n   ========================= */\n\n.preorder-stock-section {\n  margin-top: 16px;\n  padding: 14px 14px 16px;\n  border-radius: 14px;\n  background: linear-gradient(180deg, #fafafa, #ffffff);\n  border: 1px solid rgba(0,0,0,0.06);\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* BARRE */\n.preorder-progress-bar {\n  width: 100%;\n  height: 7px;\n  background: rgba(0,0,0,0.08);\n  border-radius: 999px;\n  overflow: hidden;\n  margin-bottom: 10px;\n}\n\n.preorder-progress {\n  height: 100%;\n  background: linear-gradient(90deg, #16a34a, #22c55e);\n  border-radius: 999px;\n  transition: width 0.6s ease;\n}\n\n/* TEXTE */\n.preorder-text-container {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  text-align: center;\n}\n\n.preorder-stock-text {\n  font-size: 14px;\n  line-height: 1.25;\n  color: #111827;\n}\n\n/* ROUGE CONTRÔLÉ */\n.stock-critical {\n  color: #b91c1c; /* rouge premium */\n  font-weight: 700;\n}\n\n/* SOUS-TEXTE */\n.preorder-subtext {\n  font-size: 12.5px;\n  line-height: 1.35;\n  color: #4b5563;\n}\n\n/* MOBILE OPTIM */\n@media (max-width: 480px) {\n  .preorder-stock-section {\n    padding: 12px 12px 14px;\n  }\n\n  .preorder-stock-text {\n    font-size: 13.5px;\n  }\n\n  .preorder-subtext {\n    font-size: 12px;\n  }\n\n  .preorder-progress-bar {\n    height: 6px;\n  }\n}\n</style>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -759,6 +772,8 @@
         "custom_liquid_6qmEdL",
         "title",
         "custom_liquid_EbQbJ9",
+        "kaching_bundles_app_block_TR3pAq",
+        "custom_liquid_wVTqkN",
         "buy_buttons",
         "custom_liquid_qiQc7a",
         "collapsible_tab_VpMUi7"
