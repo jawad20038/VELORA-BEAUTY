@@ -707,6 +707,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_6qmEdL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display: inline-flex; align-items: center; gap: 08px; margin: 5px 0; font-family: Arial, sans-serif;\">\n    <svg style=\"width: 90px; height: auto;\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 96\">\n        <g fill=\"none\">\n            <g fill=\"#00b67a\">\n                <path d=\"M0 0h96v96H0zM104 0h96v96h-96zM208 0h96v96h-96zM312 0h96v96h-96zM416 0h96v96h-96z\"></path>\n            </g>\n            <path d=\"M48 64.7L62.6 61l6.1 18.8zm33.6-24.3H55.9L48 16.2l-7.9 24.2H14.4l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM152 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L152 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM256 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L256 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM360 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L360 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM464 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L464 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2z\" fill=\"#fff\"></path>\n        </g>\n    </svg>\n    <span style=\"font-size: 14px; font-weight: 600; color: #00b67a;\">4.8/5</span>\n    <span style=\"font-size: 12px; color: #666;\">(14,500+ Avis)</span>\n</div>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -725,6 +731,12 @@
             "size_text_mobile": 100
           }
         },
+        "custom_liquid_EbQbJ9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .stock-badge {\n    background: #ecfdf3;\n    border-radius: 999px;\n    padding: 6px 14px;\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n  }\n\n  .stock-badge__dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: #16a34a;\n    animation: pulse 1.6s ease-in-out infinite;\n    flex-shrink: 0;\n  }\n\n  .stock-badge__text {\n    font-size: 13px;\n    font-weight: 500;\n    letter-spacing: 0.01em;\n    color: #065f46;\n    white-space: nowrap;\n  }\n\n  @keyframes pulse {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.35);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(1);\n      opacity: 1;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .stock-badge__text {\n      font-size: 13px;\n      white-space: normal;\n    }\n  }\n</style>\n\n<div class=\"stock-badge\">\n  <span class=\"stock-badge__dot\"></span>\n  <span class=\"stock-badge__text\">\n    Précommande ouverte · Accès prioritaire au prochain lot\n  </span>\n</div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -734,12 +746,25 @@
             "text_color": "#ffffff",
             "background_color": "#dd1e2f"
           }
+        },
+        "collapsible_tab_VpMUi7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pourquoi HairMagic+ est en précommande",
+            "content": "<p>HairMagic+ est fabriqué en lots limités pour garantir la qualité de la formule et le respect des cheveux sensibles.<br/>La demande actuelle dépasse nos prévisions — nous ouvrons donc un accès prioritaire sur le prochain lot.</p>",
+            "metafield_variables": "",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
+        "custom_liquid_6qmEdL",
         "title",
         "price_P6DTFh",
-        "buy_buttons"
+        "custom_liquid_EbQbJ9",
+        "buy_buttons",
+        "collapsible_tab_VpMUi7"
       ],
       "custom_css": [
         ".rte p:first-child,.rte ul:first-child,.rte li:first-child,.rte ol:first-child {margin-block-start: 0;}"
