@@ -807,6 +807,98 @@
         "margin-top": 20,
         "margin-bottom": 0
       }
+    },
+    "grid_view_kU98in": {
+      "type": "grid-view",
+      "blocks": {
+        "image_BqBLfh": {
+          "type": "image",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "Give customers details about the image or content on the template.",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "transparent",
+            "color-overlay": "transparent",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "bottom",
+            "mobile_text_horizontal_position": "left"
+          }
+        },
+        "image_yPDHAR": {
+          "type": "image",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "Give customers details about the image or content on the template.",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "transparent",
+            "color-overlay": "transparent",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        },
+        "image_9q8GTR": {
+          "type": "image",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "Give customers details about the image or content on the template.",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "transparent",
+            "color-overlay": "transparent",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_BqBLfh",
+        "image_yPDHAR",
+        "image_9q8GTR"
+      ],
+      "name": "t:sections.grid-view.settings.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "Grid view",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "swipe_on_mobile": true,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
@@ -822,6 +914,7 @@
     "separator_r4aYGT",
     "multicolumn_kdANBW",
     "separator_X4Ceg8",
-    "main"
+    "main",
+    "grid_view_kU98in"
   ]
 }
