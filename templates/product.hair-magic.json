@@ -168,7 +168,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>On vous a appris à accepter des solutions imparfaites</p>",
-            "heading_custom": false,
+            "heading_custom": true,
             "heading_font": "inter_n2",
             "heading_size": 24,
             "heading_size_mobile": 20,
