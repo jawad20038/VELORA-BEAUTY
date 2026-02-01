@@ -324,24 +324,6 @@
             "sixth_column_icon": "cross"
           }
         },
-        "table_row_C9Fiba": {
-          "type": "table_row",
-          "settings": {
-            "row_heading": "Gain de temps au quotidien",
-            "first_column": "Aucun rendez-vous",
-            "first_column_icon": "none",
-            "second_column": "Heures perdues",
-            "second_column_icon": "none",
-            "third_column": "Application contraignante",
-            "third_column_icon": "none",
-            "fourth_column": "",
-            "fourth_column_icon": "cross",
-            "fifth_column": "",
-            "fifth_column_icon": "cross",
-            "sixth_column": "",
-            "sixth_column_icon": "cross"
-          }
-        },
         "table_row_aAnaxt": {
           "type": "table_row",
           "settings": {
@@ -396,24 +378,6 @@
             "sixth_column_icon": "cross"
           }
         },
-        "table_row_GQMRAz": {
-          "type": "table_row",
-          "settings": {
-            "row_heading": "Convient aux cheveux matures",
-            "first_column": "",
-            "first_column_icon": "check",
-            "second_column": "Pas toujours",
-            "second_column_icon": "none",
-            "third_column": "Rarement",
-            "third_column_icon": "none",
-            "fourth_column": "",
-            "fourth_column_icon": "cross",
-            "fifth_column": "",
-            "fifth_column_icon": "cross",
-            "sixth_column": "",
-            "sixth_column_icon": "cross"
-          }
-        },
         "table_row_YyYEdc": {
           "type": "table_row",
           "settings": {
@@ -438,11 +402,9 @@
         "text_PBP3wM",
         "table_row_zLHDjd",
         "table_row_LGQdEq",
-        "table_row_C9Fiba",
         "table_row_aAnaxt",
         "table_row_Cd99qe",
         "table_row_LPPbpJ",
-        "table_row_GQMRAz",
         "table_row_YyYEdc"
       ],
       "name": "SS - Comparison table #22",
