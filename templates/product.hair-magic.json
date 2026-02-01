@@ -444,8 +444,8 @@
         "color-body-text": "rgba(0,0,0,0)",
         "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "margin-top": 0,
-        "margin-bottom": 20,
+        "margin-top": 36,
+        "margin-bottom": 52,
         "lcp_optimize": false
       }
     },
