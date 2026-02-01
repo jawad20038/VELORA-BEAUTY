@@ -162,98 +162,75 @@
         "lazy": false
       }
     },
-    "rich_text_pnPRPG": {
-      "type": "rich-text",
+    "marquee_images_jbGLfD": {
+      "type": "marquee-images",
       "blocks": {
-        "text_zARWgM": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>VU SUR</strong></p>",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "text_zARWgM"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "color-body-text": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
-    },
-    "brands_hWRAg4": {
-      "type": "brands",
-      "blocks": {
-        "image_yUXV9e": {
+        "image_jgKyUd": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/VOGUE_revista_-_logo_2.png",
+            "desktop_image": "shopify://shop_images/5.webp",
             "link": ""
           }
         },
-        "image_WdWfk4": {
+        "image_rhD8AV": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1.webp",
+            "desktop_image": "shopify://shop_images/1_48dff53c-650d-490d-96c3-ea75e3d39551.webp",
             "link": ""
           }
         },
-        "image_EeMmHM": {
+        "image_XKX4Bj": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.webp",
+            "desktop_image": "shopify://shop_images/3_57ce877b-3412-4b2f-a932-c50a8520c831.webp",
             "link": ""
           }
         },
-        "image_hh3eVf": {
+        "image_c9R6d6": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/logo-seo_1.webp",
+            "desktop_image": "shopify://shop_images/2_3123ae57-2c32-4794-9284-64ad0c981aa8.webp",
+            "link": ""
+          }
+        },
+        "image_ENHWqy": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/4_36d0a68d-ee75-4ea7-a3ec-5094953ff213.webp",
+            "link": ""
+          }
+        },
+        "image_tqcArt": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/6_6f8146a5-937d-42dc-a755-6b6cfa76332f.webp",
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_yUXV9e",
-        "image_WdWfk4",
-        "image_EeMmHM",
-        "image_hh3eVf"
+        "image_jgKyUd",
+        "image_rhD8AV",
+        "image_XKX4Bj",
+        "image_c9R6d6",
+        "image_ENHWqy",
+        "image_tqcArt"
       ],
-      "name": "t:sections.brands.settings.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "",
-        "heading_richtext": "",
-        "animation": "marquee",
-        "animation_speed": "50",
-        "color-body-text": "#000000",
-        "background_color": "#ffffff",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
-    },
-    "separator_4gbR4E": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
+      "name": "t:sections.marquee_images.name",
       "settings": {
         "advanced_heading": true,
-        "heading": "Separator",
-        "heading_richtext": "",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#000000",
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-section-background": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
+        "heading": "Marquee images",
+        "heading_richtext": "<p>Elles ont trouvé leur solution</p>",
+        "animation_direction": "left",
+        "animation_speed": "100",
+        "desktop_fixed_height": 160,
+        "gap_desk": 16,
+        "mobile_fixed_height": 140,
+        "gap": 12,
+        "color-body-text": "transparent",
+        "background_color": "#f8f8f8",
+        "margin-top": 32,
+        "margin-bottom": 20
       }
     },
     "ss_comparison_table_22_D7qBj6": {
@@ -1402,9 +1379,7 @@
     "breadcrumbs",
     "custom_liquid_EieQRg",
     "ss_hero_pro_erTEPK",
-    "rich_text_pnPRPG",
-    "brands_hWRAg4",
-    "separator_4gbR4E",
+    "marquee_images_jbGLfD",
     "ss_comparison_table_22_D7qBj6",
     "separator_7ybVmx",
     "image_banner_m4njAJ",
