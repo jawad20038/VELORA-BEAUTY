@@ -29,78 +29,6 @@
     },
     "ss_hero_pro_erTEPK": {
       "type": "ss-hero-pro",
-      "blocks": {
-        "review_Pb8UqJ": {
-          "type": "review",
-          "settings": {
-            "stars_count": 5,
-            "stars_size": 19,
-            "stars_size_mobile": 17,
-            "stars_gap": 0,
-            "review": "<p><strong>4,8/5 </strong>— 14 946 femmes convaincues</p>",
-            "review_custom": false,
-            "review_font": "josefin_sans_n4",
-            "review_size": 15,
-            "review_size_mobile": 13,
-            "review_advanced": true,
-            "review_height": 130,
-            "review_mt": 10,
-            "review_mt_mobile": 10,
-            "background": false,
-            "review_bg_opacity": 1,
-            "enable_blur": true,
-            "review_radius": 10,
-            "review_border_thickness": 1,
-            "review_padding_horizontal": 12,
-            "review_padding_horizontal_mobile": 12,
-            "review_padding_vertical": 8,
-            "review_padding_vertical_mobile": 8,
-            "review_color": "#000000",
-            "review_bg_color": "#744682",
-            "review_border_color": "rgba(0,0,0,0)",
-            "stars_color": "#d4af37",
-            "stars_bg_color": "rgba(0,0,0,0)",
-            "stars_bg_half_color": "#dddddd"
-          }
-        },
-        "heading_XTgdLm": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Redonnez vie à <strong>vos cheveux</strong></p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_accent_font": "playfair_n4",
-            "heading_size": 42,
-            "heading_size_mobile": 34,
-            "heading_advanced": true,
-            "heading_height": 130,
-            "heading_mt": 10,
-            "heading_mt_mobile": 10,
-            "heading_color": "#000000",
-            "heading_accent_color": "#744682"
-          }
-        },
-        "text_kR8QwF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Des cheveux visiblement <strong>plus denses</strong>, <strong>naturels</strong> et <strong>harmonieux</strong> — même si vos <strong>racines sont grises</strong> ou <strong>clairsemées</strong>.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 18,
-            "text_size_mobile": 15,
-            "text_advanced": true,
-            "text_height": 150,
-            "text_mt": 10,
-            "text_mt_mobile": 10,
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "review_Pb8UqJ",
-        "heading_XTgdLm",
-        "text_kR8QwF"
-      ],
       "name": "SS - Hero pro 💎",
       "settings": {
         "hero_height": "full_screen",
@@ -138,10 +66,10 @@
         "feature_bg_color": "#ffffff",
         "feature_border_color": "#ffffff",
         "layout_bg_type": "image",
-        "bg_image": "shopify://shop_images/magnifics_upscale-mk6F5cecVIWf4C5h47hm-Design_sans_titre_63.webp",
-        "bg_image_mobile": "shopify://shop_images/updated_image_dab53873-f818-4ac7-9829-61a7446e83dc.webp",
+        "bg_image": "shopify://shop_images/Banniere_Velora_Premium_Clean.png",
+        "bg_image_mobile": "shopify://shop_images/Banniere_Velora_Premium_Clean.png",
         "bg_video_url": "",
-        "bg_overlay": 0.1,
+        "bg_overlay": 0,
         "bg_overlay_color": "#121212",
         "background_style": "solid",
         "background_color": "#121212",
