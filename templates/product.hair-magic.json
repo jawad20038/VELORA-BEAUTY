@@ -320,7 +320,7 @@
         "table_columns": 3,
         "table_radius": 10,
         "table_mt": 30,
-        "table_mt_mobile": 30,
+        "table_mt_mobile": 0,
         "table_column_border_thickness": 2,
         "first_heading": "HairMagic+",
         "first_heading_image": "shopify://shop_images/Design_sans_titre_-_2026-01-30T195218.421.webp",
