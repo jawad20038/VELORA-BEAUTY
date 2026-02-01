@@ -756,7 +756,7 @@
         "video_controls": false,
         "video_custom_play_controls": false,
         "video_custom_mute_controls": false,
-        "enable-preselected-variant": false,
+        "enable-preselected-variant": true,
         "enable-image-zoom": true,
         "mobile-image": "normal",
         "show-thumbnails-mobile": false,
