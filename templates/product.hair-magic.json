@@ -489,7 +489,7 @@
         "row_padding_horizontal": 4,
         "row_padding_horizontal_mobile": 4,
         "row_padding_vertical": 10,
-        "row_padding_vertical_mobile": 10,
+        "row_padding_vertical_mobile": 8,
         "row_border_thickness": 1,
         "row_heading_custom": false,
         "row_heading_font": "assistant_n4",
