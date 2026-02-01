@@ -188,24 +188,6 @@
         "lcp_optimize": false
       }
     },
-    "separator_7ybVmx": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
-      "settings": {
-        "advanced_heading": true,
-        "heading": "Separator",
-        "heading_richtext": "",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#000000",
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-section-background": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
-    },
     "image_banner_m4njAJ": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -1127,7 +1109,6 @@
     "ss_hero_pro_erTEPK",
     "marquee_images_jbGLfD",
     "image_banner_Q6GczC",
-    "separator_7ybVmx",
     "image_banner_m4njAJ",
     "separator_r4aYGT",
     "multicolumn_kdANBW",
