@@ -656,6 +656,14 @@
             "enable-striped-rows": true
           }
         },
+        "kaching_bundles_app_block_WFwVF3": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -689,6 +697,7 @@
         "custom_liquid_EbQbJ9",
         "custom_liquid_wVTqkN",
         "information_popup_FkqLPK",
+        "kaching_bundles_app_block_WFwVF3",
         "buy_buttons",
         "custom_liquid_qiQc7a",
         "custom_liquid_UcP3Ey"
