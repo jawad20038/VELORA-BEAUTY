@@ -343,7 +343,7 @@
         "heading_image_border_thickness": 0,
         "use_background_image": true,
         "column_heading_custom": false,
-        "column_heading_font": "assistant_n4",
+        "column_heading_font": "inter_n2",
         "column_heading_size": 14,
         "column_heading_size_mobile": 13,
         "column_heading_height": 150,
