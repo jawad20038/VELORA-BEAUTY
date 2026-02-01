@@ -192,9 +192,9 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "advanced_heading": false,
+        "advanced_heading": true,
         "heading": "Paraissez 10 ans plus jeunes",
-        "heading_richtext": "<h2>Your headline here</h2>",
+        "heading_richtext": "<p>Paraissez 10 ans plus jeunes</p>",
         "full-width-enabled": false,
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
@@ -211,7 +211,7 @@
         "color-body-text": "rgba(0,0,0,0)",
         "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "margin-top": 36,
+        "margin-top": 48,
         "margin-bottom": 4,
         "lcp_optimize": false
       }
