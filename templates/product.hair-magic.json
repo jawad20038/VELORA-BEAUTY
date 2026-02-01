@@ -592,6 +592,7 @@
         },
         "price_zaXCc3": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_tax_included": false,
             "show_shipping_policy": true,
@@ -607,6 +608,7 @@
         },
         "promo_gYQE8k": {
           "type": "promo",
+          "disabled": true,
           "settings": {
             "content": "<p>Ajoutez 2 articles : le 2ᵉ passe gratuitement</p>",
             "text_alignment": "center",
@@ -616,6 +618,7 @@
         },
         "variant_picker_YBqpUb": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "dropdown",
             "color_swatch_names": "",
@@ -640,6 +643,13 @@
             "custom_liquid": "<style>\n  .stock-badge {\n    background: #ecfdf3;\n    border-radius: 999px;\n    padding: 6px 14px;\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n  }\n\n  .stock-badge__dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: #16a34a;\n    animation: pulse 1.6s ease-in-out infinite;\n    flex-shrink: 0;\n  }\n\n  .stock-badge__text {\n    font-size: 13px;\n    font-weight: 500;\n    letter-spacing: 0.01em;\n    color: #065f46;\n    white-space: nowrap;\n  }\n\n  @keyframes pulse {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.35);\n      opacity: 0.5;\n    }\n    100% {\n      transform: scale(1);\n      opacity: 1;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .stock-badge__text {\n      font-size: 13px;\n      white-space: normal;\n    }\n  }\n</style>\n\n<div class=\"stock-badge\">\n  <span class=\"stock-badge__dot\"></span>\n  <span class=\"stock-badge__text\">\n    Précommande ouverte · Accès prioritaire au prochain lot\n  </span>\n</div>"
           }
         },
+        "kaching_bundles_app_block_WFwVF3": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
+          }
+        },
         "custom_liquid_wVTqkN": {
           "type": "custom_liquid",
           "settings": {
@@ -656,20 +666,12 @@
             "enable-striped-rows": true
           }
         },
-        "kaching_bundles_app_block_WFwVF3": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}",
-            "manual_deal_block_id": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true,
-            "show_qty_selector": true,
+            "show_qty_selector": false,
             "text_color": "#ffffff",
             "background_color": "#c69882"
           }
@@ -695,9 +697,9 @@
         "promo_gYQE8k",
         "variant_picker_YBqpUb",
         "custom_liquid_EbQbJ9",
+        "kaching_bundles_app_block_WFwVF3",
         "custom_liquid_wVTqkN",
         "information_popup_FkqLPK",
-        "kaching_bundles_app_block_WFwVF3",
         "buy_buttons",
         "custom_liquid_qiQc7a",
         "custom_liquid_UcP3Ey"
