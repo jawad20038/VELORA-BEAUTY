@@ -156,7 +156,7 @@
         "mobile_fixed_height": 180,
         "gap": 12,
         "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "#f8f8f8",
+        "background_color": "#ffffff",
         "margin-top": 32,
         "margin-bottom": 20
       }
@@ -385,7 +385,7 @@
         "row_heading_border_color": "#000000",
         "value_icon_active_color": "#6cb324",
         "value_icon_color": "#ff1616",
-        "background_color": "#f7f9fd",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#121212",
         "margin_top": 0,
@@ -549,7 +549,7 @@
         "size_heading": 100,
         "size_heading_mobile": 100,
         "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "#f7f9fd",
+        "background_color": "#ffffff",
         "margin-top": 20,
         "margin-bottom": 20
       }
