@@ -748,7 +748,7 @@
       ],
       "settings": {
         "enable_sticky_buy_button": false,
-        "full-width-enabled": true,
+        "full-width-enabled": false,
         "desktop-media-size": "normal",
         "desktop-layout": "carousel-vertical",
         "desktop-image-ratio": "original",
