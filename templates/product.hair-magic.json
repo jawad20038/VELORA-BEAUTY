@@ -33,20 +33,20 @@
         "review_Pb8UqJ": {
           "type": "review",
           "settings": {
-            "stars_count": 4.5,
-            "stars_size": 16,
-            "stars_size_mobile": 14,
-            "stars_gap": 2,
-            "review": "<p><strong>4,8/5</strong> basée sur plus de 14'500 avis</p>",
+            "stars_count": 5,
+            "stars_size": 19,
+            "stars_size_mobile": 17,
+            "stars_gap": 0,
+            "review": "<p><strong>4,8/5 </strong>— 14 946 femmes convaincues</p>",
             "review_custom": false,
             "review_font": "josefin_sans_n4",
-            "review_size": 14,
-            "review_size_mobile": 12,
+            "review_size": 15,
+            "review_size_mobile": 13,
             "review_advanced": true,
             "review_height": 130,
             "review_mt": 10,
             "review_mt_mobile": 10,
-            "background": true,
+            "background": false,
             "review_bg_opacity": 1,
             "enable_blur": true,
             "review_radius": 10,
@@ -56,26 +56,26 @@
             "review_padding_vertical": 8,
             "review_padding_vertical_mobile": 8,
             "review_color": "#000000",
-            "review_bg_color": "#ffffff",
-            "review_border_color": "#744682",
-            "stars_color": "#ffffff",
-            "stars_bg_color": "#00b67a",
+            "review_bg_color": "#744682",
+            "review_border_color": "rgba(0,0,0,0)",
+            "stars_color": "#d4af37",
+            "stars_bg_color": "rgba(0,0,0,0)",
             "stars_bg_half_color": "#dddddd"
           }
         },
         "heading_XTgdLm": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Racines grises <strong>invisibles</strong> en quelques <em>secondes</em>.</p>",
+            "heading": "<p>Redonnez vie à <strong>vos cheveux</strong></p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_accent_font": "playfair_n4",
             "heading_size": 42,
-            "heading_size_mobile": 30,
+            "heading_size_mobile": 34,
             "heading_advanced": true,
             "heading_height": 130,
-            "heading_mt": 20,
-            "heading_mt_mobile": 20,
+            "heading_mt": 10,
+            "heading_mt_mobile": 10,
             "heading_color": "#000000",
             "heading_accent_color": "#744682"
           }
@@ -83,15 +83,15 @@
         "text_kR8QwF": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>HairMagic+</strong> offre une couvrance <strong>naturelle</strong> et <strong>immédiate</strong> pour des cheveux plus <strong>nets</strong>, plus <strong>denses</strong>, plus <strong>sûrs</strong> — chaque<strong> jour</strong>.</p>",
+            "text": "<p>Des cheveux visiblement <strong>plus denses</strong>, <strong>naturels</strong> et <strong>harmonieux</strong> — même si vos <strong>racines sont grises</strong> ou <strong>clairsemées</strong>.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 18,
-            "text_size_mobile": 14,
+            "text_size_mobile": 15,
             "text_advanced": true,
             "text_height": 150,
-            "text_mt": 20,
-            "text_mt_mobile": 20,
+            "text_mt": 10,
+            "text_mt_mobile": 10,
             "text_color": "#000000"
           }
         }
