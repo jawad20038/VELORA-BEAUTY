@@ -146,7 +146,7 @@
       ],
       "name": "t:sections.marquee_images.name",
       "settings": {
-        "advanced_heading": false,
+        "advanced_heading": true,
         "heading": "Elles ont trouvé leur solution",
         "heading_richtext": "<p>Elles ont trouvé leur solution</p>",
         "animation_direction": "left",
