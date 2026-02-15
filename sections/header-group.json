@@ -102,13 +102,11 @@
     "page_header_image_banner_VK6mLD": {
       "type": "page-header-image-banner",
       "blocks": {
-        "heading_tijKWM": {
-          "type": "heading",
+        "text_bJffxD": {
+          "type": "text",
           "settings": {
-            "heading": "Image banner",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
+            "text": "<p><em>Un savoir transmis depuis des générations.</em></p><p></p>",
+            "disable_on_mobile": false
           }
         },
         "button_GR9aHA": {
@@ -126,7 +124,7 @@
         }
       },
       "block_order": [
-        "heading_tijKWM",
+        "text_bJffxD",
         "button_GR9aHA"
       ],
       "name": "Image banner for transparent header",
