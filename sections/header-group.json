@@ -23,10 +23,7 @@
     },
     "header": {
       "type": "page-header",
-      "custom_css": [
-        ".page-header,.header-wrapper {/* Rend le fond transparent */ background-color: transparent !important; background: transparent !important; /* Enlève les bordures et ombres */ border-bottom: none !important; box-shadow: none !important; /* Superpose le header au contenu (position absolue) */ position: absolute !important; top: 0; left: 0; width: 100%; /* S'assure qu'il reste au-dessus de la bannière */ z-index: 10;}",
-        " /* Optionnel : Ajustement pour éviter que le logo touche le bord */.page-header {padding-top: 10px; /* Ajustez si nécessaire */}"
-      ],
+      "custom_css": [],
       "settings": {
         "layout": "option_5",
         "sticky_header": true,
@@ -55,10 +52,120 @@
         "suggestions_title": "",
         "suggestions_menu": ""
       }
+    },
+    "notification_popup_JBzjUQ": {
+      "type": "notification-popup",
+      "blocks": {
+        "heading_R7mD9w": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_aXLGNX": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_nKGU4w": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_R7mD9w",
+        "paragraph_aXLGNX",
+        "email_form_nKGU4w"
+      ],
+      "disabled": true,
+      "name": "t:sections.notification_popup.name",
+      "settings": {
+        "max_width": 450,
+        "delay": 0,
+        "show_border": false,
+        "show_shadow": true,
+        "mobile_image": "shopify://shop_images/Design_sans_titre_3.png",
+        "desktop_vertical_position": "center",
+        "desktop_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "background_color": "transparent"
+      }
+    },
+    "page_header_image_banner_VK6mLD": {
+      "type": "page-header-image-banner",
+      "blocks": {
+        "subheading_bj6fET": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_tijKWM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_RCCP67": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_GR9aHA": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "disable_on_mobile": false,
+            "button_link": "/",
+            "second_button_select": "primary",
+            "second_button_label": "Button label",
+            "second_disable_on_mobile": false,
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bj6fET",
+        "heading_tijKWM",
+        "text_RCCP67",
+        "button_GR9aHA"
+      ],
+      "name": "Image banner for transparent header",
+      "settings": {
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "video_hosted": "shopify://files/videos/1.1.mp4",
+        "video_hosted_mobile": "shopify://files/videos/1.1.mp4",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "text-container-color": "transparent",
+        "color-overlay-opacity": 100
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "notification_popup_JBzjUQ",
+    "page_header_image_banner_VK6mLD"
   ]
 }
