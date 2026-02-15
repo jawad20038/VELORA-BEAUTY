@@ -41,7 +41,7 @@
         "teaser_menu": "",
         "teaser_menu_limit": 3,
         "transparent_logo": "shopify://shop_images/Design_sans_titre_3.png",
-        "transparent_header_color": "#000000",
+        "transparent_header_color": "#ffffff",
         "show_country_selector": true,
         "show_country_selector_label": false,
         "show_country_selector_flag": true,
@@ -129,6 +129,7 @@
         "heading_tijKWM",
         "button_GR9aHA"
       ],
+      "disabled": true,
       "name": "Image banner for transparent header",
       "settings": {
         "slide_height": "adapt_to_first_image",
