@@ -156,9 +156,9 @@
         "desktop_text_horizontal_position": "center",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "text-container-color": "transparent",
-        "color-overlay-opacity": 100
+        "color-body-text": "#ffffff",
+        "text-container-color": "#000000",
+        "color-overlay-opacity": 30
       }
     }
   },
