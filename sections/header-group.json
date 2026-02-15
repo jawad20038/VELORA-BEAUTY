@@ -147,6 +147,7 @@
         "video_hosted_mobile": "shopify://files/videos/cover.mp4",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_3.png",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
         "color-body-text": "#ffffff",
