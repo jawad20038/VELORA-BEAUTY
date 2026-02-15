@@ -24,18 +24,18 @@
     "header": {
       "type": "page-header",
       "custom_css": [
-        ".page-header, .header-wrapper {/* Rend le fond transparent */ background-color: transparent !important; background: transparent !important; /* Enlève les bordures et ombres */ border-bottom: none !important; box-shadow: none !important; /* Superpose le header au contenu (position absolue) */ position: absolute !important; top: 0; left: 0; width: 100%; /* S'assure qu'il reste au-dessus de la bannière */ z-index: 10; }",
-        "/* Optionnel : Ajustement pour éviter que le logo touche le bord */.page-header {padding-top: 10px; /* Ajustez si nécessaire */}"
+        ".page-header,.header-wrapper {/* Rend le fond transparent */ background-color: transparent !important; background: transparent !important; /* Enlève les bordures et ombres */ border-bottom: none !important; box-shadow: none !important; /* Superpose le header au contenu (position absolue) */ position: absolute !important; top: 0; left: 0; width: 100%; /* S'assure qu'il reste au-dessus de la bannière */ z-index: 10;}",
+        " /* Optionnel : Ajustement pour éviter que le logo touche le bord */.page-header {padding-top: 10px; /* Ajustez si nécessaire */}"
       ],
       "settings": {
-        "layout": "option_5",
+        "layout": "option_3",
         "sticky_header": true,
-        "sticky_header_always": false,
+        "sticky_header_always": true,
         "header_bg_opacity": 0,
         "header_bg_blur": 0,
-        "header_always_blurred": false,
+        "header_always_blurred": true,
         "show_line_separator": false,
-        "show_shadow": true,
+        "show_shadow": false,
         "logo": "shopify://shop_images/Bold_Sale_Brand_Website_Homepage_Banner-12.png",
         "large_screen_logo_width": 100,
         "mobile_screen_logo_width": 100,
