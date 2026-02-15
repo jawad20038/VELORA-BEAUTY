@@ -114,7 +114,7 @@
         "button_GR9aHA": {
           "type": "button",
           "settings": {
-            "button_select": "secondary",
+            "button_select": "primary",
             "button_label": "Button label",
             "disable_on_mobile": false,
             "button_link": "/",
