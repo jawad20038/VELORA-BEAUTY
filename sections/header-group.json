@@ -13,18 +13,6 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "announcement_gPWYjM": {
-          "type": "announcement",
-          "settings": {
-            "text": "Bojour",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_gPWYjM"
-      ],
       "settings": {
         "marquee": false,
         "animation_speed": "50",
