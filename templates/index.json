@@ -33,7 +33,7 @@
         "color-overlay-opacity": 20,
         "margin-top": 0,
         "margin-bottom": 0,
-        "lcp_optimize": false
+        "lcp_optimize": true
       }
     },
     "featured_collection_8cfCD3": {

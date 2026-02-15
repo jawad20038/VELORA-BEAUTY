@@ -24,7 +24,7 @@
     "header": {
       "type": "page-header",
       "settings": {
-        "layout": "option_3",
+        "layout": "option_2",
         "sticky_header": true,
         "sticky_header_always": true,
         "header_bg_opacity": 44,
