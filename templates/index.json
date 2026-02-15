@@ -39,7 +39,7 @@
         "enable_quick_add_button": false,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "#fcf8fc",
-        "margin-top": 0,
+        "margin-top": 32,
         "margin-bottom": 20
       }
     }
