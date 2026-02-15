@@ -22,6 +22,7 @@
     },
     "custom_liquid_EieQRg": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"\">\n  \n<div id=\"shopify-block-ARVU2WVFCQTFhL21Lb__sternify_user_trust_with_names_crKDhK\" class=\"shopify-block shopify-app-block\"><style data-shopify=\"\">\n  @font-face {\n  font-family: Poppins;\n  font-weight: 400;\n  font-style: normal;\n  font-display: swap;\n  src: url(\"//miluna.at/cdn/fonts/poppins/poppins_n4.0ba78fa5af9b0e1a374041b3ceaadf0a43b41362.woff2\") format(\"woff2\"),\n       url(\"//miluna.at/cdn/fonts/poppins/poppins_n4.214741a72ff2596839fc9760ee7a770386cf16ca.woff\") format(\"woff\");\n}\n\n  .st_trustnames-wrapper * {\n    font-family: Poppins, sans-serif;\n    color: #000000;\n  }\n</style>\n\n<style>\n  /* Trust Name */\n\n  .st_trustnames-text-wrapper p {\n    all: unset !important;\n  }\n\n  .st_trustnames-wrapper {\n    display: flex;\n    gap: 10px;\n    padding: 12px;\n    align-items: center;\n    border-radius: 8px;\n  }\n\n  .st_trustnames-wrapper span {\n    font-size: 10px !important;\n  }\n\n  .st_trustnames-text {\n    display: inline-flex;\n    gap: 5px;\n  }\n\n  .st_trustnames-avatars-wrapper {\n    display: flex;\n    min-width: max-content;\n  }\n\n  .st_trustnames-avatars-wrapper img {\n    width: 35px;\n    height: 35px;\n    border: 0px solid #cccccc;\n    border-radius: 50%;\n    object-fit: cover;\n  }\n\n  .st_trustnames-verified {\n    width: 15px;\n    height: 15px;\n    object-position: center;\n    display: inline-block;\n  }\n</style>\n\n<div class=\"st_appblock_wrapper\" style=\"margin-top: -4px; margin-bottom: -4px\">\n  <div class=\"st_trustnames-wrapper\" style=\"background-color: #f9f9f9\">\n    <div class=\"st_trustnames-avatars-wrapper\">\n      <img loading=\"lazy\" width=\"371\" height=\"371\" src=\"https://cdn.shopify.com/s/files/1/1009/4300/3978/files/335650891_152937517336631_528053025505911896_n_1.webp?v=1769952033\" alt=\"\">\n      <img loading=\"lazy\" width=\"800\" height=\"1067\" style=\"margin-left: -10px;\" src=\"https://cdn.shopify.com/s/files/1/1009/4300/3978/files/Les-boomeuses-magazine-femme-50-ans-portrait-de-femme-portrait-d-eboomeuses-anne-boutelant-coach-pnl-hypnose-585x389.webp?v=1769952031\" alt=\"\">\n      \n    </div>\n    <span class=\"st_trustnames-text-wrapper\">\n      <div class=\"st_trustnames-text\">\n        <b>Sofia & Isabelle\n        </b>\n        \n          <img loading=\"lazy\" width=\"10\" height=\"10\" class=\"st_trustnames-verified\" src=\"https://cdn.shopify.com/extensions/019bdbad-780d-7b75-aeb5-3fd9c1b5fb5d/sternify-1088/assets/verified.svg\" alt=\"Verified icon\">\n        \n      </div>\n      <p>font partie des <strong>plus de 40 258 femmes</strong> qui ont choisi <strong>HairMagic+ </strong>pour se sentir bien avec leurs cheveux, chaque jour.</p>\n    </span>\n  </div>\n</div>\n</div>\n</div>"
@@ -66,8 +67,6 @@
         "feature_bg_color": "#ffffff",
         "feature_border_color": "#ffffff",
         "layout_bg_type": "image",
-        "bg_image": "shopify://shop_images/Avant-2.png",
-        "bg_image_mobile": "shopify://shop_images/Avant-2.png",
         "bg_video_url": "",
         "bg_overlay": 0,
         "bg_overlay_color": "#121212",
@@ -96,42 +95,36 @@
         "image_jgKyUd": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/5.webp",
             "link": ""
           }
         },
         "image_rhD8AV": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/1_48dff53c-650d-490d-96c3-ea75e3d39551.webp",
             "link": ""
           }
         },
         "image_XKX4Bj": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/3_57ce877b-3412-4b2f-a932-c50a8520c831.webp",
             "link": ""
           }
         },
         "image_c9R6d6": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/2_3123ae57-2c32-4794-9284-64ad0c981aa8.webp",
             "link": ""
           }
         },
         "image_ENHWqy": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/4_36d0a68d-ee75-4ea7-a3ec-5094953ff213.webp",
             "link": ""
           }
         },
         "image_tqcArt": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/609157426_18086518391015905_7359796279246874751_n.webp",
             "link": ""
           }
         }
@@ -172,7 +165,6 @@
         "slide_height": "fixed_height",
         "desktop_fixed_height": 400,
         "mobile_fixed_height": 200,
-        "desktop_image": "shopify://shop_images/Ne_plus_voir_ses_cheveux_gris_dans_le_miroir.png",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
         "mobile_text_vertical_position": "center",
@@ -199,10 +191,8 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/Ne_plus_voir_ses_cheveux_gris_dans_le_miroir_1.webp",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/3_8209c174-c7a8-4ea9-8cb1-b32d74cee5d3.webp",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
         "color-heading": "rgba(0,0,0,0)",
@@ -230,8 +220,7 @@
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/1.png"
+            "button_link_in_new_window": false
           }
         },
         "column_xjdLwN": {
@@ -245,8 +234,7 @@
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/4.png"
+            "button_link_in_new_window": false
           }
         },
         "column_wiRHLk": {
@@ -260,8 +248,7 @@
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/3_7c7cb21c-1090-4543-a8b3-b1608a91f6c6.png"
+            "button_link_in_new_window": false
           }
         },
         "column_t7KGDD": {
@@ -275,8 +262,7 @@
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/5.png"
+            "button_link_in_new_window": false
           }
         }
       },
@@ -402,13 +388,6 @@
             "enable-striped-rows": true
           }
         },
-        "kaching_bundles_app_block_WFwVF3": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{product}}",
-            "manual_deal_block_id": ""
-          }
-        },
         "custom_liquid_wVTqkN": {
           "type": "custom_liquid",
           "settings": {
@@ -457,7 +436,6 @@
         "variant_picker_YBqpUb",
         "custom_liquid_EbQbJ9",
         "information_popup_xTh4dQ",
-        "kaching_bundles_app_block_WFwVF3",
         "custom_liquid_wVTqkN",
         "information_popup_FkqLPK",
         "buy_buttons",
@@ -525,7 +503,6 @@
             "color-body-text": "#ffffff",
             "color-overlay": "#000000",
             "color-overlay-opacity": 40,
-            "desktop_image": "shopify://shop_images/ChatGPT_Image_31_janv._2026_18_26_57.webp",
             "desktop_text_vertical_position": "bottom",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "bottom",
@@ -549,7 +526,6 @@
             "color-body-text": "#ffffff",
             "color-overlay": "#000000",
             "color-overlay-opacity": 40,
-            "desktop_image": "shopify://shop_images/ChatGPT_Image_31_janv._2026_18_30_42.webp",
             "desktop_text_vertical_position": "bottom",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "bottom",
@@ -573,7 +549,6 @@
             "color-body-text": "#ffffff",
             "color-overlay": "#000000",
             "color-overlay-opacity": 40,
-            "desktop_image": "shopify://shop_images/ChatGPT_Image_31_janv._2026_18_34_01.webp",
             "desktop_text_vertical_position": "bottom",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "bottom",
@@ -675,7 +650,6 @@
           "settings": {
             "rotate": 10,
             "rotate_mobile": -5,
-            "image": "shopify://shop_images/1_f25beac7-0620-4d66-929c-0906ece13969.webp",
             "image_hide_mobile": false
           }
         },
@@ -684,7 +658,6 @@
           "settings": {
             "rotate": -10,
             "rotate_mobile": 5,
-            "image": "shopify://shop_images/2_660c00bf-77d9-449e-9b44-7376443892c7.webp",
             "image_hide_mobile": false
           }
         },
@@ -693,7 +666,6 @@
           "settings": {
             "rotate": -10,
             "rotate_mobile": 10,
-            "image": "shopify://shop_images/3_be50c950-8fe3-4563-b9d4-1933c7ddc859.webp",
             "image_hide_mobile": false
           }
         },
@@ -702,7 +674,6 @@
           "settings": {
             "rotate": 10,
             "rotate_mobile": 10,
-            "image": "shopify://shop_images/updated_image_1.webp",
             "image_hide_mobile": true
           }
         }
