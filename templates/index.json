@@ -31,7 +31,7 @@
         "text_9idaXF": {
           "type": "text",
           "settings": {
-            "text": "<p>Un soir, après une journée trop longue, Meryem ouvre un petit flacon que sa mère avait glissé dans sa valise :<br/>huile d’argan pure.</p><p>Elle en verse quelques gouttes dans ses mains.<br/>Elle ferme les yeux.</p><p>Et soudain…<br/>Elle n’est plus dans son appartement moderne.<br/>Elle est à Agadir.<br/>Dans la cour.<br/>Sous le soleil.<br/>Avec sa grand-mère.</p><p>Elle comprend alors quelque chose de puissant...</p>",
+            "text": "<p>Elle en verse quelques gouttes dans ses mains. Elle ferme les yeux.</p><p>Et soudain…<br/>Elle n’est plus dans son appartement moderne.<br/>Elle est à Agadir, dans la cour,<br/>sous le soleil, avec sa grand-mère.</p><p>Elle comprend alors quelque chose de puissant...</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -63,11 +63,11 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "section-color-body-text": "transparent",
-        "section-color-overlay": "transparent",
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
-        "color-overlay": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/zakariajawad_Luxury_cinematic_beauty_brand_film_still_horizon_6a637659-c5e4-4b9f-9b39-7591fb8e202d_0.png",
         "desktop_text_vertical_position": "center",
