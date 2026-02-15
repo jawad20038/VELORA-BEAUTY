@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "image_banner_GDxWHg": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "full-width-enabled": true,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/REFILLS.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "text-container-color": "transparent",
+        "color-overlay-opacity": 100,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "lcp_optimize": false
+      }
+    },
     "image_banner_cGnTFt": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name__2",
@@ -72,6 +99,7 @@
     }
   },
   "order": [
+    "image_banner_GDxWHg",
     "image_banner_cGnTFt",
     "featured_collection_8cfCD3"
   ]
