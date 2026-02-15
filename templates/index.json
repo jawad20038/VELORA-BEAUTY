@@ -40,7 +40,7 @@
           "type": "button",
           "settings": {
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "EN SAVOIR PLUS",
             "button_link": "/",
             "disable_on_mobile": false
           }
