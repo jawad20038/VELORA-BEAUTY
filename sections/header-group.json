@@ -25,7 +25,7 @@
       "type": "page-header",
       "custom_css": [],
       "settings": {
-        "layout": "option_5",
+        "layout": "option_4",
         "sticky_header": true,
         "sticky_header_always": false,
         "header_bg_opacity": 0,
@@ -129,7 +129,6 @@
         "heading_tijKWM",
         "button_GR9aHA"
       ],
-      "disabled": true,
       "name": "Image banner for transparent header",
       "settings": {
         "slide_height": "adapt_to_first_image",
