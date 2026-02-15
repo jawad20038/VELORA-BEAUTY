@@ -144,7 +144,7 @@
         "desktop_fixed_height": 200,
         "mobile_fixed_height": 200,
         "video_hosted": "shopify://files/videos/1.1.mp4",
-        "video_hosted_mobile": "shopify://files/videos/1.1.mp4",
+        "video_hosted_mobile": "shopify://files/videos/cover.mp4",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
         "mobile_text_vertical_position": "center",
