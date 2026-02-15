@@ -36,53 +36,6 @@
         "lcp_optimize": false
       }
     },
-    "brands_Qqqitm": {
-      "type": "brands",
-      "blocks": {
-        "image_TDiKVa": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_BJDVpH": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_7wpd7G": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_AhiTP4": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_TDiKVa",
-        "image_BJDVpH",
-        "image_7wpd7G",
-        "image_AhiTP4"
-      ],
-      "name": "t:sections.brands.settings.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "Vu sur",
-        "heading_richtext": "<h2>Your headline here</h2>",
-        "animation": "marquee",
-        "animation_speed": "50",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 0
-      }
-    },
     "featured_collection_8cfCD3": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -92,10 +45,8 @@
         "heading_richtext": "<h2>Your headline here</h2>",
         "disable_on_mobile": false,
         "hide_empty_section": false,
-        "collection": "",
-        "product_list": [
-          "hairmagic-hairline-powder"
-        ],
+        "collection": "frontpage",
+        "product_list": [],
         "products_to_show": 4,
         "enable_stack_products": false,
         "show_view_all": true,
@@ -122,7 +73,6 @@
   },
   "order": [
     "image_banner_cGnTFt",
-    "brands_Qqqitm",
     "featured_collection_8cfCD3"
   ]
 }
