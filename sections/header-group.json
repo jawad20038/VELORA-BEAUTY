@@ -27,7 +27,7 @@
       "settings": {
         "layout": "option_5",
         "sticky_header": true,
-        "sticky_header_always": true,
+        "sticky_header_always": false,
         "header_bg_opacity": 0,
         "header_bg_blur": 0,
         "header_always_blurred": true,
