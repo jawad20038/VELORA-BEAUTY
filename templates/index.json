@@ -30,7 +30,7 @@
         "section-color-overlay-opacity": 100,
         "color-body-text": "rgba(0,0,0,0)",
         "text-container-color": "#000000",
-        "color-overlay-opacity": 0,
+        "color-overlay-opacity": 30,
         "margin-top": 0,
         "margin-bottom": 0,
         "lcp_optimize": false
