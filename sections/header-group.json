@@ -28,7 +28,7 @@
         " /* Optionnel : Ajustement pour éviter que le logo touche le bord */.page-header {padding-top: 10px; /* Ajustez si nécessaire */}"
       ],
       "settings": {
-        "layout": "option_3",
+        "layout": "option_5",
         "sticky_header": true,
         "sticky_header_always": true,
         "header_bg_opacity": 0,
