@@ -23,6 +23,10 @@
     },
     "header": {
       "type": "page-header",
+      "custom_css": [
+        ".page-header, .header-wrapper {/* Rend le fond transparent */ background-color: transparent !important; background: transparent !important; /* Enlève les bordures et ombres */ border-bottom: none !important; box-shadow: none !important; /* Superpose le header au contenu (position absolue) */ position: absolute !important; top: 0; left: 0; width: 100%; /* S'assure qu'il reste au-dessus de la bannière */ z-index: 10; }",
+        "/* Optionnel : Ajustement pour éviter que le logo touche le bord */.page-header {padding-top: 10px; /* Ajustez si nécessaire */}"
+      ],
       "settings": {
         "layout": "option_5",
         "sticky_header": true,
