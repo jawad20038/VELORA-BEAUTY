@@ -20,10 +20,9 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/magnifics_upscale-mk6F5cecVIWf4C5h47hm-Design_sans_titre_63.webp",
+        "desktop_image": "shopify://shop_images/REFILLS.png",
         "desktop_text_vertical_position": "bottom",
         "desktop_text_horizontal_position": "left",
-        "mobile_image": "shopify://shop_images/updated_image.webp",
         "mobile_text_vertical_position": "bottom",
         "mobile_text_horizontal_position": "center",
         "color-heading": "#ffffff",
@@ -43,28 +42,24 @@
         "image_TDiKVa": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/VOGUE_revista_-_logo_2.png",
             "link": ""
           }
         },
         "image_BJDVpH": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1.webp",
             "link": ""
           }
         },
         "image_7wpd7G": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.webp",
             "link": ""
           }
         },
         "image_AhiTP4": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/logo-seo_1.webp",
             "link": ""
           }
         }
@@ -82,8 +77,8 @@
         "heading_richtext": "<h2>Your headline here</h2>",
         "animation": "marquee",
         "animation_speed": "50",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 0
       }
@@ -118,7 +113,7 @@
         "enable_vendor_link": false,
         "show_product_rating": false,
         "enable_quick_add_button": false,
-        "color-body-text": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
         "background_color": "#fcf8fc",
         "margin-top": 0,
         "margin-bottom": 20
