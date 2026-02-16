@@ -23,6 +23,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_6qmEdL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display: inline-flex; align-items: center; gap: 08px; margin: 5px 0; font-family: Arial, sans-serif;\">\n    <svg style=\"width: 90px; height: auto;\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 96\">\n        <g fill=\"none\">\n            <g fill=\"#00b67a\">\n                <path d=\"M0 0h96v96H0zM104 0h96v96h-96zM208 0h96v96h-96zM312 0h96v96h-96zM416 0h96v96h-96z\"></path>\n            </g>\n            <path d=\"M48 64.7L62.6 61l6.1 18.8zm33.6-24.3H55.9L48 16.2l-7.9 24.2H14.4l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM152 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L152 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM256 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L256 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM360 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L360 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM464 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L464 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2z\" fill=\"#fff\"></path>\n        </g>\n    </svg>\n    <span style=\"font-size: 14px; font-weight: 600; color: #00b67a;\">4.8/5</span>\n    <span style=\"font-size: 12px; color: #666;\">(14,500+ Avis vérifiés)</span>\n</div>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -90,6 +96,7 @@
         },
         "custom_liquid_wVTqkN": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n\n  <div class=\"m-product-text\">\n\n    <div class=\"preorder-stock-section\" id=\"preorder-stock-1\">\n\n      <!-- BARRE DE PROGRESSION -->\n      <div class=\"preorder-progress-bar\">\n        <div class=\"preorder-progress\" style=\"width: 14%;\"></div>\n      </div>\n\n      <!-- TEXTE -->\n      <div class=\"preorder-text-container\">\n        <div class=\"preorder-stock-text\">\n          <strong class=\"stock-critical\">14%</strong> des unités encore disponibles\n        </div>\n        <div class=\"preorder-subtext\">\n          Dernières réservations ouvertes sur le <strong>prochain lot en production</strong>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n\n</div>\n\n<style>\n/* =========================\n   PRÉCOMMANDE – STOCK PREMIUM\n   MOBILE FIRST\n   ========================= */\n\n.preorder-stock-section {\n  margin-top: 16px;\n  padding: 14px 14px 16px;\n  border-radius: 14px;\n  background: linear-gradient(180deg, #fafafa, #ffffff);\n  border: 1px solid rgba(0,0,0,0.06);\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* BARRE */\n.preorder-progress-bar {\n  width: 100%;\n  height: 7px;\n  background: rgba(0,0,0,0.08);\n  border-radius: 999px;\n  overflow: hidden;\n  margin-bottom: 10px;\n}\n\n.preorder-progress {\n  height: 100%;\n  background: linear-gradient(90deg, #16a34a, #22c55e);\n  border-radius: 999px;\n  transition: width 0.6s ease;\n}\n\n/* TEXTE */\n.preorder-text-container {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  text-align: center;\n}\n\n.preorder-stock-text {\n  font-size: 14px;\n  line-height: 1.25;\n  color: #111827;\n}\n\n/* ROUGE CONTRÔLÉ */\n.stock-critical {\n  color: #b91c1c; /* rouge premium */\n  font-weight: 700;\n}\n\n/* SOUS-TEXTE */\n.preorder-subtext {\n  font-size: 12.5px;\n  line-height: 1.35;\n  color: #4b5563;\n}\n\n/* MOBILE OPTIM */\n@media (max-width: 480px) {\n  .preorder-stock-section {\n    padding: 12px 12px 14px;\n  }\n\n  .preorder-stock-text {\n    font-size: 13.5px;\n  }\n\n  .preorder-subtext {\n    font-size: 12px;\n  }\n\n  .preorder-progress-bar {\n    height: 6px;\n  }\n}\n</style>"
           }
@@ -118,6 +125,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_6qmEdL",
         "title",
         "custom_liquid_LjCeP8",
         "price_zaXCc3",
