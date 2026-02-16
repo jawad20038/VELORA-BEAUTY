@@ -12,7 +12,7 @@
     "favicon": "shopify://shop_images/Ocean_Style_Spray-6.png",
     "layout-width": 1600,
     "radius": 12,
-    "button-radius": 30,
+    "button-radius": 15,
     "color-background": "#faf7f2",
     "color-headings-text": "#3d2e2a",
     "color-body-text": "#3d2e2a",
