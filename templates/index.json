@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_select": "primary",
-            "button_label": "EN SAVOIR PLUS",
+            "button_label": "En savoir plus",
             "button_link": "/",
             "disable_on_mobile": false
           }
