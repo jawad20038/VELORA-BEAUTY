@@ -31,7 +31,7 @@
         "text_9idaXF": {
           "type": "text",
           "settings": {
-            "text": "<p>Je verse quelques gouttes d’huile d’argan dans mes mains.<br/>Je ferme les yeux.<br/>Et soudain…<br/>Je ne suis plus dans mon appartement moderne.<br/>Je suis à Agadir, dans la cour, sous le soleil, avec ma grand-mère.<br/>Je comprends alors quelque chose de puissant…</p>",
+            "text": "<p>Elle en verse quelques gouttes dans ses mains. Elle ferme les yeux.</p><p>Et soudain…<br/>Elle n’est plus dans son appartement moderne.<br/>Elle est à Agadir, dans la cour,<br/>sous le soleil, avec sa grand-mère.</p><p>Elle comprend alors quelque chose de puissant...</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -64,85 +64,17 @@
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
         "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "#fcf8fc",
+        "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
         "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "#d8c4ad",
+        "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/tempImageqZQt2t_-_Modifie.jpg",
+        "desktop_image": "shopify://shop_images/zakariajawad_Luxury_cinematic_beauty_brand_film_still_horizon_6a637659-c5e4-4b9f-9b39-7591fb8e202d_0.png",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/tempImageqZQt2t_-_Modifie.jpg",
+        "mobile_image": "shopify://shop_images/zakariajawad_Luxury_cinematic_beauty_brand_film_still_horizon_6a637659-c5e4-4b9f-9b39-7591fb8e202d_0.png",
         "mobile_text_horizontal_position": "center",
         "margin-top": 32,
-        "margin-bottom": 20
-      }
-    },
-    "image_with_text_i3cMQE": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_GLt8MK": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Tell you story",
-            "subheading_disable_on_mobile": false
-          }
-        },
-        "heading_TgTxMR": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_JYYzaD": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        },
-        "button_7RCpbM": {
-          "type": "button",
-          "settings": {
-            "button_select": "primary",
-            "button_label": "Button label",
-            "button_link": "/",
-            "disable_on_mobile": true
-          }
-        }
-      },
-      "block_order": [
-        "subheading_GLt8MK",
-        "heading_TgTxMR",
-        "text_JYYzaD",
-        "button_7RCpbM"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "title": "",
-        "heading_richtext": "<h2>Your headline here</h2>",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "#fcf8fc",
-        "section-color-overlay": "#fcf8fc",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "#fcf8fc",
-        "color-overlay": "#51382e",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/ChatGPT_Image_16_fevr._2026_a_12_59_01.png",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
         "margin-bottom": 20
       }
     },
@@ -185,7 +117,6 @@
   },
   "order": [
     "image_with_text_NAfh4M",
-    "image_with_text_i3cMQE",
     "featured_collection_8cfCD3"
   ]
 }
