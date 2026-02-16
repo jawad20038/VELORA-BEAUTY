@@ -116,7 +116,7 @@
           "type": "button",
           "settings": {
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "en savoir plus sur HairMagic+",
             "button_link": "/",
             "disable_on_mobile": false
           }
