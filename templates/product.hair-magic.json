@@ -162,51 +162,10 @@
     },
     "image_with_text_wyLhyi": {
       "type": "image-with-text",
-      "blocks": {
-        "subheading_qDhNgJ": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Tell you story",
-            "subheading_disable_on_mobile": false
-          }
-        },
-        "heading_KwNq3G": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_CyPXPi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        },
-        "button_tbVNgL": {
-          "type": "button",
-          "settings": {
-            "button_select": "primary",
-            "button_label": "Button label",
-            "button_link": "/",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading_qDhNgJ",
-        "heading_KwNq3G",
-        "text_CyPXPi",
-        "button_tbVNgL"
-      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "advanced_heading": false,
-        "title": "",
+        "title": "La Science du Soin.",
         "heading_richtext": "<h2>Your headline here</h2>",
         "layout": "image_first",
         "desktop-percentage-image-width": 50,
@@ -214,11 +173,11 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "section-color-body-text": "transparent",
-        "section-color-overlay": "transparent",
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#faf7f2",
         "section-color-overlay-opacity": 100,
         "color-body-text": "transparent",
-        "color-overlay": "transparent",
+        "color-overlay": "#faf7f2",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/ChatGPT_Image_16_fevr._2026_a_23_39_12.png",
         "desktop_text_vertical_position": "center",
