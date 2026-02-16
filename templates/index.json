@@ -85,6 +85,73 @@
         "margin-bottom": 20
       }
     },
+    "features_banner_VGdRF4": {
+      "type": "features-banner",
+      "blocks": {
+        "image_aHyRRN": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        },
+        "image_meHxUk": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        },
+        "image_ehBYGi": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        },
+        "image_DdbPE8": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aHyRRN",
+        "image_meHxUk",
+        "image_ehBYGi",
+        "image_DdbPE8"
+      ],
+      "disabled": true,
+      "name": "t:sections.features-banner.settings.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "Nos fondations",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "size_heading_mobile": 80,
+        "size_heading": 80,
+        "icon_width_mobile": 36,
+        "icon_width_desktop": 48,
+        "icon_layout": "center",
+        "columns_desktop": "4",
+        "icon_layout_mobile": "slider",
+        "color_body_icon": "transparent",
+        "color_background_icon": "transparent",
+        "color_body_text": "#ffffff",
+        "background_color": "#1f1a18",
+        "margin-top": 12,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_f8LxXz": {
       "type": "image-with-text",
       "blocks": {
@@ -193,6 +260,7 @@
   "order": [
     "custom_liquid_CmWjWt",
     "image_with_text_NAfh4M",
+    "features_banner_VGdRF4",
     "image_with_text_f8LxXz",
     "featured_collection_8cfCD3"
   ]

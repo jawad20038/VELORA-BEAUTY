@@ -100,7 +100,7 @@
     "free_shipping_bar_text": "Dépense encore ||amount|| pour bénéficier de la LIVRAISON GRATUITE !",
     "free_shipping_bar_text_success": "Vous avez débloqué la livraison gratuite !",
     "currency_code_enabled": false,
-    "iconset": "option_3",
+    "iconset": "option_1",
     "enable-bag-icon": false,
     "bag_icon": "shopify://shop_images/panier-osier_0015_panier-1-removebg-preview.png",
     "enable_color_swatch": true,
