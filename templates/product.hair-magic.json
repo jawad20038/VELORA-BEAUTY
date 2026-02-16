@@ -38,20 +38,19 @@
             "size_text_mobile": 150
           }
         },
+        "custom_liquid_LjCeP8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"hairmagic-ingredients-luxe\">\n  <div class=\"hairmagic-ingredients-title\">\n    Couvre instantanément. Nourrit en profondeur. Tient jusqu'au shampooing.\n  </div>\n\n  <div class=\"hairmagic-ingredients-badges\">\n    <span class=\"ingredient-badge\">⭐ Best-seller</span>\n    <span class=\"ingredient-badge\">🌿 Formule clean</span>\n    <span class=\"ingredient-badge\">💧 Waterproof</span>\n  </div>\n</div>\n\n<style>\n.hairmagic-ingredients-luxe {\n  margin-top: 10px;\n  margin-bottom: 18px;\n}\n\n.hairmagic-ingredients-title {\n  font-size: 14px;\n  font-weight: 600;\n  color: #111;\n  margin-bottom: 8px;\n  letter-spacing: -0.2px;\n}\n\n.hairmagic-ingredients-badges {\n  display: flex;\n  gap: 8px;\n  flex-wrap: wrap;\n}\n\n.ingredient-badge {\n  padding: 6px 12px;\n  font-size: 12.5px;\n  font-weight: 500;\n  color: #111;\n  background: #f5f5f7;\n  border: 1px solid #e6e6ea;\n  border-radius: 999px;\n  letter-spacing: -0.1px;\n  white-space: nowrap;\n}\n\n@media (max-width: 768px) {\n  .hairmagic-ingredients-title {\n    font-size: 13px;\n  }\n  .ingredient-badge {\n    font-size: 12px;\n    padding: 5px 10px;\n  }\n}\n</style>"
+          }
+        },
         "price_zaXCc3": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_tax_included": false,
             "show_shipping_policy": true,
             "size_text": 140,
             "size_text_mobile": 120
-          }
-        },
-        "custom_liquid_LjCeP8": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"hairmagic-ingredients-luxe\">\n  <div class=\"hairmagic-ingredients-title\">\n    Formule enrichie en actifs essentiels\n  </div>\n\n  <div class=\"hairmagic-ingredients-badges\">\n    <span class=\"ingredient-badge\">Huile d’Argan</span>\n    <span class=\"ingredient-badge\">Panthénol</span>\n    <span class=\"ingredient-badge\">Vitamine E</span>\n  </div>\n</div>\n\n<style>\n.hairmagic-ingredients-luxe {\n  margin-top: 10px;\n  margin-bottom: 18px;\n}\n\n.hairmagic-ingredients-title {\n  font-size: 14px;\n  font-weight: 600;\n  color: #111;\n  margin-bottom: 8px;\n  letter-spacing: -0.2px;\n}\n\n.hairmagic-ingredients-badges {\n  display: flex;\n  gap: 8px;\n  flex-wrap: wrap;\n}\n\n.ingredient-badge {\n  padding: 6px 12px;\n  font-size: 12.5px;\n  font-weight: 500;\n  color: #111;\n  background: #f5f5f7;\n  border: 1px solid #e6e6ea;\n  border-radius: 999px;\n  letter-spacing: -0.1px;\n  white-space: nowrap;\n}\n\n@media (max-width: 768px) {\n  .hairmagic-ingredients-title {\n    font-size: 13px;\n  }\n  .ingredient-badge {\n    font-size: 12px;\n    padding: 5px 10px;\n  }\n}\n</style>"
           }
         },
         "promo_gYQE8k": {
@@ -143,8 +142,8 @@
       "block_order": [
         "custom_liquid_6qmEdL",
         "title",
-        "price_zaXCc3",
         "custom_liquid_LjCeP8",
+        "price_zaXCc3",
         "promo_gYQE8k",
         "variant_picker_YBqpUb",
         "custom_liquid_EbQbJ9",
