@@ -102,20 +102,26 @@
     "page_header_image_banner_VK6mLD": {
       "type": "page-header-image-banner",
       "blocks": {
+        "subheading_8zzQAw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Depuis Agadir. Pour les femmes d'aujourd'hui.",
+            "subheading_disable_on_mobile": false
+          }
+        },
         "heading_9zWHRk": {
           "type": "heading",
           "settings": {
-            "heading": "Un savoir transmis depuis des générations.",
+            "heading": "Le rituel moderne existe.\nIl dure 60 secondes.",
             "disable_on_mobile": false,
-            "size_heading": 50,
+            "size_heading": 110,
             "size_heading_mobile": 80
           }
         },
         "text_bJffxD": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><em>Un savoir transmis depuis des générations.</em></p><p></p>",
+            "text": "<p>Agadir Ritual réunit le savoir-faire ancestral des femmes d'Agadir et l'exigence de la cosmétique moderne. Pas une routine de plus. Un geste intentionnel qui te reconnecte à toi-même.</p><p></p>",
             "disable_on_mobile": false
           }
         },
@@ -123,17 +129,18 @@
           "type": "button",
           "settings": {
             "button_select": "primary",
-            "button_label": "En savoir plus",
+            "button_label": "Découvrir nos rituels",
             "disable_on_mobile": false,
-            "button_link": "/",
-            "second_button_select": "primary",
-            "second_button_label": "Button label",
+            "button_link": "shopify://collections/all",
+            "second_button_select": "secondary",
+            "second_button_label": "Notre histoire",
             "second_disable_on_mobile": false,
-            "second_button_link": ""
+            "second_button_link": "shopify://collections/all"
           }
         }
       },
       "block_order": [
+        "subheading_8zzQAw",
         "heading_9zWHRk",
         "text_bJffxD",
         "button_GR9aHA"
