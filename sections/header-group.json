@@ -114,7 +114,7 @@
           "settings": {
             "heading": "Le rituel moderne existe.\nIl dure 60 secondes.",
             "disable_on_mobile": false,
-            "size_heading": 110,
+            "size_heading": 50,
             "size_heading_mobile": 80
           }
         },
