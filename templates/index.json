@@ -88,20 +88,20 @@
     "image_with_text_f8LxXz": {
       "type": "image-with-text",
       "blocks": {
+        "heading_bJGzNP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Formule enrichie en",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 90
+          }
+        },
         "subheading_n4yC4U": {
           "type": "subheading",
           "settings": {
             "subheading": "huile d’argan . panthénol . vitamine E",
             "subheading_disable_on_mobile": false
-          }
-        },
-        "heading_bJGzNP": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
           }
         },
         "text_D6Bnrh": {
@@ -123,8 +123,8 @@
         }
       },
       "block_order": [
-        "subheading_n4yC4U",
         "heading_bJGzNP",
+        "subheading_n4yC4U",
         "text_D6Bnrh",
         "button_7AjhNp"
       ],
