@@ -106,16 +106,6 @@
             "custom_liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n\n  <div class=\"m-product-text\">\n\n    <div class=\"preorder-stock-section\" id=\"preorder-stock-1\">\n\n      <!-- BARRE DE PROGRESSION -->\n      <div class=\"preorder-progress-bar\">\n        <div class=\"preorder-progress\" style=\"width: 14%;\"></div>\n      </div>\n\n      <!-- TEXTE -->\n      <div class=\"preorder-text-container\">\n        <div class=\"preorder-stock-text\">\n          <strong class=\"stock-critical\">14%</strong> des unités encore disponibles\n        </div>\n        <div class=\"preorder-subtext\">\n          Dernières réservations ouvertes sur le <strong>prochain lot en production</strong>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n\n</div>\n\n<style>\n/* =========================\n   PRÉCOMMANDE – STOCK PREMIUM\n   MOBILE FIRST\n   ========================= */\n\n.preorder-stock-section {\n  margin-top: 16px;\n  padding: 14px 14px 16px;\n  border-radius: 14px;\n  background: linear-gradient(180deg, #fafafa, #ffffff);\n  border: 1px solid rgba(0,0,0,0.06);\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* BARRE */\n.preorder-progress-bar {\n  width: 100%;\n  height: 7px;\n  background: rgba(0,0,0,0.08);\n  border-radius: 999px;\n  overflow: hidden;\n  margin-bottom: 10px;\n}\n\n.preorder-progress {\n  height: 100%;\n  background: linear-gradient(90deg, #16a34a, #22c55e);\n  border-radius: 999px;\n  transition: width 0.6s ease;\n}\n\n/* TEXTE */\n.preorder-text-container {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  text-align: center;\n}\n\n.preorder-stock-text {\n  font-size: 14px;\n  line-height: 1.25;\n  color: #111827;\n}\n\n/* ROUGE CONTRÔLÉ */\n.stock-critical {\n  color: #b91c1c; /* rouge premium */\n  font-weight: 700;\n}\n\n/* SOUS-TEXTE */\n.preorder-subtext {\n  font-size: 12.5px;\n  line-height: 1.35;\n  color: #4b5563;\n}\n\n/* MOBILE OPTIM */\n@media (max-width: 480px) {\n  .preorder-stock-section {\n    padding: 12px 12px 14px;\n  }\n\n  .preorder-stock-text {\n    font-size: 13.5px;\n  }\n\n  .preorder-subtext {\n    font-size: 12px;\n  }\n\n  .preorder-progress-bar {\n    height: 6px;\n  }\n}\n</style>"
           }
         },
-        "information_popup_FkqLPK": {
-          "type": "information_popup",
-          "settings": {
-            "size_icon": "star",
-            "size_link": "Conditions de précommande",
-            "size_content": "conditions-de-precommande-hairmagic",
-            "metafield": "",
-            "enable-striped-rows": true
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -149,7 +139,6 @@
         "custom_liquid_EbQbJ9",
         "information_popup_xTh4dQ",
         "custom_liquid_wVTqkN",
-        "information_popup_FkqLPK",
         "buy_buttons",
         "custom_liquid_qiQc7a",
         "custom_liquid_UcP3Ey"
