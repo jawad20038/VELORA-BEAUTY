@@ -112,6 +112,8 @@
     "custom-badge-2-background": "#91afa2",
     "custom-badge-3-text": "#FFFFFF",
     "custom-badge-3-background": "#000000",
+    "custom-badge-4-input": "formule",
+    "custom-badge-4-label": "🌿 Formule enrichie en huile d'argan",
     "animations": true,
     "disabled_animations_on_mobile": true,
     "large_screen_logo_width": 120,
