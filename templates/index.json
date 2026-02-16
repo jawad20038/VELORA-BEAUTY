@@ -116,7 +116,7 @@
           "type": "button",
           "settings": {
             "button_select": "primary",
-            "button_label": "en savoir plus sur HairMagic+",
+            "button_label": "En savoir plus sur HairMagic+",
             "button_link": "shopify://products/hairmagic-hairline-powder",
             "disable_on_mobile": false
           }
