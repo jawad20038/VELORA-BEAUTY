@@ -176,7 +176,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "Invisible",
+            "feature_title": "✓ Invisible",
             "feature_text": ""
           }
         },
@@ -184,7 +184,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "Impeccable",
+            "feature_title": "✓ Impeccable",
             "feature_text": ""
           }
         },
@@ -192,7 +192,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "Indiscutable",
+            "feature_title": "✓ Indiscutable",
             "feature_text": ""
           }
         }
