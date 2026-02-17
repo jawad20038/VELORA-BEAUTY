@@ -32,7 +32,7 @@
         "custom_liquid_LjCeP8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<div class=\"tp-wrapper\" role=\"img\" aria-label=\"Trustpilot rating 4.8 Excellent 7000+ reviews\">\n  <img\n    class=\"tp-stars\"\n    src=\"//doreandrose.com/cdn/shop/files/stars-4.5_3.svg?v=1767088356&width=300\"\n    alt=\"Trustpilot rating\"\n    loading=\"eager\"\n  >\n\n  <div class=\"tp-text\">\n    <span class=\"tp-rating\">4.8</span>\n    <span class=\"tp-excellent\">Excellent</span>\n    <span class=\"tp-count\">7000+ Avis</span>\n  </div>\n</div>\n\n<style>\n/* wrapper non cliquable */\n.tp-wrapper{\n  display:flex;\n  align-items:center;            /* centre verticalement texte vs image */\n  gap:10px;\n  font-family: Arial, Helvetica, sans-serif;\n  color:#000;\n}\n\n/* stars size (ajuste ici si besoin) */\n.tp-stars{\n  width:75px;                    /* proche de ta capture */\n  height:auto;\n  display:block;\n}\n\n/* texte sur une seule ligne, plus petit */\n.tp-text{\n  display:flex;\n  align-items:center;            /* centre verticalement dans sa ligne */\n  gap:6px;\n  font-size:13px;                /* plus petit comme sur ta photo */\n  line-height:1;                 /* évite le décalage */\n  white-space:nowrap;            /* empêche retour à la ligne */\n}\n\n/* styles poids comme la capture */\n.tp-rating{ font-weight:700; }\n.tp-excellent{ font-weight:400; }\n.tp-count{ font-weight:700; }\n\n/* sécurité anti-soulignement si ton thème force des styles */\n.tp-wrapper, .tp-wrapper *{\n  text-decoration:none !important;\n}\n</style>"
           }
         },
         "price_zaXCc3": {
