@@ -162,6 +162,29 @@
     },
     "image_with_text_wyLhyi": {
       "type": "image-with-text",
+      "blocks": {
+        "heading_qMaEVW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ne laissez rien trahir votre assurance",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 80
+          }
+        },
+        "text_eicrRd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HairMagic+ corrige ce que vous voyez  et que personne d’autre ne remarquera.<br/>Une couvrance précise, un effet flou densifiant, une tenue irréprochable du matin au soir.</p><p>Invisible.<br/>Impeccable.<br/>Indiscutable.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qMaEVW",
+        "text_eicrRd"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "advanced_heading": false,
@@ -174,10 +197,10 @@
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
         "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "#faf7f2",
+        "section-color-overlay": "#ffffff",
         "section-color-overlay-opacity": 100,
         "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "#faf7f2",
+        "color-overlay": "#f7f7f7",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/ChatGPT_Image_16_fevr._2026_a_23_39_12.png",
         "desktop_text_vertical_position": "center",
