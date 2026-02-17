@@ -137,6 +137,181 @@
         "custom_liquid": "<div class=\"agadir-luxe-marquee\">\n\n  <style>\n    .agadir-luxe-marquee{\n      --alm-bg-primary:#2C2321;\n      --alm-bg-secondary:#1A1615;\n      --alm-text:#FAF7F2;\n      --alm-accent:#B8956E;\n      --alm-accent-light:rgba(184,149,110,.30);\n      --alm-border:rgba(184,149,110,.15);\n\n      /* ✅ vitesse rapide premium */\n      --alm-speed:14s;\n      --alm-speed-mobile:15s;\n\n      --alm-height:60px;\n      --alm-height-mobile:52px;\n\n      position:relative;\n      background: linear-gradient(180deg,var(--alm-bg-secondary),var(--alm-bg-primary),var(--alm-bg-secondary));\n      height:var(--alm-height);\n      overflow:hidden;\n      border-top:1px solid var(--alm-border);\n      border-bottom:1px solid var(--alm-border);\n    }\n\n    .agadir-luxe-marquee__wrapper{\n      display:flex;\n      align-items:center;\n      height:100%;\n    }\n\n    .agadir-luxe-marquee__track{\n      display:flex;\n      align-items:center;\n      width:max-content;\n      animation:agadirScroll var(--alm-speed) linear infinite;\n      will-change:transform;\n    }\n\n    .agadir-luxe-marquee:hover .agadir-luxe-marquee__track{\n      animation-play-state:paused;\n    }\n\n    .agadir-luxe-marquee__group{\n      display:flex;\n      align-items:center;\n    }\n\n    .agadir-luxe-marquee__item{\n      display:flex;\n      align-items:center;\n      gap:14px;\n      padding:0 40px;\n      position:relative;\n    }\n\n    .agadir-luxe-marquee__item::after{\n      content:'';\n      position:absolute;\n      right:0;\n      top:50%;\n      transform:translateY(-50%);\n      width:1px;\n      height:20px;\n      background:linear-gradient(180deg,transparent,var(--alm-accent-light),transparent);\n    }\n\n    /* Pastille premium */\n    .agadir-luxe-marquee__icon{\n      width:8px;\n      height:8px;\n      border-radius:999px;\n      background:var(--alm-accent);\n      box-shadow:0 0 0 4px rgba(184,149,110,.15);\n      flex-shrink:0;\n    }\n\n    /* ✅ FONT DU SITE + GRAS */\n    .agadir-luxe-marquee__text{\n      font-family:var(--FONT-STACK-BODY, inherit);\n      font-size:14px;\n      font-weight:700;\n      font-style:normal;\n      color:var(--alm-text);\n      letter-spacing:.02em;\n      white-space:nowrap;\n    }\n\n    @keyframes agadirScroll{\n      0%{ transform:translateX(0); }\n      100%{ transform:translateX(-50%); }\n    }\n\n    @media (max-width:767px){\n      .agadir-luxe-marquee{\n        height:var(--alm-height-mobile);\n      }\n\n      .agadir-luxe-marquee__track{\n        animation-duration:var(--alm-speed-mobile);\n      }\n\n      .agadir-luxe-marquee__item{\n        padding:0 26px;\n      }\n\n      .agadir-luxe-marquee__text{\n        font-size:13px;\n      }\n    }\n\n    @media (prefers-reduced-motion:reduce){\n      .agadir-luxe-marquee__track{\n        animation:none;\n      }\n      .agadir-luxe-marquee__group:nth-child(2){\n        display:none;\n      }\n    }\n  </style>\n\n  <div class=\"agadir-luxe-marquee__wrapper\">\n    <div class=\"agadir-luxe-marquee__track\">\n\n      <!-- Groupe 1 -->\n      <div class=\"agadir-luxe-marquee__group\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">+2 600 femmes conquises</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n      <!-- Groupe 2 duplication -->\n      <div class=\"agadir-luxe-marquee__group\" aria-hidden=\"true\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">+2 600 femmes conquises</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n    </div>\n  </div>\n</div>"
       }
     },
+    "ss_video_with_text_9_aiQHbe": {
+      "type": "ss-video-with-text-9",
+      "blocks": {
+        "heading_bw3jAY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ne laissez rien trahir votre assurance</p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 26,
+            "heading_size_mobile": 20,
+            "advanced": false,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#121212",
+            "heading_accent_color": "#AFAFAF",
+            "heading_gradient": ""
+          }
+        },
+        "text_AaPChV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with a video to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 22,
+            "text_size_mobile": 16,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_color": "#121212"
+          }
+        },
+        "feature_4hB3VV": {
+          "type": "feature",
+          "settings": {
+            "icon": "target",
+            "feature_title": "Key feature",
+            "feature_text": "<p>Describe a key feature in detail.</p>"
+          }
+        },
+        "feature_VT9fQK": {
+          "type": "feature",
+          "settings": {
+            "icon": "target",
+            "feature_title": "Key feature",
+            "feature_text": "<p>Describe a key feature in detail.</p>"
+          }
+        },
+        "feature_VgXWWy": {
+          "type": "feature",
+          "settings": {
+            "icon": "target",
+            "feature_title": "Key feature",
+            "feature_text": "<p>Describe a key feature in detail.</p>"
+          }
+        },
+        "button_9cmKax": {
+          "type": "button",
+          "settings": {
+            "button": "Shop now",
+            "button_url": "",
+            "button_style": "link",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 22,
+            "button_size_mobile": 16,
+            "button_height": 100,
+            "button_padding_advanced": false,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_padding_horizontal": 24,
+            "button_padding_horizontal_mobile": 24,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_color": "#121212",
+            "button_hover_color": "#FFFFFF",
+            "button_bg_color": "#F3F3F3",
+            "button_bg_hover_color": "#121212",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bw3jAY",
+        "text_AaPChV",
+        "feature_4hB3VV",
+        "feature_VT9fQK",
+        "feature_VgXWWy",
+        "button_9cmKax"
+      ],
+      "name": "SS - Video with text #9",
+      "settings": {
+        "layout_gap": 80,
+        "layout_gap_mobile": 28,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "start",
+        "content_vertical_align": "center",
+        "features_per_row": 3,
+        "features_per_row_mobile": "1",
+        "feature_icon_size": 44,
+        "feature_icon_size_mobile": 40,
+        "feature_icon_padding": 8,
+        "feature_icon_radius": 4,
+        "feature_icon_border_thickness": 0,
+        "feature_title_custom": false,
+        "feature_title_font": "josefin_sans_n4",
+        "feature_title_size": 18,
+        "feature_title_size_mobile": 16,
+        "feature_title_advanced": false,
+        "feature_title_height": 130,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 14,
+        "feature_text_size_mobile": 14,
+        "feature_text_advanced": false,
+        "feature_text_height": 150,
+        "feature_text_mt": 10,
+        "feature_text_mt_mobile": 10,
+        "open_in_new_tab": false,
+        "buttons_advanced": false,
+        "buttons_gap": 16,
+        "buttons_gap_mobile": 12,
+        "buttons_mt": 32,
+        "buttons_mt_mobile": 24,
+        "source": "uploaded",
+        "video": "shopify://files/videos/VideoHF.mp4",
+        "video_position": "left",
+        "video_position_mobile": "top",
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "square",
+        "video_radius": 0,
+        "video_border_thickness": 0,
+        "video_autoplay": true,
+        "video_loop": true,
+        "use_controls": false,
+        "play_icon_size": 16,
+        "play_icon_size_mobile": 16,
+        "play_padding": 14,
+        "play_padding_mobile": 14,
+        "play_radius": 100,
+        "play_border_thickness": 0,
+        "video_border_color": "#121212",
+        "play_color": "#121212",
+        "play_hover_color": "#121212",
+        "play_bg_color": "#FFFFFF",
+        "play_bg_hover_color": "#F3F3F3",
+        "play_border_color": "#121212",
+        "play_border_hover_color": "#121212",
+        "feature_icon_color": "#121212",
+        "feature_icon_border_color": "#F3F3F3",
+        "feature_title_color": "#121212",
+        "feature_text_color": "#121212",
+        "background_style": "solid",
+        "background_color": "#FFFFFF",
+        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "ss_hotspots_10_ej4KKy": {
       "type": "ss-hotspots-10",
       "blocks": {
@@ -1008,6 +1183,7 @@
     "breadcrumbs",
     "main",
     "custom_liquid_ANY4ja",
+    "ss_video_with_text_9_aiQHbe",
     "ss_hotspots_10_ej4KKy",
     "multicolumn_kdANBW",
     "separator_X4Ceg8",
