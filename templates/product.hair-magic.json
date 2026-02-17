@@ -41,12 +41,6 @@
             "custom_liquid": "<div class=\"ar-sub\">\n  <p class=\"ar-sub__text\">\n    Couvre instantanément racines grises, zones clairsemées et ligne capillaire — <b>en 20 secondes.</b>\n  </p>\n  <div class=\"ar-sub__pillars\">\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans teinture</span>\n    </div>\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans désordre</span>\n    </div>\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Avec soin</span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ar-sub {\n    padding: 0;\n    margin: 6px 0 0;\n  }\n  .ar-sub__text {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: var(--font-3, 12px);\n    line-height: var(--leading-normal, 1.5);\n    color: var(--COLOR-TEXT-LIGHT, #646464);\n    margin: 0 0 12px;\n  }\n  .ar-sub__text b {\n    color: var(--COLOR-TEXT, #222);\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n  }\n  .ar-sub__pillars {\n    display: flex;\n    gap: 20px;\n  }\n  .ar-sub__pillar {\n    display: flex;\n    flex-direction: column;\n    gap: 6px;\n  }\n  .ar-sub__line {\n    display: block;\n    width: 24px;\n    height: 1px;\n    background: #C8A265;\n  }\n  .ar-sub__label {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: 9.5px;\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: var(--COLOR-TEXT, #222);\n    white-space: nowrap;\n  }\n</style>"
           }
         },
-        "custom_liquid_LqBDLV": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
         "separator_4X6GqT": {
           "type": "separator",
           "settings": {
@@ -56,13 +50,20 @@
             "margin-bottom": 8
           }
         },
+        "bulletpoints_WbD99K": {
+          "type": "bulletpoints",
+          "settings": {
+            "metafield": "",
+            "default_text": ""
+          }
+        },
         "price_zaXCc3": {
           "type": "price",
           "settings": {
             "show_tax_included": false,
-            "show_shipping_policy": true,
-            "size_text": 140,
-            "size_text_mobile": 120
+            "show_shipping_policy": false,
+            "size_text": 100,
+            "size_text_mobile": 100
           }
         },
         "promo_gYQE8k": {
@@ -140,8 +141,8 @@
         "custom_liquid_6qmEdL",
         "custom_liquid_LjCeP8",
         "custom_liquid_dHXXUn",
-        "custom_liquid_LqBDLV",
         "separator_4X6GqT",
+        "bulletpoints_WbD99K",
         "price_zaXCc3",
         "promo_gYQE8k",
         "variant_picker_YBqpUb",
