@@ -160,7 +160,7 @@
         "text_AaPChV": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with a video to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "text": "<p>HairMagic+ corrige ce que vous voyez  et que personne d’autre ne remarquera.<br/>Une couvrance précise, un effet flou densifiant, une tenue irréprochable du matin au soir.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 22,
@@ -175,9 +175,9 @@
         "feature_4hB3VV": {
           "type": "feature",
           "settings": {
-            "icon": "target",
-            "feature_title": "Key feature",
-            "feature_text": "<p>Describe a key feature in detail.</p>"
+            "icon": "none",
+            "feature_title": "Invisible.",
+            "feature_text": ""
           }
         },
         "feature_VT9fQK": {
