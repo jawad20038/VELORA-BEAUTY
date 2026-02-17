@@ -176,7 +176,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "Invisible.",
+            "feature_title": "Invisible",
             "feature_text": ""
           }
         },
@@ -184,16 +184,16 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "",
-            "feature_text": "<p><strong>Impeccable</strong></p>"
+            "feature_title": "Impeccable",
+            "feature_text": ""
           }
         },
         "feature_VgXWWy": {
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "",
-            "feature_text": "<p><strong>Indiscutable</strong></p>"
+            "feature_title": "Indiscutable",
+            "feature_text": ""
           }
         },
         "button_9cmKax": {
