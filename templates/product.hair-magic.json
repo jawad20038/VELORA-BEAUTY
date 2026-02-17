@@ -191,9 +191,9 @@
         "feature_VgXWWy": {
           "type": "feature",
           "settings": {
-            "icon": "target",
-            "feature_title": "Key feature",
-            "feature_text": "<p>Describe a key feature in detail.</p>"
+            "icon": "none",
+            "feature_title": "",
+            "feature_text": "<p><strong>Indiscutable</strong></p>"
           }
         },
         "button_9cmKax": {
