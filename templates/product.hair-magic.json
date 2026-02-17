@@ -56,37 +56,6 @@
             "custom_liquid": "<div class=\"ar-points\">\n  <ul class=\"ar-points__list\" role=\"list\">\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Couvrance naturelle et immédiate — cheveux plus denses\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Enrichie en huile d’argan d’Agadir, panthénol et vitamine E — <b>couvre ET nourrit</b>\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Résistante à l’eau, à la transpiration et aux transferts — tient toute la journée\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        <b>Bonus :</b> Fonctionne aussi sur les sourcils — 2 gestes de confiance en 1 compact\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Formule douce, même pour cuirs chevelus sensibles — sans irritation\n      </span>\n    </li>\n\n  </ul>\n</div>\n\n<style>\n  .ar-points {\n    padding: 0;\n    margin: 10px 0 0;\n  }\n\n  .ar-points__list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    gap: 14px;\n  }\n\n  .ar-points__item {\n    display: flex;\n    gap: 12px;\n    align-items: flex-start;\n  }\n\n  .ar-points__line {\n    display: block;\n    width: 18px;\n    height: 1px;\n    margin-top: 8px;\n    background: #C8A265;\n    flex-shrink: 0;\n  }\n\n  .ar-points__text {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: var(--font-3, 12px);\n    line-height: var(--leading-normal, 1.5);\n    color: var(--COLOR-TEXT-LIGHT, #646464);\n  }\n\n  .ar-points__text b {\n    color: var(--COLOR-TEXT, #222);\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n  }\n</style>"
           }
         },
-        "promo_gYQE8k": {
-          "type": "promo",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Ajoutez 2 articles : le 2ᵉ passe gratuitement</p>",
-            "text_alignment": "center",
-            "color-body-text": "#ffffff",
-            "background_color": "#744682"
-          }
-        },
-        "variant_picker_YBqpUb": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "dropdown",
-            "color_swatch_names": "",
-            "variant_picture_swatch_names": "Teinte",
-            "thumb_size": 60,
-            "radius": "custom",
-            "border_radius": 8,
-            "dropdown_swatch_names": "",
-            "margin-top": 8,
-            "margin-bottom": 8,
-            "size_icon": "none",
-            "size_link": "Guide des teintes",
-            "variant_name": "Teinte",
-            "size_content": "guide-des-teintes",
-            "metafield": "",
-            "enable-striped-rows": true
-          }
-        },
         "information_popup_xTh4dQ": {
           "type": "information_popup",
           "settings": {
@@ -95,13 +64,6 @@
             "size_content": "guide-des-teintes",
             "metafield": "",
             "enable-striped-rows": true
-          }
-        },
-        "custom_liquid_wVTqkN": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n\n  <div class=\"m-product-text\">\n\n    <div class=\"preorder-stock-section\" id=\"preorder-stock-1\">\n\n      <!-- BARRE DE PROGRESSION -->\n      <div class=\"preorder-progress-bar\">\n        <div class=\"preorder-progress\" style=\"width: 14%;\"></div>\n      </div>\n\n      <!-- TEXTE -->\n      <div class=\"preorder-text-container\">\n        <div class=\"preorder-stock-text\">\n          <strong class=\"stock-critical\">14%</strong> des unités encore disponibles\n        </div>\n        <div class=\"preorder-subtext\">\n          Dernières réservations ouvertes sur le <strong>prochain lot en production</strong>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n\n</div>\n\n<style>\n/* =========================\n   PRÉCOMMANDE – STOCK PREMIUM\n   MOBILE FIRST\n   ========================= */\n\n.preorder-stock-section {\n  margin-top: 16px;\n  padding: 14px 14px 16px;\n  border-radius: 14px;\n  background: linear-gradient(180deg, #fafafa, #ffffff);\n  border: 1px solid rgba(0,0,0,0.06);\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* BARRE */\n.preorder-progress-bar {\n  width: 100%;\n  height: 7px;\n  background: rgba(0,0,0,0.08);\n  border-radius: 999px;\n  overflow: hidden;\n  margin-bottom: 10px;\n}\n\n.preorder-progress {\n  height: 100%;\n  background: linear-gradient(90deg, #16a34a, #22c55e);\n  border-radius: 999px;\n  transition: width 0.6s ease;\n}\n\n/* TEXTE */\n.preorder-text-container {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  text-align: center;\n}\n\n.preorder-stock-text {\n  font-size: 14px;\n  line-height: 1.25;\n  color: #111827;\n}\n\n/* ROUGE CONTRÔLÉ */\n.stock-critical {\n  color: #b91c1c; /* rouge premium */\n  font-weight: 700;\n}\n\n/* SOUS-TEXTE */\n.preorder-subtext {\n  font-size: 12.5px;\n  line-height: 1.35;\n  color: #4b5563;\n}\n\n/* MOBILE OPTIM */\n@media (max-width: 480px) {\n  .preorder-stock-section {\n    padding: 12px 12px 14px;\n  }\n\n  .preorder-stock-text {\n    font-size: 13.5px;\n  }\n\n  .preorder-subtext {\n    font-size: 12px;\n  }\n\n  .preorder-progress-bar {\n    height: 6px;\n  }\n}\n</style>"
           }
         },
         "buy_buttons": {
@@ -114,6 +76,12 @@
             "background_color": "#c69882"
           }
         },
+        "custom_liquid_8dycJ4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ar-guarantees\" aria-label=\"Garanties\">\n  <span class=\"ar-guarantees__item\">Satisfaite ou 100% remboursée</span>\n  <span class=\"ar-guarantees__dot\" aria-hidden=\"true\">•</span>\n  <span class=\"ar-guarantees__item\">Livraison offerte</span>\n  <span class=\"ar-guarantees__dot\" aria-hidden=\"true\">•</span>\n  <span class=\"ar-guarantees__item\">Expédition sous 24h</span>\n</div>\n\n<style>\n  .ar-guarantees{\n    margin-top: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 6px;\n\n    font-family: var(--FONT-STACK-BODY, inherit);\n    font-size: 11.5px;\n    line-height: 1.35;\n    letter-spacing: .02em;\n\n    color: rgba(61,46,42,.78);\n    text-align: center;\n  }\n\n  .ar-guarantees__item{\n    white-space: nowrap;\n  }\n\n  .ar-guarantees__dot{\n    color: rgba(192,154,91,.85); /* doré discret */\n    font-weight: 700;\n    line-height: 1;\n  }\n\n  @media (min-width: 768px){\n    .ar-guarantees{ font-size: 12px; }\n  }\n</style>"
+          }
+        },
         "custom_liquid_qiQc7a": {
           "type": "custom_liquid",
           "settings": {
@@ -123,7 +91,7 @@
         "custom_liquid_UcP3Ey": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product__block product__block--custom_liquid\">\n\n<style>\n#preorder-info-hairmagic {\n  padding: 12px !important;\n  background: #f8f8f8;\n  margin: 22px auto 12px;\n  border-radius: 8px;\n  border: 1px solid #f1f1f4;\n  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 4px;\n  max-width: 600px;\n  text-align: left;\n}\n\n#preorder-info-hairmagic .wrap {\n  display: flex;\n  align-items: flex-start;\n  gap: 14px;\n}\n\n#preorder-info-hairmagic .icon {\n  flex-shrink: 0;\n}\n\n#preorder-info-hairmagic .icon img {\n  width: 42px;\n  height: auto;\n}\n\n#preorder-info-hairmagic h6 {\n  font-size: 16px;\n  font-weight: 600;\n  margin: 0 0 4px;\n  color: #111;\n}\n\n#preorder-info-hairmagic p {\n  font-size: 14px;\n  line-height: 1.45;\n  margin: 0;\n  color: #333;\n}\n\n#preorder-info-hairmagic b {\n  font-weight: 600;\n}\n\n/* Mobile optimisation */\n@media screen and (max-width: 767px) {\n  #preorder-info-hairmagic {\n    padding: 10px !important;\n  }\n  #preorder-info-hairmagic .icon img {\n    width: 34px;\n  }\n  #preorder-info-hairmagic h6 {\n    font-size: 15px;\n  }\n  #preorder-info-hairmagic p {\n    font-size: 13px;\n  }\n}\n</style>\n\n<div id=\"preorder-info-hairmagic\">\n  <div class=\"wrap\">\n    <div class=\"icon\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0572/8367/4154/files/winner.png?v=1740695965\" alt=\"Accès prioritaire\">\n    </div>\n    <div class=\"content\">\n      <h6>Pourquoi HairMagic+ est en précommande</h6>\n      <p>\n        HairMagic+ est fabriqué en <b>lots limités</b> afin de préserver la qualité de la formule\n        et le respect des cheveux sensibles.<br><br>\n        La demande actuelle dépasse nos prévisions — nous ouvrons donc un\n        <b>accès prioritaire</b> sur le prochain lot.<br><br>\n        <b>Vous êtes servie en priorité</b>, avant la remise en vente publique.\n      </p>\n    </div>\n  </div>\n</div>\n\n</div>"
+            "custom_liquid": "<div class=\"product__block product__block--custom_liquid\">\n\n<style>\n  #derm-review-hairmagic{\n    padding: 12px !important;\n    background: #f8f8f8;\n    margin: 22px auto 12px;\n    border-radius: 10px;\n    border: 1px solid #f1f1f4;\n    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 4px;\n    max-width: 600px;\n    text-align: left;\n    overflow: hidden;\n  }\n\n  #derm-review-hairmagic .wrap{\n    display: grid;\n    grid-template-columns: 30% 70%;\n    gap: 14px;\n    align-items: start;\n  }\n\n  /* Photo */\n  #derm-review-hairmagic .photo{\n    position: relative;\n    border-radius: 10px;\n    overflow: hidden;\n    border: 1px solid #eee;\n    background: #fff;\n  }\n\n  #derm-review-hairmagic .photo img{\n    width: 100%;\n    height: 100%;\n    display: block;\n    object-fit: cover;\n    aspect-ratio: 3 / 4; /* portrait premium */\n  }\n\n  /* Content */\n  #derm-review-hairmagic .content{\n    padding-right: 4px;\n  }\n\n  #derm-review-hairmagic h6{\n    font-size: 16px;\n    font-weight: 600;\n    margin: 0 0 6px;\n    color: #111;\n  }\n\n  #derm-review-hairmagic blockquote{\n    margin: 0;\n    padding: 0;\n    font-size: 14px;\n    line-height: 1.5;\n    color: #333;\n  }\n\n  #derm-review-hairmagic .quote{\n    position: relative;\n    padding-left: 12px;\n    border-left: 2px solid #C8A265;\n  }\n\n  #derm-review-hairmagic .author{\n    margin-top: 10px;\n    display: grid;\n    gap: 2px;\n  }\n\n  #derm-review-hairmagic .name{\n    font-size: 13px;\n    font-weight: 600;\n    color: #111;\n  }\n\n  #derm-review-hairmagic .title{\n    font-size: 12px;\n    color: #666;\n  }\n\n  /* Mobile optimisation */\n  @media screen and (max-width: 767px){\n    #derm-review-hairmagic{\n      padding: 10px !important;\n      border-radius: 10px;\n    }\n\n    #derm-review-hairmagic .wrap{\n      grid-template-columns: 1fr;\n      gap: 10px;\n    }\n\n    #derm-review-hairmagic .photo img{\n      aspect-ratio: 16 / 9; /* photo plus large sur mobile */\n    }\n\n    #derm-review-hairmagic h6{\n      font-size: 15px;\n    }\n\n    #derm-review-hairmagic blockquote{\n      font-size: 13px;\n    }\n  }\n</style>\n\n<div id=\"derm-review-hairmagic\">\n  <div class=\"wrap\">\n\n    <div class=\"photo\">\n      <!-- Remplace cette image par la photo de la dermatologue -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0751/4685/4590/files/zakariajawad_Professional_portrait_of_a_Moroccan_female_derma_0095bf37-ad61-4ea8-8c33-fbbdb471ef7e_0.png?v=1771336199\" alt=\"Dr. Amina K., dermatologue\">\n    </div>\n\n    <div class=\"content\">\n      <h6>Avis de dermatologue</h6>\n\n      <blockquote class=\"quote\">\n        « Les poudres enrichies en panthénol et huile d’argan sont une excellente option pour les femmes\n        qui veulent camoufler les zones clairsemées sans irriter le cuir chevelu. HairMagic+ offre un bon\n        équilibre entre couvrance et soin. »\n      </blockquote>\n\n      <div class=\"author\">\n        <div class=\"name\">— Dr. Amina K.</div>\n        <div class=\"title\">Dermatologue spécialisée en trichologie</div>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n</div>"
           }
         }
       },
@@ -133,11 +101,9 @@
         "custom_liquid_dHXXUn",
         "price_zaXCc3",
         "custom_liquid_QLbHhq",
-        "promo_gYQE8k",
-        "variant_picker_YBqpUb",
         "information_popup_xTh4dQ",
-        "custom_liquid_wVTqkN",
         "buy_buttons",
+        "custom_liquid_8dycJ4",
         "custom_liquid_qiQc7a",
         "custom_liquid_UcP3Ey"
       ],
