@@ -38,29 +38,13 @@
         "custom_liquid_dHXXUn": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"ar-sub\">\n  <p class=\"ar-sub__text\">\n    Couvre instantanément racines grises, zones clairsemées et ligne capillaire — <b>en 20 secondes.</b>\n  </p>\n  <div class=\"ar-sub__pillars\">\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans teinture</span>\n    </div>\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans désordre</span>\n    </div>\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Avec soin</span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ar-sub {\n    padding: 0;\n    margin: 6px 0 0;\n  }\n  .ar-sub__text {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: var(--font-3, 12px);\n    line-height: var(--leading-normal, 1.5);\n    color: var(--COLOR-TEXT-LIGHT, #646464);\n    margin: 0 0 12px;\n  }\n  .ar-sub__text b {\n    color: var(--COLOR-TEXT, #222);\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n  }\n  .ar-sub__pillars {\n    display: flex;\n    gap: 20px;\n  }\n  .ar-sub__pillar {\n    display: flex;\n    flex-direction: column;\n    gap: 6px;\n  }\n  .ar-sub__line {\n    display: block;\n    width: 24px;\n    height: 1px;\n    background: #C8A265;\n  }\n  .ar-sub__label {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: 9.5px;\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: var(--COLOR-TEXT, #222);\n    white-space: nowrap;\n  }\n</style>"
-          }
-        },
-        "separator_4X6GqT": {
-          "type": "separator",
-          "settings": {
-            "show-separator-line": true,
-            "color-background": "#c09a5b",
-            "margin-top": 8,
-            "margin-bottom": 8
+            "custom_liquid": "<div class=\"ar-sub\">\n  <p class=\"ar-sub__text\">\n    Couvre instantanément racines grises, zones clairsemées et ligne capillaire — <b>en 20 secondes.</b>\n  </p>\n\n  <div class=\"ar-sub__pillars\">\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans teinture</span>\n    </div>\n\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans désordre</span>\n    </div>\n\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Avec soin</span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ar-sub {\n    padding: 0;\n    margin: 6px 0 0;\n  }\n\n  .ar-sub__text {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: var(--font-3, 12px);\n    line-height: var(--leading-normal, 1.5);\n    color: var(--COLOR-TEXT-LIGHT, #646464);\n    margin: 0 0 12px;\n  }\n\n  .ar-sub__text b {\n    color: var(--COLOR-TEXT, #222);\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n  }\n\n  /* BADGES PREMIUM */\n  .ar-sub__pillars {\n    display: flex;\n    gap: 10px;\n    flex-wrap: wrap;\n  }\n\n  .ar-sub__pillar {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    padding: 8px 14px;\n    border-radius: 999px;\n\n    background: linear-gradient(180deg, rgba(200,162,101,.14), rgba(200,162,101,.08));\n    border: 1px solid rgba(200,162,101,.28);\n    box-shadow: 0 6px 18px rgba(0,0,0,.05);\n  }\n\n  .ar-sub__line {\n    display: none; /* suppression de la ligne */\n  }\n\n  .ar-sub__label {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: 9.5px;\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: #3D2E2A;\n    white-space: nowrap;\n  }\n</style>"
           }
         },
         "custom_liquid_QLbHhq": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div class=\"ar-points\">\n  <ul class=\"ar-points__list\" role=\"list\">\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Couvrance naturelle et immédiate — cheveux plus denses\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Enrichie en huile d’argan d’Agadir, panthénol et vitamine E — <b>couvre ET nourrit</b>\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Résistante à l’eau, à la transpiration et aux transferts — tient toute la journée\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        <b>Bonus :</b> Fonctionne aussi sur les sourcils — 2 gestes de confiance en 1 compact\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Formule douce, même pour cuirs chevelus sensibles — sans irritation\n      </span>\n    </li>\n\n  </ul>\n</div>\n\n<style>\n  .ar-points {\n    padding: 0;\n    margin: 10px 0 0;\n  }\n\n  .ar-points__list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    gap: 14px;\n  }\n\n  .ar-points__item {\n    display: flex;\n    gap: 12px;\n    align-items: flex-start;\n  }\n\n  .ar-points__line {\n    display: block;\n    width: 18px;\n    height: 1px;\n    margin-top: 8px;\n    background: #C8A265;\n    flex-shrink: 0;\n  }\n\n  .ar-points__text {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: var(--font-3, 12px);\n    line-height: var(--leading-normal, 1.5);\n    color: var(--COLOR-TEXT-LIGHT, #646464);\n  }\n\n  .ar-points__text b {\n    color: var(--COLOR-TEXT, #222);\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n  }\n</style>"
-          }
-        },
-        "bulletpoints_WbD99K": {
-          "type": "bulletpoints",
-          "settings": {
-            "metafield": "",
-            "default_text": ""
           }
         },
         "price_zaXCc3": {
@@ -147,9 +131,7 @@
         "custom_liquid_6qmEdL",
         "custom_liquid_LjCeP8",
         "custom_liquid_dHXXUn",
-        "separator_4X6GqT",
         "custom_liquid_QLbHhq",
-        "bulletpoints_WbD99K",
         "price_zaXCc3",
         "promo_gYQE8k",
         "variant_picker_YBqpUb",
