@@ -316,56 +316,6 @@
         "lazy": true
       }
     },
-    "image_with_text_wyLhyi": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_qMaEVW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ne laissez rien trahir votre assurance",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 80
-          }
-        },
-        "text_eicrRd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>HairMagic+ corrige ce que vous voyez  et que personne d’autre ne remarquera.<br/>Une couvrance précise, un effet flou densifiant, une tenue irréprochable du matin au soir.</p><p>Invisible.<br/>Impeccable.<br/>Indiscutable.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_qMaEVW",
-        "text_eicrRd"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "title": "La Science du Soin.",
-        "heading_richtext": "<h2>Your headline here</h2>",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "#ffffff",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "#f7f7f7",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/ChatGPT_Image_16_fevr._2026_a_23_39_12.png",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 32,
-        "margin-bottom": 0
-      }
-    },
     "multicolumn_kdANBW": {
       "type": "multicolumn",
       "blocks": {
@@ -1074,7 +1024,6 @@
     "breadcrumbs",
     "main",
     "ss_hotspots_10_ej4KKy",
-    "image_with_text_wyLhyi",
     "multicolumn_kdANBW",
     "separator_X4Ceg8",
     "separator_Hq69Lc",
