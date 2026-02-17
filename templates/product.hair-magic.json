@@ -195,32 +195,6 @@
             "feature_title": "Indiscutable",
             "feature_text": ""
           }
-        },
-        "button_9cmKax": {
-          "type": "button",
-          "settings": {
-            "button": "Shop now",
-            "button_url": "",
-            "button_style": "link",
-            "button_custom": false,
-            "button_font": "josefin_sans_n4",
-            "button_size": 22,
-            "button_size_mobile": 16,
-            "button_height": 100,
-            "button_padding_advanced": false,
-            "button_padding_vertical": 16,
-            "button_padding_vertical_mobile": 16,
-            "button_padding_horizontal": 24,
-            "button_padding_horizontal_mobile": 24,
-            "button_radius": 100,
-            "button_border_thickness": 1,
-            "button_color": "#121212",
-            "button_hover_color": "#FFFFFF",
-            "button_bg_color": "#F3F3F3",
-            "button_bg_hover_color": "#121212",
-            "button_border_color": "#121212",
-            "button_border_hover_color": "#121212"
-          }
         }
       },
       "block_order": [
@@ -228,8 +202,7 @@
         "text_AaPChV",
         "feature_4hB3VV",
         "feature_VT9fQK",
-        "feature_VgXWWy",
-        "button_9cmKax"
+        "feature_VgXWWy"
       ],
       "name": "SS - Video with text #9",
       "settings": {
