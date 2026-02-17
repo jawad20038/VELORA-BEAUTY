@@ -35,6 +35,12 @@
             "custom_liquid": "<div class=\"tp-wrapper\" role=\"img\" aria-label=\"Trustpilot rating 4.8 Excellent 7000+ reviews\">\n  <img\n    class=\"tp-stars\"\n    src=\"//doreandrose.com/cdn/shop/files/stars-4.5_3.svg?v=1767088356&width=300\"\n    alt=\"Trustpilot rating\"\n    loading=\"eager\"\n  >\n\n  <div class=\"tp-text\">\n    <span class=\"tp-rating\">4.8</span>\n    <span class=\"tp-excellent\">Excellent</span>\n    <span class=\"tp-count\">7000+ Avis</span>\n  </div>\n</div>\n\n<style>\n/* wrapper non cliquable */\n.tp-wrapper{\n  display:flex;\n  align-items:center;            /* centre verticalement texte vs image */\n  gap:10px;\n  font-family: Arial, Helvetica, sans-serif;\n  color:#000;\n}\n\n/* stars size (ajuste ici si besoin) */\n.tp-stars{\n  width:75px;                    /* proche de ta capture */\n  height:auto;\n  display:block;\n}\n\n/* texte sur une seule ligne, plus petit */\n.tp-text{\n  display:flex;\n  align-items:center;            /* centre verticalement dans sa ligne */\n  gap:6px;\n  font-size:13px;                /* plus petit comme sur ta photo */\n  line-height:1;                 /* évite le décalage */\n  white-space:nowrap;            /* empêche retour à la ligne */\n}\n\n/* styles poids comme la capture */\n.tp-rating{ font-weight:700; }\n.tp-excellent{ font-weight:400; }\n.tp-count{ font-weight:700; }\n\n/* sécurité anti-soulignement si ton thème force des styles */\n.tp-wrapper, .tp-wrapper *{\n  text-decoration:none !important;\n}\n</style>"
           }
         },
+        "custom_liquid_dHXXUn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ar-sub\">\n  <p class=\"ar-sub__text\">\n    Couvre instantanément racines grises, zones clairsemées et ligne capillaire — <b>en 20 secondes.</b>\n  </p>\n  <div class=\"ar-sub__pillars\">\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans teinture</span>\n    </div>\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Sans désordre</span>\n    </div>\n    <div class=\"ar-sub__pillar\">\n      <span class=\"ar-sub__line\"></span>\n      <span class=\"ar-sub__label\">Avec soin</span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ar-sub {\n    padding: 0;\n    margin: 6px 0 0;\n  }\n  .ar-sub__text {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: var(--font-3, 12px);\n    line-height: var(--leading-normal, 1.5);\n    color: var(--COLOR-TEXT-LIGHT, #646464);\n    margin: 0 0 12px;\n  }\n  .ar-sub__text b {\n    color: var(--COLOR-TEXT, #222);\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n  }\n  .ar-sub__pillars {\n    display: flex;\n    gap: 20px;\n  }\n  .ar-sub__pillar {\n    display: flex;\n    flex-direction: column;\n    gap: 6px;\n  }\n  .ar-sub__line {\n    display: block;\n    width: 24px;\n    height: 1px;\n    background: #C8A265;\n  }\n  .ar-sub__label {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: 9.5px;\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: var(--COLOR-TEXT, #222);\n    white-space: nowrap;\n  }\n</style>"
+          }
+        },
         "price_zaXCc3": {
           "type": "price",
           "settings": {
@@ -118,6 +124,7 @@
       "block_order": [
         "custom_liquid_6qmEdL",
         "custom_liquid_LjCeP8",
+        "custom_liquid_dHXXUn",
         "price_zaXCc3",
         "promo_gYQE8k",
         "variant_picker_YBqpUb",
