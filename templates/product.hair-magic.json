@@ -169,8 +169,8 @@
             "heading": "<p>Ne laissez rien trahir votre assurance</p>",
             "heading_custom": false,
             "heading_font": "playfair_display_n4",
-            "heading_size": 36,
-            "heading_size_mobile": 32,
+            "heading_size": 14,
+            "heading_size_mobile": 18,
             "heading_height": 130,
             "heading_mt": 0,
             "heading_mt_mobile": 0,
@@ -180,7 +180,7 @@
         "text_FRqJgP": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>HairMagic+ corrige ce que vous voyez  et que personne d’autre ne remarquera.<br/>Une couvrance précise, un effet flou densifiant, une tenue irréprochable du matin au soir.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -194,117 +194,22 @@
         "feature_JrWiX3": {
           "type": "feature",
           "settings": {
-            "text": "Key feature",
+            "text": "Invisible.",
             "use_icon": true
           }
         },
         "feature_AMiTNz": {
           "type": "feature",
           "settings": {
-            "text": "Key feature",
+            "text": "Impeccable.",
             "use_icon": true
           }
         },
         "feature_irhphj": {
           "type": "feature",
           "settings": {
-            "text": "Key feature",
+            "text": "Indiscutable.",
             "use_icon": true
-          }
-        },
-        "feature_DKaNGm": {
-          "type": "feature",
-          "settings": {
-            "text": "Key feature",
-            "use_icon": true
-          }
-        },
-        "button_jQhj8r": {
-          "type": "button",
-          "settings": {
-            "button": "Shop now",
-            "url": "",
-            "button_custom": false,
-            "button_font": "josefin_sans_n4",
-            "button_size": 15,
-            "button_size_mobile": 15,
-            "button_height": 100,
-            "button_padding_vertical": 16,
-            "button_padding_vertical_mobile": 16,
-            "button_padding_horizontal": 32,
-            "button_padding_horizontal_mobile": 32,
-            "button_radius": 0,
-            "button_border_thickness": 1,
-            "button_mt": 30,
-            "button_mt_mobile": 24,
-            "button_style": "outline",
-            "use_shadow": false,
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#121212",
-            "button_bg_color": "#121212",
-            "button_bg_hover_color": "#FFFFFF",
-            "button_border_color": "#121212",
-            "button_border_hover_color": "#121212"
-          }
-        },
-        "hotspot_YUUxd7": {
-          "type": "hotspot",
-          "settings": {
-            "product": "",
-            "title": "Product title",
-            "description": "<p>Product description</p>",
-            "url": "",
-            "vertical_position": 40,
-            "vertical_position_mobile": 40,
-            "horizontal_position": 10,
-            "horizontal_position_mobile": 10,
-            "scale": false,
-            "hotspot_open": false
-          }
-        },
-        "hotspot_QKmt8k": {
-          "type": "hotspot",
-          "settings": {
-            "product": "",
-            "title": "Product title",
-            "description": "<p>Product description</p>",
-            "url": "",
-            "vertical_position": 30,
-            "vertical_position_mobile": 30,
-            "horizontal_position": 60,
-            "horizontal_position_mobile": 60,
-            "scale": false,
-            "hotspot_open": false
-          }
-        },
-        "hotspot_78JaD8": {
-          "type": "hotspot",
-          "settings": {
-            "product": "",
-            "title": "Product title",
-            "description": "<p>Product description</p>",
-            "url": "",
-            "vertical_position": 50,
-            "vertical_position_mobile": 50,
-            "horizontal_position": 15,
-            "horizontal_position_mobile": 15,
-            "scale": false,
-            "hotspot_open": false
-          }
-        },
-        "hotspot_YV8xNb": {
-          "type": "hotspot",
-          "settings": {
-            "product": "",
-            "title": "Product title",
-            "description": "<p>Product description</p>",
-            "url": "",
-            "vertical_position": 80,
-            "vertical_position_mobile": 80,
-            "horizontal_position": 70,
-            "horizontal_position_mobile": 70,
-            "scale": false,
-            "hotspot_open": false
           }
         }
       },
@@ -313,13 +218,7 @@
         "text_FRqJgP",
         "feature_JrWiX3",
         "feature_AMiTNz",
-        "feature_irhphj",
-        "feature_DKaNGm",
-        "button_jQhj8r",
-        "hotspot_YUUxd7",
-        "hotspot_QKmt8k",
-        "hotspot_78JaD8",
-        "hotspot_YV8xNb"
+        "feature_irhphj"
       ],
       "name": "SS - Hotspots #10",
       "settings": {
