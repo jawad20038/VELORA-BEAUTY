@@ -176,7 +176,7 @@
         "section-color-body-text": "rgba(0,0,0,0)",
         "section-color-overlay": "#faf7f2",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "#faf7f2",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/ChatGPT_Image_16_fevr._2026_a_23_39_12.png",
@@ -384,6 +384,7 @@
         "image_yPDHAR",
         "image_9q8GTR"
       ],
+      "disabled": true,
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
         "advanced_heading": false,
