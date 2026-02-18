@@ -130,11 +130,62 @@
         "margin-bottom": 0
       }
     },
+    "marquee_images_8UBxHc": {
+      "type": "marquee-images",
+      "blocks": {
+        "image_FrjTgW": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_9PQxWm": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_A6QkmX": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_EjtFEt": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FrjTgW",
+        "image_9PQxWm",
+        "image_A6QkmX",
+        "image_EjtFEt"
+      ],
+      "name": "t:sections.marquee_images.name",
+      "settings": {
+        "advanced_heading": true,
+        "heading": "+2 600 femmes conquises",
+        "heading_richtext": "<p>+2 600 femmes conquises</p>",
+        "animation_direction": "left",
+        "animation_speed": "50",
+        "desktop_fixed_height": 320,
+        "gap_desk": 24,
+        "mobile_fixed_height": 160,
+        "gap": 24,
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 0,
+        "margin-bottom": 12
+      }
+    },
     "custom_liquid_ANY4ja": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"agadir-luxe-marquee\">\n\n  <style>\n    .agadir-luxe-marquee{\n      --alm-bg-primary:#2C2321;\n      --alm-bg-secondary:#1A1615;\n      --alm-text:#FAF7F2;\n      --alm-accent:#B8956E;\n      --alm-accent-light:rgba(184,149,110,.30);\n      --alm-border:rgba(184,149,110,.15);\n\n      /* ✅ vitesse rapide premium */\n      --alm-speed:14s;\n      --alm-speed-mobile:15s;\n\n      --alm-height:60px;\n      --alm-height-mobile:52px;\n\n      position:relative;\n      background: linear-gradient(180deg,var(--alm-bg-secondary),var(--alm-bg-primary),var(--alm-bg-secondary));\n      height:var(--alm-height);\n      overflow:hidden;\n      border-top:1px solid var(--alm-border);\n      border-bottom:1px solid var(--alm-border);\n    }\n\n    .agadir-luxe-marquee__wrapper{\n      display:flex;\n      align-items:center;\n      height:100%;\n    }\n\n    .agadir-luxe-marquee__track{\n      display:flex;\n      align-items:center;\n      width:max-content;\n      animation:agadirScroll var(--alm-speed) linear infinite;\n      will-change:transform;\n    }\n\n    .agadir-luxe-marquee:hover .agadir-luxe-marquee__track{\n      animation-play-state:paused;\n    }\n\n    .agadir-luxe-marquee__group{\n      display:flex;\n      align-items:center;\n    }\n\n    .agadir-luxe-marquee__item{\n      display:flex;\n      align-items:center;\n      gap:14px;\n      padding:0 40px;\n      position:relative;\n    }\n\n    .agadir-luxe-marquee__item::after{\n      content:'';\n      position:absolute;\n      right:0;\n      top:50%;\n      transform:translateY(-50%);\n      width:1px;\n      height:20px;\n      background:linear-gradient(180deg,transparent,var(--alm-accent-light),transparent);\n    }\n\n    /* Pastille premium */\n    .agadir-luxe-marquee__icon{\n      width:8px;\n      height:8px;\n      border-radius:999px;\n      background:var(--alm-accent);\n      box-shadow:0 0 0 4px rgba(184,149,110,.15);\n      flex-shrink:0;\n    }\n\n    /* ✅ FONT DU SITE + GRAS */\n    .agadir-luxe-marquee__text{\n      font-family:var(--FONT-STACK-BODY, inherit);\n      font-size:14px;\n      font-weight:700;\n      font-style:normal;\n      color:var(--alm-text);\n      letter-spacing:.02em;\n      white-space:nowrap;\n    }\n\n    @keyframes agadirScroll{\n      0%{ transform:translateX(0); }\n      100%{ transform:translateX(-50%); }\n    }\n\n    @media (max-width:767px){\n      .agadir-luxe-marquee{\n        height:var(--alm-height-mobile);\n      }\n\n      .agadir-luxe-marquee__track{\n        animation-duration:var(--alm-speed-mobile);\n      }\n\n      .agadir-luxe-marquee__item{\n        padding:0 26px;\n      }\n\n      .agadir-luxe-marquee__text{\n        font-size:13px;\n      }\n    }\n\n    @media (prefers-reduced-motion:reduce){\n      .agadir-luxe-marquee__track{\n        animation:none;\n      }\n      .agadir-luxe-marquee__group:nth-child(2){\n        display:none;\n      }\n    }\n  </style>\n\n  <div class=\"agadir-luxe-marquee__wrapper\">\n    <div class=\"agadir-luxe-marquee__track\">\n\n      <!-- Groupe 1 -->\n      <div class=\"agadir-luxe-marquee__group\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">+2 600 femmes conquises</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n      <!-- Groupe 2 duplication -->\n      <div class=\"agadir-luxe-marquee__group\" aria-hidden=\"true\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">+2 600 femmes conquises</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n    </div>\n  </div>\n</div>"
+        "custom_liquid": "<div class=\"agadir-luxe-marquee\">\n\n  <style>\n    .agadir-luxe-marquee{\n      --alm-bg-primary:#2C2321;\n      --alm-bg-secondary:#1A1615;\n      --alm-text:#FAF7F2;\n      --alm-accent:#B8956E;\n      --alm-accent-light:rgba(184,149,110,.30);\n      --alm-border:rgba(184,149,110,.15);\n\n      /* ✅ vitesse rapide premium */\n      --alm-speed:14s;\n      --alm-speed-mobile:15s;\n\n      --alm-height:60px;\n      --alm-height-mobile:52px;\n\n      position:relative;\n      background: linear-gradient(180deg,var(--alm-bg-secondary),var(--alm-bg-primary),var(--alm-bg-secondary));\n      height:var(--alm-height);\n      overflow:hidden;\n      border-top:1px solid var(--alm-border);\n      border-bottom:1px solid var(--alm-border);\n    }\n\n    .agadir-luxe-marquee__wrapper{\n      display:flex;\n      align-items:center;\n      height:100%;\n    }\n\n    .agadir-luxe-marquee__track{\n      display:flex;\n      align-items:center;\n      width:max-content;\n      animation:agadirScroll var(--alm-speed) linear infinite;\n      will-change:transform;\n    }\n\n    .agadir-luxe-marquee:hover .agadir-luxe-marquee__track{\n      animation-play-state:paused;\n    }\n\n    .agadir-luxe-marquee__group{\n      display:flex;\n      align-items:center;\n    }\n\n    .agadir-luxe-marquee__item{\n      display:flex;\n      align-items:center;\n      gap:14px;\n      padding:0 40px;\n      position:relative;\n    }\n\n    .agadir-luxe-marquee__item::after{\n      content:'';\n      position:absolute;\n      right:0;\n      top:50%;\n      transform:translateY(-50%);\n      width:1px;\n      height:20px;\n      background:linear-gradient(180deg,transparent,var(--alm-accent-light),transparent);\n    }\n\n    /* Pastille premium */\n    .agadir-luxe-marquee__icon{\n      width:8px;\n      height:8px;\n      border-radius:999px;\n      background:var(--alm-accent);\n      box-shadow:0 0 0 4px rgba(184,149,110,.15);\n      flex-shrink:0;\n    }\n\n    /* ✅ FONT DU SITE + GRAS */\n    .agadir-luxe-marquee__text{\n      font-family:var(--FONT-STACK-BODY, inherit);\n      font-size:14px;\n      font-weight:700;\n      font-style:normal;\n      color:var(--alm-text);\n      letter-spacing:.02em;\n      white-space:nowrap;\n    }\n\n    @keyframes agadirScroll{\n      0%{ transform:translateX(0); }\n      100%{ transform:translateX(-50%); }\n    }\n\n    @media (max-width:767px){\n      .agadir-luxe-marquee{\n        height:var(--alm-height-mobile);\n      }\n\n      .agadir-luxe-marquee__track{\n        animation-duration:var(--alm-speed-mobile);\n      }\n\n      .agadir-luxe-marquee__item{\n        padding:0 26px;\n      }\n\n      .agadir-luxe-marquee__text{\n        font-size:13px;\n      }\n    }\n\n    @media (prefers-reduced-motion:reduce){\n      .agadir-luxe-marquee__track{\n        animation:none;\n      }\n      .agadir-luxe-marquee__group:nth-child(2){\n        display:none;\n      }\n    }\n  </style>\n\n  <div class=\"agadir-luxe-marquee__wrapper\">\n    <div class=\"agadir-luxe-marquee__track\">\n\n      <!-- Groupe 1 -->\n      <div class=\"agadir-luxe-marquee__group\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n      <!-- Groupe 2 duplication -->\n      <div class=\"agadir-luxe-marquee__group\" aria-hidden=\"true\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n    </div>\n  </div>\n</div>"
       }
     },
     "ss_video_with_text_9_aiQHbe": {
@@ -1096,10 +1147,11 @@
   "order": [
     "breadcrumbs",
     "main",
+    "marquee_images_8UBxHc",
     "custom_liquid_ANY4ja",
     "ss_video_with_text_9_aiQHbe",
-    "image_with_text_THftUn",
     "multicolumn_kdANBW",
+    "image_with_text_THftUn",
     "separator_X4Ceg8",
     "separator_Hq69Lc",
     "grid_view_kU98in",
