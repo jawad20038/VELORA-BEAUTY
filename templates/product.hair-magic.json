@@ -387,9 +387,9 @@
         "column_A7thGe": {
           "type": "column",
           "settings": {
-            "heading": "<em>Des cheveux plus denses, et une confiance retrouvée.</em>",
+            "heading": "Enfin naturel, même sous lumière forte",
             "heading_disable_on_mobile": false,
-            "text": "<p>Ma ligne de cheveux me complexait depuis des années. HairMagic+ comble mes zones clairsemées de façon très naturelle — même ma coiffeuse n’a rien remarqué. — Isabelle</p>",
+            "text": "<p>Sous la lumière du plafond au bureau, ma raie paraissait toujours plus large.<br/><br/>C’était ma plus grande crainte : que ça se voie encore plus avec un produit.</p><p>Avec HairMagic+, l’effet est totalement naturel.<br/><br/>La poudre se fond dans la racine et crée un léger flou sur le cuir chevelu.</p><p>Même en lumière forte, ça ne fait ni poudre, ni effet peint.<br/><br/>On dirait simplement que j’ai plus de densité. — Isabelle</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
