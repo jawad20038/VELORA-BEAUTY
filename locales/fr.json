@@ -139,7 +139,7 @@
     "product": {
       "select_option": "Sélectionner une option",
       "select_options": "Sélectionner des options",
-      "add_to_cart": "Je veux mes 2 Magic Hair™",
+      "add_to_cart": "AJOUTER AU PANIER",
       "choose_options": "Choisir les options",
       "choose_product_options": "Choisissez les options pour {{ product_name }}",
       "description": "Description",
