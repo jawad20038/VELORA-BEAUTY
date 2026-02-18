@@ -22,7 +22,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_placeholder_image": true,
         "layout": "text_first",
         "desktop-percentage-image-width": 50,
