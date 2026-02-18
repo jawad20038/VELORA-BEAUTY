@@ -136,24 +136,63 @@
         "image_a8kerc": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_120014_a83410f9-6312-48ca-8ba0-6713082e8420.jpg",
             "link": ""
           }
         },
         "image_ezwqyT": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_120217_e8331716-2932-41cf-ba54-7769b133af34.jpg",
+            "link": ""
+          }
+        },
+        "image_E3qhj4": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_114429_012d9acc-5423-4e82-868b-acbee8740245.jpg",
             "link": ""
           }
         },
         "image_NwtATX": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_120035_e129f110-eb80-436b-8e57-1100697ca5f6.jpg",
             "link": ""
           }
         },
         "image_Uig9W3": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_114803_4b52d3c5-e1d2-41a6-9e62-d77d1582e7fa.jpg",
+            "link": ""
+          }
+        },
+        "image_8KrdKR": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/4_36d0a68d-ee75-4ea7-a3ec-5094953ff213.webp",
+            "link": ""
+          }
+        },
+        "image_3CzjCk": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_115133_04a1c925-5c52-4493-b6c0-16c7dd554626.jpg",
+            "link": ""
+          }
+        },
+        "image_DTDMiL": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/609157426_18086518391015905_7359796279246874751_n_1.webp",
+            "link": ""
+          }
+        },
+        "image_YQMFwd": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/3_57ce877b-3412-4b2f-a932-c50a8520c831.webp",
             "link": ""
           }
         }
@@ -161,8 +200,13 @@
       "block_order": [
         "image_a8kerc",
         "image_ezwqyT",
+        "image_E3qhj4",
         "image_NwtATX",
-        "image_Uig9W3"
+        "image_Uig9W3",
+        "image_8KrdKR",
+        "image_3CzjCk",
+        "image_DTDMiL",
+        "image_YQMFwd"
       ],
       "name": "t:sections.marquee_images.name",
       "settings": {
@@ -876,6 +920,63 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "image_with_text_nnFw7h": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_FLMgeX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_NahygX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_LwgXba": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FLMgeX",
+        "heading_NahygX",
+        "text_LwgXba"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "left",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
@@ -886,6 +987,7 @@
     "ss_video_with_text_9_aiQHbe",
     "multicolumn_kdANBW",
     "ss_guarantee_7NAGWN",
-    "ss_testimonials_47_RkFWkM"
+    "ss_testimonials_47_RkFWkM",
+    "image_with_text_nnFw7h"
   ]
 }
