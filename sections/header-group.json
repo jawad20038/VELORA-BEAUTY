@@ -131,11 +131,11 @@
             "button_select": "primary",
             "button_label": "Découvrir nos rituels",
             "disable_on_mobile": false,
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://collections/nos-rituels",
             "second_button_select": "secondary",
             "second_button_label": "Notre histoire",
             "second_disable_on_mobile": false,
-            "second_button_link": "shopify://collections/all"
+            "second_button_link": "shopify://pages/notre-histoire"
           }
         }
       },
