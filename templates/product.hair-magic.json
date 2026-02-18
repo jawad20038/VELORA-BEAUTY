@@ -931,14 +931,14 @@
         "subheading_FLMgeX": {
           "type": "subheading",
           "settings": {
-            "subheading": "Tell you story",
+            "subheading": "Né à Agadir, au cœur du Maroc.",
             "subheading_disable_on_mobile": false
           }
         },
         "heading_NahygX": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Un rituel transmis depuis des générations.",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -947,7 +947,7 @@
         "text_LwgXba": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Dans la région d’Agadir, les femmes marocaines prennent soin de leurs cheveux avec un trésor rare : l’huile d’argan. Pressée à la main, utilisée depuis des siècles, cette huile est bien plus qu’un ingrédient — c’est un héritage.</p><p>HairMagic+ est née de cette tradition. Nous avons voulu créer une poudre qui ne se contente pas <br/>de cacher — mais qui prend soin. Parce que votre cuir chevelu est de la peau, et qu’il mérite le même respect que votre visage.</p><p>Chaque compact HairMagic+ est une rencontre entre savoir-faire ancestral et science cosmétique moderne. Une formule épurée. Des actifs sélectionnés. Un geste qui honore la beauté plutôt que de la masquer.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -965,7 +965,7 @@
         "heading_richtext": "<h2>Your headline here</h2>",
         "layout": "image_first",
         "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
+        "full-width-enabled": true,
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
