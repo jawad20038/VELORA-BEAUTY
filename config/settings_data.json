@@ -21,7 +21,7 @@
     "color-links-active": "#9c5a4a",
     "color-border": "#d9cfc4",
     "color-overlay": "#2c2321",
-    "color-overlay-opacity": 35,
+    "color-overlay-opacity": 0,
     "color-action-text": "#ffffff",
     "color-action-background": "#9c5a4a",
     "color-header-text": "#3d2e2a",
