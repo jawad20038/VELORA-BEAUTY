@@ -217,7 +217,7 @@
         "animation_speed": "100",
         "desktop_fixed_height": 200,
         "gap_desk": 24,
-        "mobile_fixed_height": 160,
+        "mobile_fixed_height": 200,
         "gap": 24,
         "color-body-text": "transparent",
         "background_color": "transparent",
