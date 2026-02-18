@@ -244,7 +244,7 @@
         "video_position": "left",
         "video_position_mobile": "top",
         "video_ratio": "portrait",
-        "video_ratio_mobile": "square",
+        "video_ratio_mobile": "original",
         "video_radius": 0,
         "video_border_thickness": 0,
         "video_autoplay": true,
