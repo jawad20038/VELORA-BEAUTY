@@ -972,9 +972,9 @@
           "settings": {
             "icon": "shopify://shop_images/zakariajawad_Ultra_realistic_portrait_of_an_elderly_Moroccan__12f4b17e-77d5-4341-b46d-e68c21997acc_0.png",
             "select_icon": "bag",
-            "icon_advanced_settings": false,
-            "icon_height_desktop": 28,
-            "icon_height": 27,
+            "icon_advanced_settings": true,
+            "icon_height_desktop": 42,
+            "icon_height": 42,
             "icon_margin_desktop": 0,
             "icon_margin": 0,
             "text": "<p>Lalla Aïcha, grand-mère de la fondatrice</p>",
