@@ -147,13 +147,6 @@
             "link": ""
           }
         },
-        "image_E3qhj4": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/hf_20260218_114429_012d9acc-5423-4e82-868b-acbee8740245.jpg",
-            "link": ""
-          }
-        },
         "image_NwtATX": {
           "type": "image",
           "settings": {
@@ -161,10 +154,10 @@
             "link": ""
           }
         },
-        "image_Uig9W3": {
+        "image_E3qhj4": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/hf_20260218_114803_4b52d3c5-e1d2-41a6-9e62-d77d1582e7fa.jpg",
+            "desktop_image": "shopify://shop_images/hf_20260218_114429_012d9acc-5423-4e82-868b-acbee8740245.jpg",
             "link": ""
           }
         },
@@ -172,6 +165,13 @@
           "type": "image",
           "settings": {
             "desktop_image": "shopify://shop_images/4_36d0a68d-ee75-4ea7-a3ec-5094953ff213.webp",
+            "link": ""
+          }
+        },
+        "image_Uig9W3": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_114803_4b52d3c5-e1d2-41a6-9e62-d77d1582e7fa.jpg",
             "link": ""
           }
         },
@@ -200,10 +200,10 @@
       "block_order": [
         "image_a8kerc",
         "image_ezwqyT",
-        "image_E3qhj4",
         "image_NwtATX",
-        "image_Uig9W3",
+        "image_E3qhj4",
         "image_8KrdKR",
+        "image_Uig9W3",
         "image_3CzjCk",
         "image_DTDMiL",
         "image_YQMFwd"
@@ -271,7 +271,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "✓ Invisible ",
+            "feature_title": "✓  Couvrance Invisible",
             "feature_text": ""
           }
         },
@@ -279,7 +279,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "✓ Impeccable",
+            "feature_title": "✓ Soin à Chaque Geste",
             "feature_text": ""
           }
         },
@@ -287,7 +287,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "✓ Indiscutable",
+            "feature_title": "✓ Tenue Longue Duré",
             "feature_text": ""
           }
         }
