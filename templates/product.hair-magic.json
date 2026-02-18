@@ -489,7 +489,7 @@
         "heading_VrGHay": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Votre nouveau rituel en 3 gestes.</p>",
+            "heading": "<p>Votre nouveau rituel en 3 gestes (Moins de 20 secondes).<br/><br/></p>",
             "heading_custom": true,
             "heading_font": "playfair_display_n7",
             "heading_size": 24,
@@ -515,16 +515,16 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "✓ Soin à Chaque Geste",
-            "feature_text": ""
+            "feature_title": "2. Estompez",
+            "feature_text": "<p>Fondez la poudre dans vos cheveux avec de légers mouvements. Les pigments adaptatifs épousent votre teinte naturelle pour un résultat invisible.</p>"
           }
         },
         "feature_FfMder": {
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "✓ Tenue Longue Duré",
-            "feature_text": ""
+            "feature_title": "3. Vivez",
+            "feature_text": "<p>C’est fait. Votre ligne capillaire paraît plus dense, vos racines sont invisibles, et votre confiance est intacte. Toute la journée.</p>"
           }
         }
       },
@@ -610,7 +610,7 @@
         "padding_bottom": 36,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
-        "width": "page",
+        "width": "full",
         "content_width": 1200,
         "border_thickness": 0,
         "section_radius": 0,
