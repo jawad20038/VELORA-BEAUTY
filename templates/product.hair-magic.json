@@ -507,8 +507,8 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "feature_title": "✓  Couvrance Invisible",
-            "feature_text": ""
+            "feature_title": "1. Tapotez",
+            "feature_text": "<p>Sur cheveux propres et secs, prélevez un peu de poudre avec l’applicateur et tapotez délicatement sur la zone ciblée : raie, ligne capillaire, tempes ou racines.</p>"
           }
         },
         "feature_Lw9WNx": {
@@ -557,7 +557,7 @@
         "feature_title_height": 130,
         "feature_text_custom": true,
         "feature_text_font": "montserrat_n4",
-        "feature_text_size": 18,
+        "feature_text_size": 16,
         "feature_text_size_mobile": 14,
         "feature_text_advanced": false,
         "feature_text_height": 150,
@@ -570,7 +570,7 @@
         "buttons_mt": 32,
         "buttons_mt_mobile": 24,
         "source": "uploaded",
-        "video": "shopify://files/videos/zakariajawad_httpss.mj.run1uAEMXxCa5o_The_lid_must_lift_strai_8d21cc69-1f4f-4c0e-b585-dd22d0da9848_2.mp4",
+        "video": "shopify://files/videos/2c396e7d6e0445af98928f4ee13d63ce.HD-720p-2.1Mbps-57805639 (2) (1).mp4",
         "video_url": "",
         "video_position": "left",
         "video_position_mobile": "top",
