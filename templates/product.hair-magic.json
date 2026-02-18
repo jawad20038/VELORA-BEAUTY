@@ -410,21 +410,8 @@
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false
-          }
-        },
-        "column_wiRHLk": {
-          "type": "column",
-          "settings": {
-            "heading": "<em>\"Quelques secondes. Zéro cheveux gris.\"</em>",
-            "heading_disable_on_mobile": false,
-            "text": "<p>En deux minutes, HairMagic+ fait disparaître mes cheveux gris aux tempes. Il se fond parfaitement dans mes cheveux et tient toute la journée, sans irritation. — Claire</p>",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Avant_14.png"
           }
         },
         "column_t7KGDD": {
@@ -438,15 +425,31 @@
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Avant_12.png"
+          }
+        },
+        "column_wiRHLk": {
+          "type": "column",
+          "settings": {
+            "heading": "<em>\"Quelques secondes. Zéro cheveux gris.\"</em>",
+            "heading_disable_on_mobile": false,
+            "text": "<p>En deux minutes, HairMagic+ fait disparaître mes cheveux gris aux tempes. Il se fond parfaitement dans mes cheveux et tient toute la journée, sans irritation. — Claire</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Avant_15.png"
           }
         }
       },
       "block_order": [
         "column_A7thGe",
         "column_xjdLwN",
-        "column_wiRHLk",
-        "column_t7KGDD"
+        "column_t7KGDD",
+        "column_wiRHLk"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
