@@ -24,9 +24,9 @@
       "settings": {
         "show_collection_description": false,
         "show_placeholder_image": true,
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop-percentage-image-width": 50,
-        "slide_height": "fixed_height",
+        "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 260,
         "mobile_fixed_height": 260,
         "full-width-enabled": true,
@@ -38,8 +38,8 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "margin-top": 12,
-        "margin-bottom": 12
+        "margin-top": 0,
+        "margin-bottom": 0
       }
     },
     "title": {
