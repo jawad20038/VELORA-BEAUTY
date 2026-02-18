@@ -543,7 +543,7 @@
         "heading_richtext": "<h2>Your headline here</h2>",
         "layout": "image_first",
         "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
+        "full-width-enabled": true,
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
