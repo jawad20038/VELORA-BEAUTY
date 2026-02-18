@@ -90,7 +90,7 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "advanced_heading": false,
-        "title": "Bestseller",
+        "title": "Nos Rituels",
         "heading_richtext": "<h2>Your headline here</h2>",
         "disable_on_mobile": false,
         "hide_empty_section": false,
