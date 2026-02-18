@@ -200,7 +200,7 @@
         "full-width-enabled": false,
         "blog": "actualites",
         "post_limit": 3,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
         "show_view_all": true,
         "view_all_button_select": "primary",
@@ -210,8 +210,8 @@
         "button_select": "link",
         "size_heading": 100,
         "size_heading_mobile": 100,
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20
       }
