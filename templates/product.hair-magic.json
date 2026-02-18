@@ -136,24 +136,63 @@
         "image_FrjTgW": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_120217_e8331716-2932-41cf-ba54-7769b133af34.jpg",
             "link": ""
           }
         },
         "image_9PQxWm": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_120014_a83410f9-6312-48ca-8ba0-6713082e8420.jpg",
             "link": ""
           }
         },
         "image_A6QkmX": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_120035_e129f110-eb80-436b-8e57-1100697ca5f6.jpg",
             "link": ""
           }
         },
         "image_EjtFEt": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/4_36d0a68d-ee75-4ea7-a3ec-5094953ff213.webp",
+            "link": ""
+          }
+        },
+        "image_FT4CNx": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/609157426_18086518391015905_7359796279246874751_n_1.webp",
+            "link": ""
+          }
+        },
+        "image_43Nq36": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/3_57ce877b-3412-4b2f-a932-c50a8520c831.webp",
+            "link": ""
+          }
+        },
+        "image_9dQYee": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_114803_4b52d3c5-e1d2-41a6-9e62-d77d1582e7fa.jpg",
+            "link": ""
+          }
+        },
+        "image_yana77": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_115133_04a1c925-5c52-4493-b6c0-16c7dd554626.jpg",
+            "link": ""
+          }
+        },
+        "image_GFXpPF": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/hf_20260218_114429_012d9acc-5423-4e82-868b-acbee8740245.jpg",
             "link": ""
           }
         }
@@ -162,7 +201,12 @@
         "image_FrjTgW",
         "image_9PQxWm",
         "image_A6QkmX",
-        "image_EjtFEt"
+        "image_EjtFEt",
+        "image_FT4CNx",
+        "image_43Nq36",
+        "image_9dQYee",
+        "image_yana77",
+        "image_GFXpPF"
       ],
       "name": "t:sections.marquee_images.name",
       "settings": {
@@ -337,6 +381,89 @@
         "lazy": true
       }
     },
+    "multicolumn_kdANBW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_A7thGe": {
+          "type": "column",
+          "settings": {
+            "heading": "<em>Des cheveux plus denses, et une confiance retrouvée.</em>",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Ma ligne de cheveux me complexait depuis des années. HairMagic+ comble mes zones clairsemées de façon très naturelle — même ma coiffeuse n’a rien remarqué. — Isabelle</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_xjdLwN": {
+          "type": "column",
+          "settings": {
+            "heading": "<em>\"Aucune irritation. Une couvrance parfaite. Enfin.\"</em>",
+            "heading_disable_on_mobile": false,
+            "text": "<p>J’ai le cuir chevelu sensible et HairMagic+ est le seul correcteur qui ne m’irrite pas. La couvrance est parfaite, même pendant le sport. — Nathalie</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_wiRHLk": {
+          "type": "column",
+          "settings": {
+            "heading": "<em>\"Quelques secondes. Zéro cheveux gris.\"</em>",
+            "heading_disable_on_mobile": false,
+            "text": "<p>En deux minutes, HairMagic+ fait disparaître mes cheveux gris aux tempes. Il se fond parfaitement dans mes cheveux et tient toute la journée, sans irritation. — Claire</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_t7KGDD": {
+          "type": "column",
+          "settings": {
+            "heading": "<em>\"De complexée à confiante en quelques minutes.\"</em>",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Deux minutes avec HairMagic+ et mes cheveux paraissent naturellement plus denses, sans paquets ni effet visible. Juste mes cheveux… en mieux. — Sophie</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "link",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "column_A7thGe",
+        "column_xjdLwN",
+        "column_wiRHLk",
+        "column_t7KGDD"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "Le résultat parle de lui-même.",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "swipe_on_mobile": true,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#ffffff",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_THftUn": {
       "type": "image-with-text",
       "blocks": {
@@ -429,89 +556,6 @@
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_text_horizontal_position": "left",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
-    "multicolumn_kdANBW": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_A7thGe": {
-          "type": "column",
-          "settings": {
-            "heading": "<em>Des cheveux plus denses, et une confiance retrouvée.</em>",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Ma ligne de cheveux me complexait depuis des années. HairMagic+ comble mes zones clairsemées de façon très naturelle — même ma coiffeuse n’a rien remarqué. — Isabelle</p>",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false
-          }
-        },
-        "column_xjdLwN": {
-          "type": "column",
-          "settings": {
-            "heading": "<em>\"Aucune irritation. Une couvrance parfaite. Enfin.\"</em>",
-            "heading_disable_on_mobile": false,
-            "text": "<p>J’ai le cuir chevelu sensible et HairMagic+ est le seul correcteur qui ne m’irrite pas. La couvrance est parfaite, même pendant le sport. — Nathalie</p>",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false
-          }
-        },
-        "column_wiRHLk": {
-          "type": "column",
-          "settings": {
-            "heading": "<em>\"Quelques secondes. Zéro cheveux gris.\"</em>",
-            "heading_disable_on_mobile": false,
-            "text": "<p>En deux minutes, HairMagic+ fait disparaître mes cheveux gris aux tempes. Il se fond parfaitement dans mes cheveux et tient toute la journée, sans irritation. — Claire</p>",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false
-          }
-        },
-        "column_t7KGDD": {
-          "type": "column",
-          "settings": {
-            "heading": "<em>\"De complexée à confiante en quelques minutes.\"</em>",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Deux minutes avec HairMagic+ et mes cheveux paraissent naturellement plus denses, sans paquets ni effet visible. Juste mes cheveux… en mieux. — Sophie</p>",
-            "text_disable_on_mobile": false,
-            "button_select": "link",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false
-          }
-        }
-      },
-      "block_order": [
-        "column_A7thGe",
-        "column_xjdLwN",
-        "column_wiRHLk",
-        "column_t7KGDD"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "Le résultat parle de lui-même.",
-        "heading_richtext": "<h2>Your headline here</h2>",
-        "swipe_on_mobile": true,
-        "full-width-enabled": false,
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "#ffffff",
         "margin-top": 20,
         "margin-bottom": 20
       }
