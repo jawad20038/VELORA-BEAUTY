@@ -221,8 +221,8 @@
         "gap": 24,
         "color-body-text": "transparent",
         "background_color": "transparent",
-        "margin-top": 20,
-        "margin-bottom": 40
+        "margin-top": 0,
+        "margin-bottom": 20
       }
     },
     "custom_liquid_ANY4ja": {
