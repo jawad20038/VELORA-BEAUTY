@@ -24,8 +24,8 @@
         "title": {
           "type": "title",
           "settings": {
-            "blog_show_date": true,
-            "blog_show_author": true,
+            "blog_show_date": false,
+            "blog_show_author": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
             "color-body-text": "#000000"
