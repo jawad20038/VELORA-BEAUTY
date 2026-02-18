@@ -274,7 +274,7 @@
         "show_image": true,
         "image_ratio": "square",
         "column_alignment": "left",
-        "button_select": "primary",
+        "button_select": "link",
         "size_heading": 100,
         "size_heading_mobile": 100,
         "color-body-text": "transparent",
