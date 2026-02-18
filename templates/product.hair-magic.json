@@ -740,7 +740,7 @@
         "testimonial_text_size_desktop": 100,
         "testimonial_text_size": 100,
         "text_color": "transparent",
-        "background_color": "#faf7f2",
+        "background_color": "#ffffff",
         "margin-top": 12,
         "margin-bottom": 0
       }
@@ -751,8 +751,8 @@
         "collapsible_tab_4MafK7": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
+            "heading": "Est-ce que ça fait naturel ou ça se voit ?",
+            "content": "<p>HairMagic+ utilise des pigments adaptatifs qui épousent votre couleur naturelle. Le résultat est un effet « flou doux » qui densifie visuellement la zone sans effet plâtre ni résidu visible. Même votre coiffeuse ne le remarquera pas.</p>",
             "page": "",
             "icon": "check_mark"
           }
@@ -760,8 +760,35 @@
         "collapsible_tab_n4TYbr": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
+            "heading": "Est-ce que ça tache l’oreiller, le col ou les mains ?",
+            "content": "<p>Non. La formule est résistante aux transferts une fois appliquée et estompeée. Vous pouvez porter du blanc, prendre quelqu’un dans vos bras et dormir tranquille. Elle s’enlève uniquement au shampooing.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_4iwxgC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Et si je me trompe de teinte ?",
+            "content": "<p>On vous couvre. Si votre teinte ne correspond pas, contactez-nous et on vous envoie la bonne gratuitement. Zéro risque, zéro stress.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_jXWfdY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "J’ai le cuir chevelu sensible. C’est adapté ?",
+            "content": "<p>Absolument. HairMagic+ est formulée avec de l’huile d’argan, du panthénol et de la vitamine E — des actifs apaisants et hydratants. Pas de parabènes, pas d’irritants. Testée dermatologiquement et adaptée aux cuirs chevelus les plus réactifs.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_tABXQn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Combien de temps tient un compact ?",
+            "content": "<p>Avec une utilisation quotidienne ciblée (raie + ligne capillaire), un compact HairMagic+ dure en moyenne 2 à 4 mois. Un petit geste quotidien qui va très loin.</p>",
             "page": "",
             "icon": "check_mark"
           }
@@ -769,7 +796,10 @@
       },
       "block_order": [
         "collapsible_tab_4MafK7",
-        "collapsible_tab_n4TYbr"
+        "collapsible_tab_n4TYbr",
+        "collapsible_tab_4iwxgC",
+        "collapsible_tab_jXWfdY",
+        "collapsible_tab_tABXQn"
       ],
       "name": "t:sections.collapsible_menu.presets.name",
       "settings": {
