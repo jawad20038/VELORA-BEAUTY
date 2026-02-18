@@ -740,9 +740,44 @@
         "testimonial_text_size_desktop": 100,
         "testimonial_text_size": 100,
         "text_color": "transparent",
-        "background_color": "transparent",
+        "background_color": "#faf7f2",
         "margin-top": 12,
         "margin-bottom": 0
+      }
+    },
+    "collapsible_menu_QVR8rp": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_4MafK7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_n4TYbr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_4MafK7",
+        "collapsible_tab_n4TYbr"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     },
     "ss_guarantee_7NAGWN": {
@@ -1213,6 +1248,7 @@
     "ss_video_with_text_9_zgCdNE",
     "image_with_text_mh8ia3",
     "testimonials_HHDNMe",
+    "collapsible_menu_QVR8rp",
     "ss_guarantee_7NAGWN",
     "ss_testimonials_47_RkFWkM"
   ]
