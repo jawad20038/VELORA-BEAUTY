@@ -94,10 +94,8 @@
         "heading_richtext": "<h2>Your headline here</h2>",
         "disable_on_mobile": false,
         "hide_empty_section": false,
-        "collection": "frontpage",
-        "product_list": [
-          "hairmagic-poudre-racine"
-        ],
+        "collection": "nos-rituels",
+        "product_list": [],
         "products_to_show": 4,
         "enable_stack_products": false,
         "show_view_all": true,
