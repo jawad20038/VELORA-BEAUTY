@@ -420,160 +420,6 @@
         "margin-bottom": 20
       }
     },
-    "separator_X4Ceg8": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
-      "settings": {
-        "advanced_heading": true,
-        "heading": "Separator",
-        "heading_richtext": "",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#000000",
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-section-background": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
-    },
-    "separator_Hq69Lc": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "",
-        "heading_richtext": "<h2>Separator</h2>",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#000000",
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-section-background": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
-    },
-    "grid_view_kU98in": {
-      "type": "grid-view",
-      "blocks": {
-        "image_BqBLfh": {
-          "type": "image",
-          "settings": {
-            "heading": "<strong>Huile d’Argan</strong>",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "Nourrit la fibre capillaire et préserve la douceur des cheveux fragilisés.",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "#ffffff",
-            "color-overlay": "#000000",
-            "color-overlay-opacity": 40,
-            "desktop_text_vertical_position": "bottom",
-            "desktop_text_horizontal_position": "left",
-            "mobile_text_vertical_position": "bottom",
-            "mobile_text_horizontal_position": "left"
-          }
-        },
-        "image_yPDHAR": {
-          "type": "image",
-          "settings": {
-            "heading": "Panthénol (Pro-vitamine B5)",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "Renforce le cheveu et améliore sa souplesse pour un aspect plus sain.",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "#ffffff",
-            "color-overlay": "#000000",
-            "color-overlay-opacity": 40,
-            "desktop_text_vertical_position": "bottom",
-            "desktop_text_horizontal_position": "left",
-            "mobile_text_vertical_position": "bottom",
-            "mobile_text_horizontal_position": "left"
-          }
-        },
-        "image_9q8GTR": {
-          "type": "image",
-          "settings": {
-            "heading": "Vitamine E",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "Aide à protéger le cuir chevelu du stress oxydatif et à maintenir son équilibre.",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "#ffffff",
-            "color-overlay": "#000000",
-            "color-overlay-opacity": 40,
-            "desktop_text_vertical_position": "bottom",
-            "desktop_text_horizontal_position": "left",
-            "mobile_text_vertical_position": "bottom",
-            "mobile_text_horizontal_position": "left"
-          }
-        }
-      },
-      "block_order": [
-        "image_BqBLfh",
-        "image_yPDHAR",
-        "image_9q8GTR"
-      ],
-      "disabled": true,
-      "name": "t:sections.grid-view.settings.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "title": "La couvrance qui prend soin de vos cheveux",
-        "heading_richtext": "<h2>Your headline here</h2>",
-        "swipe_on_mobile": true,
-        "full-width-enabled": false,
-        "image_ratio": "adapt",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "#f7f9fd",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
-    "separator_U9k7Py": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
-      "settings": {
-        "advanced_heading": true,
-        "heading": "Separator",
-        "heading_richtext": "",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#000000",
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-section-background": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
-    },
-    "custom_liquid_KLQKx6": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": ""
-      }
-    },
     "ss_guarantee_7NAGWN": {
       "type": "ss-guarantee",
       "blocks": {
@@ -668,6 +514,7 @@
         "image_fLCiHn",
         "image_F3DwUm"
       ],
+      "disabled": true,
       "name": "SS - Guarantee",
       "settings": {
         "content_max_width": 60,
@@ -720,24 +567,6 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
-      }
-    },
-    "separator_fPgnjV": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
-      "settings": {
-        "advanced_heading": true,
-        "heading": "Separator",
-        "heading_richtext": "",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#000000",
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-section-background": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
       }
     },
     "ss_testimonials_47_RkFWkM": {
@@ -931,6 +760,7 @@
         "feature_44ewkV",
         "feature_6hiDxd"
       ],
+      "disabled": true,
       "name": "SS - Testimonials #47",
       "settings": {
         "slider_view": 3,
@@ -1055,13 +885,7 @@
     "custom_liquid_ANY4ja",
     "ss_video_with_text_9_aiQHbe",
     "multicolumn_kdANBW",
-    "separator_X4Ceg8",
-    "separator_Hq69Lc",
-    "grid_view_kU98in",
-    "separator_U9k7Py",
-    "custom_liquid_KLQKx6",
     "ss_guarantee_7NAGWN",
-    "separator_fPgnjV",
     "ss_testimonials_47_RkFWkM"
   ]
 }
