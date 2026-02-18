@@ -713,6 +713,37 @@
         "margin-bottom": 0
       }
     },
+    "testimonials_HHDNMe": {
+      "type": "testimonials",
+      "blocks": {
+        "image_Bnhnzb": {
+          "type": "image",
+          "settings": {
+            "icon_select": "quote",
+            "text": "<p><em>« Je recommande HairMagic+ à mes clientes entre deux colorations. Le résultat est bluffant et la formule ne détériore pas le cheveu. C’est rare de trouver un correcteur qui soit aussi un soin. » </em></p>",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Laure B., coiffeuse visagiste — Paris"
+          }
+        }
+      },
+      "block_order": [
+        "image_Bnhnzb"
+      ],
+      "name": "t:sections.testimonials.settings.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "Approuvé par les experts",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "image_shape": "circle",
+        "testimonial_text_size_desktop": 100,
+        "testimonial_text_size": 100,
+        "text_color": "transparent",
+        "background_color": "transparent",
+        "margin-top": 12,
+        "margin-bottom": 0
+      }
+    },
     "ss_guarantee_7NAGWN": {
       "type": "ss-guarantee",
       "blocks": {
@@ -1180,6 +1211,7 @@
     "multicolumn_kdANBW",
     "ss_video_with_text_9_zgCdNE",
     "image_with_text_mh8ia3",
+    "testimonials_HHDNMe",
     "ss_guarantee_7NAGWN",
     "ss_testimonials_47_RkFWkM"
   ]
