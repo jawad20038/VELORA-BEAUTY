@@ -404,7 +404,7 @@
           "settings": {
             "heading": "Mes gris ont disparu en quelques secondes",
             "heading_disable_on_mobile": false,
-            "text": "<p>« J'avais tout essayé pour mes tempes grises, j'étais prête à abandonner. Avec HairMagic+, 20 secondes et c'est réglé. Ça se fond parfaitement avec mon brun foncé, zéro démangeaison, zéro irritation — contrairement à d'autres poudres. Enfin un produit qui marche vraiment. » <strong>Françoise D.</strong></p>",
+            "text": "<p><em>« J'avais tout essayé pour mes tempes grises, j'étais prête à abandonner. Avec HairMagic+, 20 secondes et c'est réglé. Ça se fond parfaitement avec mon brun foncé, zéro démangeaison, zéro irritation — contrairement à d'autres poudres. Enfin un produit qui marche vraiment. »</em> <strong>Françoise D.</strong></p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
@@ -417,9 +417,9 @@
         "column_wiRHLk": {
           "type": "column",
           "settings": {
-            "heading": "<em>\"Quelques secondes. Zéro cheveux gris.\"</em>",
+            "heading": "Ma ligne capillaire est redevenue dense",
             "heading_disable_on_mobile": false,
-            "text": "<p>En deux minutes, HairMagic+ fait disparaître mes cheveux gris aux tempes. Il se fond parfaitement dans mes cheveux et tient toute la journée, sans irritation. — Claire</p>",
+            "text": "<p><em>« Mes zones clairsemées sur le devant me complexaient depuis des années. J'avais essayé des sprays — effet faux, toucher collant. HairMagic+ comble tout naturellement, même ma coiffeuse n'a rien vu. C'est léger, ça tient toute la journée. J'ose enfin me rattacher les cheveux.» </em><strong>Isabelle M.</strong></p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
@@ -432,7 +432,7 @@
         "column_t7KGDD": {
           "type": "column",
           "settings": {
-            "heading": "<em>\"De complexée à confiante en quelques minutes.\"</em>",
+            "heading": "Enfin une couvrance sans irritation",
             "heading_disable_on_mobile": false,
             "text": "<p>Deux minutes avec HairMagic+ et mes cheveux paraissent naturellement plus denses, sans paquets ni effet visible. Juste mes cheveux… en mieux. — Sophie</p>",
             "text_disable_on_mobile": false,
