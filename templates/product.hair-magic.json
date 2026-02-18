@@ -951,12 +951,50 @@
             "text_style": "body",
             "disable_on_mobile": false
           }
+        },
+        "ui_spacer_tr8AE4": {
+          "type": "ui_spacer",
+          "settings": {
+            "spacer_desktop_height": 32,
+            "spacer_mobile_height": 16
+          }
+        },
+        "text_HnhxDP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>« La beauté, ce n’est pas se cacher. C’est se respecter. »</strong></p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "icon_with_text_6UjPNx": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shopify://shop_images/zakariajawad_Ultra_realistic_portrait_of_an_elderly_Moroccan__12f4b17e-77d5-4341-b46d-e68c21997acc_0.png",
+            "select_icon": "bag",
+            "icon_advanced_settings": false,
+            "icon_height_desktop": 28,
+            "icon_height": 27,
+            "icon_margin_desktop": 0,
+            "icon_margin": 0,
+            "text": "<p>Lalla Aïcha, grand-mère de la fondatrice</p>",
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "gap": 8,
+            "margin_top": 8,
+            "margin_bottom": 8,
+            "margin_left_desktop": 0,
+            "margin_left": 0
+          }
         }
       },
       "block_order": [
         "subheading_FLMgeX",
         "heading_NahygX",
-        "text_LwgXba"
+        "text_LwgXba",
+        "ui_spacer_tr8AE4",
+        "text_HnhxDP",
+        "icon_with_text_6UjPNx"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
