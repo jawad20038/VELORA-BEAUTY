@@ -303,7 +303,7 @@
       "settings": {
         "layout_gap": 80,
         "layout_gap_mobile": 28,
-        "content_horizontal_align": "start",
+        "content_horizontal_align": "center",
         "content_horizontal_align_mobile": "start",
         "content_vertical_align": "center",
         "features_per_row": 3,
