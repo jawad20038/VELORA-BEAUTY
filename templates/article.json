@@ -15,7 +15,7 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
-            "slide_width": "standard",
+            "slide_width": "full_width",
             "slide_height": "adapt_to_first_image",
             "desktop_fixed_height": 320,
             "mobile_fixed_height": 460
@@ -56,27 +56,9 @@
         "margin-top": 20,
         "margin-bottom": 72
       }
-    },
-    "separator_zDNkHK": {
-      "type": "separator",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "",
-        "heading_richtext": "<h2>Separator</h2>",
-        "size_heading": 100,
-        "size_heading_mobile": 100,
-        "show-separator-line": true,
-        "full-width-line": true,
-        "color-background": "#000000",
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-section-background": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
     }
   },
   "order": [
-    "main",
-    "separator_zDNkHK"
+    "main"
   ]
 }
