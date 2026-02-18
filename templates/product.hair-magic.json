@@ -468,6 +468,251 @@
         "margin-bottom": 20
       }
     },
+    "ss_video_with_text_9_zgCdNE": {
+      "type": "ss-video-with-text-9",
+      "blocks": {
+        "text_fgaWpd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HairMagic+ corrige ce que vous voyez  et que personne d’autre ne remarquera.<br/>Une couvrance précise, un effet flou densifiant, une tenue irréprochable du matin au soir.</p>",
+            "text_custom": true,
+            "text_font": "montserrat_n4",
+            "text_size": 18,
+            "text_size_mobile": 14,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_color": "#3d2e2a"
+          }
+        },
+        "heading_VrGHay": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Votre nouveau rituel en 3 gestes.</p>",
+            "heading_custom": true,
+            "heading_font": "playfair_display_n7",
+            "heading_size": 26,
+            "heading_size_mobile": 22,
+            "advanced": false,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#3d2e2a",
+            "heading_accent_color": "#afafaf",
+            "heading_gradient": ""
+          }
+        },
+        "feature_kbADr9": {
+          "type": "feature",
+          "settings": {
+            "icon": "none",
+            "feature_title": "✓  Couvrance Invisible",
+            "feature_text": ""
+          }
+        },
+        "feature_Lw9WNx": {
+          "type": "feature",
+          "settings": {
+            "icon": "none",
+            "feature_title": "✓ Soin à Chaque Geste",
+            "feature_text": ""
+          }
+        },
+        "feature_FfMder": {
+          "type": "feature",
+          "settings": {
+            "icon": "none",
+            "feature_title": "✓ Tenue Longue Duré",
+            "feature_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_fgaWpd",
+        "heading_VrGHay",
+        "feature_kbADr9",
+        "feature_Lw9WNx",
+        "feature_FfMder"
+      ],
+      "name": "SS - Video with text #9",
+      "settings": {
+        "layout_gap": 80,
+        "layout_gap_mobile": 28,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "start",
+        "content_vertical_align": "center",
+        "features_per_row": 3,
+        "features_per_row_mobile": "1",
+        "feature_icon_size": 44,
+        "feature_icon_size_mobile": 40,
+        "feature_icon_padding": 8,
+        "feature_icon_radius": 4,
+        "feature_icon_border_thickness": 0,
+        "feature_title_custom": true,
+        "feature_title_font": "montserrat_n7",
+        "feature_title_size": 18,
+        "feature_title_size_mobile": 14,
+        "feature_title_advanced": false,
+        "feature_title_height": 130,
+        "feature_text_custom": true,
+        "feature_text_font": "montserrat_n4",
+        "feature_text_size": 18,
+        "feature_text_size_mobile": 14,
+        "feature_text_advanced": false,
+        "feature_text_height": 150,
+        "feature_text_mt": 10,
+        "feature_text_mt_mobile": 10,
+        "open_in_new_tab": false,
+        "buttons_advanced": false,
+        "buttons_gap": 16,
+        "buttons_gap_mobile": 12,
+        "buttons_mt": 32,
+        "buttons_mt_mobile": 24,
+        "source": "uploaded",
+        "video": "shopify://files/videos/zakariajawad_httpss.mj.run1uAEMXxCa5o_The_lid_must_lift_strai_8d21cc69-1f4f-4c0e-b585-dd22d0da9848_2.mp4",
+        "video_url": "",
+        "video_position": "left",
+        "video_position_mobile": "top",
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "original",
+        "video_radius": 0,
+        "video_border_thickness": 0,
+        "video_autoplay": true,
+        "video_loop": true,
+        "use_controls": false,
+        "play_icon_size": 16,
+        "play_icon_size_mobile": 16,
+        "play_padding": 14,
+        "play_padding_mobile": 14,
+        "play_radius": 100,
+        "play_border_thickness": 0,
+        "video_border_color": "#121212",
+        "play_color": "#121212",
+        "play_hover_color": "#121212",
+        "play_bg_color": "#ffffff",
+        "play_bg_hover_color": "#f3f3f3",
+        "play_border_color": "#121212",
+        "play_border_hover_color": "#121212",
+        "feature_icon_color": "#121212",
+        "feature_icon_border_color": "#f3f3f3",
+        "feature_title_color": "#3d2e2a",
+        "feature_text_color": "#121212",
+        "background_style": "gradient",
+        "background_color": "#f7f7f7",
+        "background_gradient": "linear-gradient(115deg, rgba(242, 242, 242, 1), rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 50%, rgba(201, 177, 157, 1) 100%)",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "image_with_text_mh8ia3": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_rjNDLU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Né à Agadir, au cœur du Maroc.",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_GxrKmm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Un rituel transmis depuis des générations.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_Wc3Ky7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dans la région d’Agadir, les femmes marocaines prennent soin de leurs cheveux avec un trésor rare : l’huile d’argan. Pressée à la main, utilisée depuis des siècles, cette huile est bien plus qu’un ingrédient — c’est un héritage.</p><p>HairMagic+ est née de cette tradition. Nous avons voulu créer une poudre qui ne se contente pas <br/>de cacher — mais qui prend soin. Parce que votre cuir chevelu est de la peau, et qu’il mérite le même respect que votre visage.</p><p>Chaque compact HairMagic+ est une rencontre entre savoir-faire ancestral et science cosmétique moderne. Une formule épurée. Des actifs sélectionnés. Un geste qui honore la beauté plutôt que de la masquer.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "ui_spacer_hM3Y3d": {
+          "type": "ui_spacer",
+          "settings": {
+            "spacer_desktop_height": 32,
+            "spacer_mobile_height": 16
+          }
+        },
+        "text_eijRBM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>« La beauté, ce n’est pas se cacher. C’est se respecter. »</strong></p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "icon_with_text_VK4fgT": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shopify://shop_images/zakariajawad_Ultra_realistic_portrait_of_an_elderly_Moroccan__12f4b17e-77d5-4341-b46d-e68c21997acc_0.png",
+            "select_icon": "bag",
+            "icon_advanced_settings": true,
+            "icon_height_desktop": 42,
+            "icon_height": 42,
+            "icon_margin_desktop": 0,
+            "icon_margin": 0,
+            "text": "<p>Lalla Aïcha, grand-mère de la fondatrice</p>",
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "gap": 8,
+            "margin_top": 8,
+            "margin_bottom": 8,
+            "margin_left_desktop": 0,
+            "margin_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rjNDLU",
+        "heading_GxrKmm",
+        "text_Wc3Ky7",
+        "ui_spacer_hM3Y3d",
+        "text_eijRBM",
+        "icon_with_text_VK4fgT"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": true,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "#faf7f2",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/zakariajawad_Ultra_realistic_premium_lifestyle_photo_Moroccan_99ca9642-ef2f-4799-8183-1cba27189c4a_1.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "left",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "ss_guarantee_7NAGWN": {
       "type": "ss-guarantee",
       "blocks": {
@@ -924,102 +1169,6 @@
         "section_radius": 0,
         "lazy": true
       }
-    },
-    "image_with_text_nnFw7h": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_FLMgeX": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Né à Agadir, au cœur du Maroc.",
-            "subheading_disable_on_mobile": false
-          }
-        },
-        "heading_NahygX": {
-          "type": "heading",
-          "settings": {
-            "heading": "Un rituel transmis depuis des générations.",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_LwgXba": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dans la région d’Agadir, les femmes marocaines prennent soin de leurs cheveux avec un trésor rare : l’huile d’argan. Pressée à la main, utilisée depuis des siècles, cette huile est bien plus qu’un ingrédient — c’est un héritage.</p><p>HairMagic+ est née de cette tradition. Nous avons voulu créer une poudre qui ne se contente pas <br/>de cacher — mais qui prend soin. Parce que votre cuir chevelu est de la peau, et qu’il mérite le même respect que votre visage.</p><p>Chaque compact HairMagic+ est une rencontre entre savoir-faire ancestral et science cosmétique moderne. Une formule épurée. Des actifs sélectionnés. Un geste qui honore la beauté plutôt que de la masquer.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        },
-        "ui_spacer_tr8AE4": {
-          "type": "ui_spacer",
-          "settings": {
-            "spacer_desktop_height": 32,
-            "spacer_mobile_height": 16
-          }
-        },
-        "text_HnhxDP": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>« La beauté, ce n’est pas se cacher. C’est se respecter. »</strong></p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        },
-        "icon_with_text_6UjPNx": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "shopify://shop_images/zakariajawad_Ultra_realistic_portrait_of_an_elderly_Moroccan__12f4b17e-77d5-4341-b46d-e68c21997acc_0.png",
-            "select_icon": "bag",
-            "icon_advanced_settings": true,
-            "icon_height_desktop": 42,
-            "icon_height": 42,
-            "icon_margin_desktop": 0,
-            "icon_margin": 0,
-            "text": "<p>Lalla Aïcha, grand-mère de la fondatrice</p>",
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "gap": 8,
-            "margin_top": 8,
-            "margin_bottom": 8,
-            "margin_left_desktop": 0,
-            "margin_left": 0
-          }
-        }
-      },
-      "block_order": [
-        "subheading_FLMgeX",
-        "heading_NahygX",
-        "text_LwgXba",
-        "ui_spacer_tr8AE4",
-        "text_HnhxDP",
-        "icon_with_text_6UjPNx"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "title": "",
-        "heading_richtext": "<h2>Your headline here</h2>",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": true,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "transparent",
-        "section-color-overlay": "#faf7f2",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
-        "color-overlay": "transparent",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/zakariajawad_Ultra_realistic_premium_lifestyle_photo_Moroccan_99ca9642-ef2f-4799-8183-1cba27189c4a_1.png",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "left",
-        "mobile_text_horizontal_position": "left",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
     }
   },
   "order": [
@@ -1029,8 +1178,9 @@
     "custom_liquid_ANY4ja",
     "ss_video_with_text_9_aiQHbe",
     "multicolumn_kdANBW",
+    "ss_video_with_text_9_zgCdNE",
+    "image_with_text_mh8ia3",
     "ss_guarantee_7NAGWN",
-    "ss_testimonials_47_RkFWkM",
-    "image_with_text_nnFw7h"
+    "ss_testimonials_47_RkFWkM"
   ]
 }
