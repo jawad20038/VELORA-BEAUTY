@@ -184,7 +184,7 @@
           "settings": {
             "button_select": "primary",
             "button_label": "Découvrir HairMagic+",
-            "button_link": "shopify://products/hairmagic-hairline-powder",
+            "button_link": "shopify://products/hairmagic-poudre-racine",
             "disable_on_mobile": false
           }
         }
@@ -231,7 +231,7 @@
         "hide_empty_section": false,
         "collection": "frontpage",
         "product_list": [
-          "hairmagic-hairline-powder"
+          "hairmagic-poudre-racine"
         ],
         "products_to_show": 4,
         "enable_stack_products": false,
