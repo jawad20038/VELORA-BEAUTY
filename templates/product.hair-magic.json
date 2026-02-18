@@ -792,6 +792,42 @@
             "page": "",
             "icon": "check_mark"
           }
+        },
+        "collapsible_tab_zh8CkL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça résiste à la pluie et à la transpiration ?",
+            "content": "<p>Oui. La formule water-resistant est conçue pour rester en place face à l’humidité, la chaleur et l’activité physique. Pour une tenue maximale les jours actifs, un léger voile de laque fixe tout parfaitement.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_8JcXLD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment je l’enlève ?",
+            "content": "<p>Un simple shampooing suffit. Pas de produit spécial, pas de double lavage. HairMagic+ part complètement au premier lavage.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_hQJ6DC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "C’est quoi la différence avec les sprays ou les fibres ?",
+            "content": "<p>Les sprays peuvent être collants, lourds et imprécis. Les fibres tombent et nécessitent une fixation. HairMagic+ est une poudre pressée, précise, légère, qui se fond dans le cheveu avec un rendu naturel et une tenue fiable. Et surtout, elle nourrit votre cuir chevelu au lieu de l’agresser.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_m8UhJP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pourquoi l’huile d’argan d’Agadir ?",
+            "content": "<p>L’huile d’argan d’Agadir est reconnue mondialement pour ses propriétés nourrissantes et protectrices. Nous l’avons intégrée parce que votre cuir chevelu mérite un soin, pas juste un camouflage. C’est notre manière d’honorer la tradition marocaine tout en répondant aux besoins des femmes modernes.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -799,7 +835,11 @@
         "collapsible_tab_n4TYbr",
         "collapsible_tab_4iwxgC",
         "collapsible_tab_jXWfdY",
-        "collapsible_tab_tABXQn"
+        "collapsible_tab_tABXQn",
+        "collapsible_tab_zh8CkL",
+        "collapsible_tab_8JcXLD",
+        "collapsible_tab_hQJ6DC",
+        "collapsible_tab_m8UhJP"
       ],
       "name": "t:sections.collapsible_menu.presets.name",
       "settings": {
