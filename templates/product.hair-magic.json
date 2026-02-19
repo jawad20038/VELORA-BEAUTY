@@ -71,7 +71,7 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true,
-            "show_qty_selector": false,
+            "show_qty_selector": true,
             "text_color": "#ffffff",
             "background_color": "#c69882"
           }
@@ -219,8 +219,8 @@
         "gap_desk": 24,
         "mobile_fixed_height": 200,
         "gap": 24,
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 0,
         "margin-bottom": 20
       }
@@ -699,11 +699,11 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "section-color-body-text": "transparent",
+        "section-color-body-text": "rgba(0,0,0,0)",
         "section-color-overlay": "#faf7f2",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
-        "color-overlay": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/zakariajawad_Ultra_realistic_premium_lifestyle_photo_Moroccan_99ca9642-ef2f-4799-8183-1cba27189c4a_1.png",
         "desktop_text_vertical_position": "center",
@@ -739,7 +739,7 @@
         "image_shape": "circle",
         "testimonial_text_size_desktop": 100,
         "testimonial_text_size": 100,
-        "text_color": "transparent",
+        "text_color": "rgba(0,0,0,0)",
         "background_color": "#ffffff",
         "margin-top": 12,
         "margin-bottom": 0
@@ -843,8 +843,8 @@
       ],
       "name": "t:sections.collapsible_menu.presets.name",
       "settings": {
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "compact-size-enabled": true,
         "margin-top": 20,
         "margin-bottom": 20
