@@ -96,6 +96,12 @@
             "background_color": "#c69882"
           }
         },
+        "custom_liquid_De9NcF": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "custom_liquid_8dycJ4": {
           "type": "custom_liquid",
           "settings": {
@@ -124,6 +130,7 @@
         "variant_picker_kFEDG7",
         "information_popup_xTh4dQ",
         "buy_buttons",
+        "custom_liquid_De9NcF",
         "custom_liquid_8dycJ4",
         "custom_liquid_qiQc7a",
         "custom_liquid_UcP3Ey"
