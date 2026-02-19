@@ -56,6 +56,26 @@
             "custom_liquid": "<div class=\"ar-points\">\n  <ul class=\"ar-points__list\" role=\"list\">\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Couvrance naturelle et immédiate — cheveux plus denses\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Enrichie en huile d’argan d’Agadir, panthénol et vitamine E — <b>couvre ET nourrit</b>\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Résistante à l’eau, à la transpiration et aux transferts — tient toute la journée\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        <b>Bonus :</b> Fonctionne aussi sur les sourcils — 2 gestes de confiance en 1 compact\n      </span>\n    </li>\n\n    <li class=\"ar-points__item\">\n      <span class=\"ar-points__line\"></span>\n      <span class=\"ar-points__text\">\n        Formule douce, même pour cuirs chevelus sensibles — sans irritation\n      </span>\n    </li>\n\n  </ul>\n</div>\n\n<style>\n  .ar-points {\n    padding: 0;\n    margin: 10px 0 0;\n  }\n\n  .ar-points__list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    gap: 14px;\n  }\n\n  .ar-points__item {\n    display: flex;\n    gap: 12px;\n    align-items: flex-start;\n  }\n\n  .ar-points__line {\n    display: block;\n    width: 18px;\n    height: 1px;\n    margin-top: 8px;\n    background: #C8A265;\n    flex-shrink: 0;\n  }\n\n  .ar-points__text {\n    font-family: var(--FONT-STACK-BODY);\n    font-size: var(--font-3, 12px);\n    line-height: var(--leading-normal, 1.5);\n    color: var(--COLOR-TEXT-LIGHT, #646464);\n  }\n\n  .ar-points__text b {\n    color: var(--COLOR-TEXT, #222);\n    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);\n  }\n</style>"
           }
         },
+        "variant_picker_kFEDG7": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatch_names": "",
+            "variant_picture_swatch_names": "",
+            "thumb_size": 60,
+            "radius": "default",
+            "border_radius": 0,
+            "dropdown_swatch_names": "",
+            "margin-top": 8,
+            "margin-bottom": 8,
+            "size_icon": "check_mark",
+            "size_link": "",
+            "variant_name": "",
+            "size_content": "",
+            "metafield": "",
+            "enable-striped-rows": true
+          }
+        },
         "information_popup_xTh4dQ": {
           "type": "information_popup",
           "settings": {
@@ -101,6 +121,7 @@
         "custom_liquid_dHXXUn",
         "price_zaXCc3",
         "custom_liquid_QLbHhq",
+        "variant_picker_kFEDG7",
         "information_popup_xTh4dQ",
         "buy_buttons",
         "custom_liquid_8dycJ4",
