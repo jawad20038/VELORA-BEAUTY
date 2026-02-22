@@ -227,11 +227,11 @@
         "text_8Uj7zY": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with a video to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "text": "<p>Appliquez le matin une fine couche de <strong>RituelÉclat+ Anti-Âge</strong> sur une peau propre et sèche.</p><p>Sa formule hautement concentrée agit avec précision :<br/>une très petite quantité suffit pour révéler tout son potentiel.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 22,
-            "text_size_mobile": 16,
+            "text_size_mobile": 13,
             "text_advanced": false,
             "text_height": 150,
             "text_mt": 24,
