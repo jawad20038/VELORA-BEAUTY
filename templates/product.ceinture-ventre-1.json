@@ -48,7 +48,7 @@
             "show_gift_card_recipient": true,
             "show_qty_selector": false,
             "text_color": "#ffffff",
-            "background_color": "#dd1e2f"
+            "background_color": "#c69882"
           }
         },
         "feature_icons_4tFTMT": {
@@ -216,7 +216,7 @@
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
-            "heading_richtext_color": "transparent",
+            "heading_richtext_color": "rgba(0,0,0,0)",
             "heading_richtext_gradient": ""
           }
         }
@@ -228,8 +228,8 @@
       "settings": {
         "section_width": "short",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "background_gradient": "",
         "margin-top": 52,
         "margin-bottom": 0
@@ -293,6 +293,7 @@
         "buttons_mt_mobile": 24,
         "source": "uploaded",
         "video": "shopify://files/videos/video explication.mp4",
+        "video_url": "",
         "video_position": "left",
         "video_position_mobile": "top",
         "video_ratio": "original",
@@ -311,12 +312,12 @@
         "video_border_color": "#121212",
         "play_color": "#121212",
         "play_hover_color": "#121212",
-        "play_bg_color": "#FFFFFF",
-        "play_bg_hover_color": "#F3F3F3",
+        "play_bg_color": "#ffffff",
+        "play_bg_hover_color": "#f3f3f3",
         "play_border_color": "#121212",
         "play_border_hover_color": "#121212",
         "feature_icon_color": "#121212",
-        "feature_icon_border_color": "#F3F3F3",
+        "feature_icon_border_color": "#f3f3f3",
         "feature_title_color": "#121212",
         "feature_text_color": "#121212",
         "background_style": "solid",
