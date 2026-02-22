@@ -201,29 +201,43 @@
         "mobile_image": "shopify://shop_images/17.png",
         "mobile_text_horizontal_position": "center",
         "margin-top": 20,
-        "margin-bottom": 20
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_r6RwmP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bHAGQH": {
+          "type": "heading",
+          "settings": {
+            "advanced_heading": false,
+            "heading": "Comment l'utiliser ?",
+            "heading_richtext": "<h2>Your headline here</h2>",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "heading_richtext_color": "transparent",
+            "heading_richtext_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_bHAGQH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "short",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "background_gradient": "",
+        "margin-top": 52,
+        "margin-bottom": 0
       }
     },
     "ss_video_with_text_9_XNgcGx": {
       "type": "ss-video-with-text-9",
       "blocks": {
-        "heading_nykFpd": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Comment l’utiliser ?</p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 48,
-            "heading_size_mobile": 28,
-            "advanced": false,
-            "heading_height": 130,
-            "heading_mt": 0,
-            "heading_mt_mobile": 0,
-            "heading_color": "#121212",
-            "heading_accent_color": "#AFAFAF",
-            "heading_gradient": ""
-          }
-        },
         "text_8Uj7zY": {
           "type": "text",
           "settings": {
@@ -241,7 +255,6 @@
         }
       },
       "block_order": [
-        "heading_nykFpd",
         "text_8Uj7zY"
       ],
       "name": "SS - Video with text #9",
@@ -426,6 +439,7 @@
     "breadcrumbs",
     "main",
     "image_with_text_nRDEYz",
+    "rich_text_r6RwmP",
     "ss_video_with_text_9_XNgcGx",
     "rich_text_LLwd4B",
     "collapsible_menu_74KpMP"
