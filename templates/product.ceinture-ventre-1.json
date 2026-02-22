@@ -417,6 +417,15 @@
             "page": "",
             "icon": "question_mark"
           }
+        },
+        "collapsible_tab_FjxFKY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "POURQUOI NOS FORMULES SONT UNIQUES AU MONDE",
+            "content": "<p>Aucune autre marque de soins n’a investi autant de temps et d’efforts pour sélectionner des <strong>ingrédients rares et précieux</strong> comme nous l’avons fait.</p><p>Nous avons passé <strong>20 ans</strong> à créer quelques produits simples mais puissants, avec des résultats rapides et visibles.</p><p>Alors que la plupart des marques utilisent <strong>70 à 90 % d’eau</strong>, <strong>nos formules ne contiennent pas une goutte d’eau</strong>.<br/><br/>Chaque ingrédient présent dans nos pots a <strong>un rôle précis pour votre peau</strong>, pour nourrir, protéger et sublimer votre teint.</p><p>Une efficacité concentrée, sans compromis.</p>",
+            "page": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
@@ -424,7 +433,8 @@
         "collapsible_tab_JBLXtm",
         "collapsible_tab_tThzcC",
         "collapsible_tab_GrYRmt",
-        "collapsible_tab_kFN6tM"
+        "collapsible_tab_kFN6tM",
+        "collapsible_tab_FjxFKY"
       ],
       "name": "t:sections.collapsible_menu.presets.name",
       "settings": {
