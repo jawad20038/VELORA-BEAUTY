@@ -302,7 +302,7 @@
         "video_border_thickness": 0,
         "video_autoplay": true,
         "video_loop": true,
-        "use_controls": false,
+        "use_controls": true,
         "play_icon_size": 16,
         "play_icon_size_mobile": 16,
         "play_padding": 14,
