@@ -119,7 +119,7 @@
             "heading_custom": true,
             "heading_font": "cormorant_n7",
             "heading_size": 36,
-            "heading_size_mobile": 34,
+            "heading_size_mobile": 30,
             "heading_height": 130,
             "heading_mt": 0,
             "heading_mt_mobile": 0,
@@ -226,12 +226,12 @@
         "product_image_ratio": "square",
         "product_image_ratio_mobile": "square",
         "product_title_custom": true,
-        "product_title_font": "montserrat_n4",
+        "product_title_font": "josefin_sans_n4",
         "product_title_size": 14,
         "product_title_size_mobile": 12,
         "product_title_height": 130,
-        "product_desc_custom": true,
-        "product_desc_font": "montserrat_n4",
+        "product_desc_custom": false,
+        "product_desc_font": "josefin_sans_n4",
         "product_desc_size": 14,
         "product_desc_size_mobile": 11,
         "product_desc_height": 130,
@@ -293,6 +293,101 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "image_with_text_nRDEYz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PYytkE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des résultats qui se voient, et se mesurent",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "ui_spacer_ETrHBe": {
+          "type": "ui_spacer",
+          "settings": {
+            "spacer_desktop_height": 32,
+            "spacer_mobile_height": 16
+          }
+        },
+        "heading_fKHaPK": {
+          "type": "heading",
+          "settings": {
+            "heading": "95%",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 150
+          }
+        },
+        "text_KtMkaW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ont constaté un éclat naturel immédiat, durable au fil des applications.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "ui_spacer_KjnJbC": {
+          "type": "ui_spacer",
+          "settings": {
+            "spacer_desktop_height": 32,
+            "spacer_mobile_height": 16
+          }
+        },
+        "heading_UAxVGz": {
+          "type": "heading",
+          "settings": {
+            "heading": "22 %",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 150
+          }
+        },
+        "text_Uet4YN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ont présenté une peau mesurée comme visiblement plus jeune lors d’évaluations scientifiques.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PYytkE",
+        "ui_spacer_ETrHBe",
+        "heading_fKHaPK",
+        "text_KtMkaW",
+        "ui_spacer_KjnJbC",
+        "heading_UAxVGz",
+        "text_Uet4YN"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/17.png",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     },
     "rich_text_LLwd4B": {
@@ -396,6 +491,7 @@
     "breadcrumbs",
     "main",
     "ss_hotspots_10_zY3kPc",
+    "image_with_text_nRDEYz",
     "rich_text_LLwd4B",
     "collapsible_menu_74KpMP"
   ]
