@@ -398,19 +398,19 @@
     "multicolumn_kdANBW": {
       "type": "multicolumn",
       "blocks": {
-        "column_A7thGe": {
+        "column_t7KGDD": {
           "type": "column",
           "settings": {
-            "heading": "Mon rituel secret entre deux rendez-vous salon !",
+            "heading": "Enfin une couvrance sans irritation",
             "heading_disable_on_mobile": false,
-            "text": "<p><em>« Je courais chez le coiffeur toutes les 3 semaines pour mes racines. Avec HairMagic+, je tiens 6 semaines. 20 secondes le matin, ça se fond avec ma couleur, personne ne voit rien. Et ma fibre est nourrie grâce à l'argan. Je ne reviens plus en arrière. »  </em><strong>Nathalie R.</strong></p>",
+            "text": "<p>« Mon cuir chevelu sensible réagissait à tous les correcteurs racines. HairMagic+ est le premier qui ne me provoque ni démangeaison ni pellicules. La couvrance est impeccable, ça tient même pendant mon cours de yoga. Grâce à la formule à l'argan, chaque retouche est un soin. Vraiment différent de tout le reste. » <strong>Samira B.</strong></p>",
             "text_disable_on_mobile": false,
-            "button_select": "primary",
+            "button_select": "link",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Avant_13.png"
+            "mobile_image": "shopify://shop_images/Avant_15.png"
           }
         },
         "column_xjdLwN": {
@@ -443,27 +443,27 @@
             "desktop_image": "shopify://shop_images/Avant_12.png"
           }
         },
-        "column_t7KGDD": {
+        "column_A7thGe": {
           "type": "column",
           "settings": {
-            "heading": "Enfin une couvrance sans irritation",
+            "heading": "Mon rituel secret entre deux rendez-vous salon !",
             "heading_disable_on_mobile": false,
-            "text": "<p>« Mon cuir chevelu sensible réagissait à tous les correcteurs racines. HairMagic+ est le premier qui ne me provoque ni démangeaison ni pellicules. La couvrance est impeccable, ça tient même pendant mon cours de yoga. Grâce à la formule à l'argan, chaque retouche est un soin. Vraiment différent de tout le reste. » <strong>Samira B.</strong></p>",
+            "text": "<p><em>« Je courais chez le coiffeur toutes les 3 semaines pour mes racines. Avec HairMagic+, je tiens 6 semaines. 20 secondes le matin, ça se fond avec ma couleur, personne ne voit rien. Et ma fibre est nourrie grâce à l'argan. Je ne reviens plus en arrière. »  </em><strong>Nathalie R.</strong></p>",
             "text_disable_on_mobile": false,
-            "button_select": "link",
+            "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "mobile_image": "shopify://shop_images/Avant_15.png"
+            "desktop_image": "shopify://shop_images/Avant_13.png"
           }
         }
       },
       "block_order": [
-        "column_A7thGe",
+        "column_t7KGDD",
         "column_xjdLwN",
         "column_wiRHLk",
-        "column_t7KGDD"
+        "column_A7thGe"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
