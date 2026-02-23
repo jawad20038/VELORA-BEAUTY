@@ -137,6 +137,16 @@
         "type": "shopify://apps/vitals/blocks/app-embed/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
         "disabled": false,
         "settings": {}
+      },
+      "7054877461618660028": {
+        "type": "shopify://apps/moon-bundles-upsell-cart-aov/blocks/app-embed/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+        "disabled": false,
+        "settings": {}
+      },
+      "14458903502463230934": {
+        "type": "shopify://apps/moon-bundles-upsell-cart-aov/blocks/cart-drawer/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
