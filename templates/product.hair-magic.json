@@ -41,39 +41,10 @@
             "custom_liquid": "<div class=\"ar-s1\">\n  <div class=\"ar-s1__hero\">\n    <span class=\"ar-s1__num\">20s</span>\n    <div class=\"ar-s1__text\">\n      <p class=\"ar-s1__main\">pour couvrir racines grises, zones clairsemées et ligne capillaire.</p>\n      <p class=\"ar-s1__proof\">Sans teinture · Sans désordre · Avec soin</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ar-s1 { padding: 0; margin: 8px 0 0; }\n  .ar-s1__hero {\n    display: flex;\n    align-items: flex-start;\n    gap: 10px;\n  }\n  .ar-s1__num {\n    font-family: Georgia, 'Times New Roman', serif;\n    font-size: 28px;\n    font-weight: 700;\n    color: #A17B3A;\n    line-height: 1;\n    letter-spacing: -0.03em;\n    flex-shrink: 0;\n    position: relative;\n    top: -2px;\n  }\n  .ar-s1__main {\n    font-family: var(--FONT-STACK-BODY, sans-serif);\n    font-size: 12.5px;\n    font-weight: 400;\n    line-height: 1.45;\n    color: #444;\n    margin: 0 0 5px;\n  }\n  .ar-s1__proof {\n    font-family: var(--FONT-STACK-BODY, sans-serif);\n    font-size: 9.5px;\n    font-weight: 600;\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    color: #3D2E2A;\n    margin: 0;\n  }\n</style>"
           }
         },
-        "price_zaXCc3": {
-          "type": "price",
-          "settings": {
-            "show_tax_included": false,
-            "show_shipping_policy": false,
-            "size_text": 100,
-            "size_text_mobile": 100
-          }
-        },
         "custom_liquid_ECDMcm": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div class=\"ar-b\">\n  <div class=\"ar-b__i\">\n    <svg class=\"ar-b__ck\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#A17B3A\"/><path d=\"M6 10.5L8.5 13L14 7\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n    <p>Couvrance naturelle et immédiate — <span class=\"ar-b__fade\">effet cheveux plus denses</span></p>\n  </div>\n  <div class=\"ar-b__i ar-b__i--hl\">\n    <svg class=\"ar-b__ck\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#A17B3A\"/><path d=\"M6 10.5L8.5 13L14 7\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n    <p>Huile d'argan d'Agadir, panthénol et vitamine E — <b>couvre ET nourrit</b> <span class=\"ar-b__tag\">Exclusif</span></p>\n  </div>\n  <div class=\"ar-b__i\">\n    <svg class=\"ar-b__ck\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#A17B3A\"/><path d=\"M6 10.5L8.5 13L14 7\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n    <p>Résistante à l'eau et aux transferts — <span class=\"ar-b__fade\">tient toute la journée</span></p>\n  </div>\n  <div class=\"ar-b__i\">\n    <svg class=\"ar-b__ck\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#A17B3A\"/><path d=\"M6 10.5L8.5 13L14 7\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n    <p>Fonctionne aussi sur les sourcils — <span class=\"ar-b__fade\">2 gestes en 1</span></p>\n  </div>\n  <div class=\"ar-b__i\">\n    <svg class=\"ar-b__ck\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#A17B3A\"/><path d=\"M6 10.5L8.5 13L14 7\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n    <p>Formule douce pour cuirs chevelus sensibles — <span class=\"ar-b__fade\">sans irritation</span></p>\n  </div>\n</div>\n\n<style>\n  .ar-b {\n    padding: 10px 0 4px;\n    margin: 0;\n  }\n  .ar-b__i {\n    display: flex;\n    align-items: baseline;\n    gap: 8px;\n    padding: 7px 0;\n    border-bottom: 1px solid rgba(0,0,0,0.04);\n  }\n  .ar-b__i:last-child { border-bottom: none; }\n  .ar-b__ck { flex-shrink: 0; position: relative; top: 2px; }\n  .ar-b__i p {\n    font-family: var(--FONT-STACK-BODY, sans-serif);\n    font-size: 12px;\n    font-weight: 500;\n    line-height: 1.4;\n    color: #1a1a1a;\n    margin: 0;\n  }\n  .ar-b__fade { color: #999; font-weight: 400; }\n  .ar-b__i b { color: #A17B3A; font-weight: 600; }\n  .ar-b__i--hl {\n    background: rgba(200,162,101,0.05);\n    border-radius: 6px;\n    padding: 7px 8px;\n    margin: 0 -8px;\n    border-bottom: none;\n  }\n  .ar-b__tag {\n    display: inline-block;\n    font-size: 8.5px;\n    font-weight: 700;\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    color: #A17B3A;\n    background: rgba(200,162,101,0.12);\n    padding: 2px 5px;\n    border-radius: 3px;\n    vertical-align: middle;\n    margin-left: 4px;\n    position: relative;\n    top: -0.5px;\n  }\n</style>"
-          }
-        },
-        "variant_picker_kFEDG7": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown",
-            "color_swatch_names": "",
-            "variant_picture_swatch_names": "",
-            "thumb_size": 60,
-            "radius": "default",
-            "border_radius": 0,
-            "dropdown_swatch_names": "",
-            "margin-top": 8,
-            "margin-bottom": 8,
-            "size_icon": "check_mark",
-            "size_link": "",
-            "variant_name": "",
-            "size_content": "",
-            "metafield": "",
-            "enable-striped-rows": true
           }
         },
         "information_popup_xTh4dQ": {
@@ -113,9 +84,7 @@
         "custom_liquid_6qmEdL",
         "custom_liquid_LjCeP8",
         "custom_liquid_dHXXUn",
-        "price_zaXCc3",
         "custom_liquid_ECDMcm",
-        "variant_picker_kFEDG7",
         "information_popup_xTh4dQ",
         "buy_buttons",
         "custom_liquid_De9NcF",
