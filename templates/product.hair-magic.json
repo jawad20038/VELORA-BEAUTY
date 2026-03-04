@@ -699,111 +699,6 @@
         "margin-bottom": 0
       }
     },
-    "collapsible_menu_QVR8rp": {
-      "type": "collapsible_menu",
-      "blocks": {
-        "collapsible_tab_4MafK7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Est-ce que ça fait naturel ou ça se voit ?",
-            "content": "<p>HairMagic+ utilise des pigments adaptatifs qui épousent votre couleur naturelle. Le résultat est un effet « flou doux » qui densifie visuellement la zone sans effet plâtre ni résidu visible. Même votre coiffeuse ne le remarquera pas.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_n4TYbr": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Est-ce que ça tache l’oreiller, le col ou les mains ?",
-            "content": "<p>Non. La formule est résistante aux transferts une fois appliquée et estompeée. Vous pouvez porter du blanc, prendre quelqu’un dans vos bras et dormir tranquille. Elle s’enlève uniquement au shampooing.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_4iwxgC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Et si je me trompe de teinte ?",
-            "content": "<p>On vous couvre. Si votre teinte ne correspond pas, contactez-nous et on vous envoie la bonne gratuitement. Zéro risque, zéro stress.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_jXWfdY": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "J’ai le cuir chevelu sensible. C’est adapté ?",
-            "content": "<p>Absolument. HairMagic+ est formulée avec de l’huile d’argan, du panthénol et de la vitamine E — des actifs apaisants et hydratants. Pas de parabènes, pas d’irritants. Testée dermatologiquement et adaptée aux cuirs chevelus les plus réactifs.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_tABXQn": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Combien de temps tient un compact ?",
-            "content": "<p>Avec une utilisation quotidienne ciblée (raie + ligne capillaire), un compact HairMagic+ dure en moyenne 2 à 4 mois. Un petit geste quotidien qui va très loin.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_zh8CkL": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Est-ce que ça résiste à la pluie et à la transpiration ?",
-            "content": "<p>Oui. La formule water-resistant est conçue pour rester en place face à l’humidité, la chaleur et l’activité physique. Pour une tenue maximale les jours actifs, un léger voile de laque fixe tout parfaitement.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_8JcXLD": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Comment je l’enlève ?",
-            "content": "<p>Un simple shampooing suffit. Pas de produit spécial, pas de double lavage. HairMagic+ part complètement au premier lavage.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_hQJ6DC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "C’est quoi la différence avec les sprays ou les fibres ?",
-            "content": "<p>Les sprays peuvent être collants, lourds et imprécis. Les fibres tombent et nécessitent une fixation. HairMagic+ est une poudre pressée, précise, légère, qui se fond dans le cheveu avec un rendu naturel et une tenue fiable. Et surtout, elle nourrit votre cuir chevelu au lieu de l’agresser.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_m8UhJP": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Pourquoi l’huile d’argan d’Agadir ?",
-            "content": "<p>L’huile d’argan d’Agadir est reconnue mondialement pour ses propriétés nourrissantes et protectrices. Nous l’avons intégrée parce que votre cuir chevelu mérite un soin, pas juste un camouflage. C’est notre manière d’honorer la tradition marocaine tout en répondant aux besoins des femmes modernes.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_tab_4MafK7",
-        "collapsible_tab_n4TYbr",
-        "collapsible_tab_4iwxgC",
-        "collapsible_tab_jXWfdY",
-        "collapsible_tab_tABXQn",
-        "collapsible_tab_zh8CkL",
-        "collapsible_tab_8JcXLD",
-        "collapsible_tab_hQJ6DC",
-        "collapsible_tab_m8UhJP"
-      ],
-      "name": "t:sections.collapsible_menu.presets.name",
-      "settings": {
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "compact-size-enabled": true,
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
     "ss_guarantee_7NAGWN": {
       "type": "ss-guarantee",
       "blocks": {
@@ -960,9 +855,9 @@
           "type": "heading",
           "settings": {
             "heading": "<p>La confiance de milliers de femmes</p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 30,
+            "heading_custom": true,
+            "heading_font": "playfair_display_n7",
+            "heading_size": 24,
             "heading_size_mobile": 20,
             "heading_advanced": false,
             "heading_height": 120,
@@ -971,7 +866,7 @@
             "heading_align": "center",
             "heading_align_mobile": "center",
             "heading_max_width": 80,
-            "heading_color": "#000000"
+            "heading_color": "#3d2e2a"
           }
         },
         "rating_BC9krE": {
@@ -1259,6 +1154,111 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "collapsible_menu_QVR8rp": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_4MafK7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça fait naturel ou ça se voit ?",
+            "content": "<p>HairMagic+ utilise des pigments adaptatifs qui épousent votre couleur naturelle. Le résultat est un effet « flou doux » qui densifie visuellement la zone sans effet plâtre ni résidu visible. Même votre coiffeuse ne le remarquera pas.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_n4TYbr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça tache l’oreiller, le col ou les mains ?",
+            "content": "<p>Non. La formule est résistante aux transferts une fois appliquée et estompeée. Vous pouvez porter du blanc, prendre quelqu’un dans vos bras et dormir tranquille. Elle s’enlève uniquement au shampooing.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_4iwxgC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Et si je me trompe de teinte ?",
+            "content": "<p>On vous couvre. Si votre teinte ne correspond pas, contactez-nous et on vous envoie la bonne gratuitement. Zéro risque, zéro stress.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_jXWfdY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "J’ai le cuir chevelu sensible. C’est adapté ?",
+            "content": "<p>Absolument. HairMagic+ est formulée avec de l’huile d’argan, du panthénol et de la vitamine E — des actifs apaisants et hydratants. Pas de parabènes, pas d’irritants. Testée dermatologiquement et adaptée aux cuirs chevelus les plus réactifs.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_tABXQn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Combien de temps tient un compact ?",
+            "content": "<p>Avec une utilisation quotidienne ciblée (raie + ligne capillaire), un compact HairMagic+ dure en moyenne 2 à 4 mois. Un petit geste quotidien qui va très loin.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_zh8CkL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça résiste à la pluie et à la transpiration ?",
+            "content": "<p>Oui. La formule water-resistant est conçue pour rester en place face à l’humidité, la chaleur et l’activité physique. Pour une tenue maximale les jours actifs, un léger voile de laque fixe tout parfaitement.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_8JcXLD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment je l’enlève ?",
+            "content": "<p>Un simple shampooing suffit. Pas de produit spécial, pas de double lavage. HairMagic+ part complètement au premier lavage.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_hQJ6DC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "C’est quoi la différence avec les sprays ou les fibres ?",
+            "content": "<p>Les sprays peuvent être collants, lourds et imprécis. Les fibres tombent et nécessitent une fixation. HairMagic+ est une poudre pressée, précise, légère, qui se fond dans le cheveu avec un rendu naturel et une tenue fiable. Et surtout, elle nourrit votre cuir chevelu au lieu de l’agresser.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_m8UhJP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pourquoi l’huile d’argan d’Agadir ?",
+            "content": "<p>L’huile d’argan d’Agadir est reconnue mondialement pour ses propriétés nourrissantes et protectrices. Nous l’avons intégrée parce que votre cuir chevelu mérite un soin, pas juste un camouflage. C’est notre manière d’honorer la tradition marocaine tout en répondant aux besoins des femmes modernes.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_4MafK7",
+        "collapsible_tab_n4TYbr",
+        "collapsible_tab_4iwxgC",
+        "collapsible_tab_jXWfdY",
+        "collapsible_tab_tABXQn",
+        "collapsible_tab_zh8CkL",
+        "collapsible_tab_8JcXLD",
+        "collapsible_tab_hQJ6DC",
+        "collapsible_tab_m8UhJP"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
@@ -1271,8 +1271,8 @@
     "ss_video_with_text_9_zgCdNE",
     "image_with_text_PCYgRA",
     "testimonials_HHDNMe",
-    "collapsible_menu_QVR8rp",
     "ss_guarantee_7NAGWN",
-    "ss_testimonials_47_RkFWkM"
+    "ss_testimonials_47_RkFWkM",
+    "collapsible_menu_QVR8rp"
   ]
 }
