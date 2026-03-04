@@ -873,7 +873,7 @@
           "type": "rating",
           "settings": {
             "big_rating_text": "<p>4.8</p>",
-            "rating_text": "<p>/5 Basé sur 14 946 avis vérifiés</p>",
+            "rating_text": "<p>/5 Basé sur 7 986 avis vérifiés</p>",
             "rating_custom": true,
             "rating_font": "montserrat_n4",
             "rating_size": 16,
