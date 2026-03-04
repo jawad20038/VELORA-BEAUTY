@@ -75,6 +75,16 @@
             "custom_liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0921/8903/2794/files/NOIR.png?v=1747170686\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
           }
         },
+        "collapsible_tab_LyXNWA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Livraison et retours",
+            "content": "<p><strong>Livraison rapide (7 à 10 jours ouvrés) – Offerte aujourd’hui !</strong></p><p>Retour sous <strong>30 jours </strong>si vous n’êtes pas satisfait.</p>",
+            "metafield_variables": "",
+            "page": "",
+            "icon": "box"
+          }
+        },
         "custom_liquid_UcP3Ey": {
           "type": "custom_liquid",
           "settings": {
@@ -91,6 +101,7 @@
         "buy_buttons",
         "custom_liquid_De9NcF",
         "custom_liquid_9x6FRD",
+        "collapsible_tab_LyXNWA",
         "custom_liquid_UcP3Ey"
       ],
       "custom_css": [
