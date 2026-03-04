@@ -225,6 +225,84 @@
         "custom_liquid": "<div class=\"agadir-luxe-marquee\">\n\n  <style>\n    .agadir-luxe-marquee{\n      --alm-bg-primary:#2C2321;\n      --alm-bg-secondary:#1A1615;\n      --alm-text:#FAF7F2;\n      --alm-accent:#B8956E;\n      --alm-accent-light:rgba(184,149,110,.30);\n      --alm-border:rgba(184,149,110,.15);\n\n      /* ✅ vitesse rapide premium */\n      --alm-speed:14s;\n      --alm-speed-mobile:15s;\n\n      --alm-height:60px;\n      --alm-height-mobile:52px;\n\n      position:relative;\n      background: linear-gradient(180deg,var(--alm-bg-secondary),var(--alm-bg-primary),var(--alm-bg-secondary));\n      height:var(--alm-height);\n      overflow:hidden;\n      border-top:1px solid var(--alm-border);\n      border-bottom:1px solid var(--alm-border);\n    }\n\n    .agadir-luxe-marquee__wrapper{\n      display:flex;\n      align-items:center;\n      height:100%;\n    }\n\n    .agadir-luxe-marquee__track{\n      display:flex;\n      align-items:center;\n      width:max-content;\n      animation:agadirScroll var(--alm-speed) linear infinite;\n      will-change:transform;\n    }\n\n    .agadir-luxe-marquee:hover .agadir-luxe-marquee__track{\n      animation-play-state:paused;\n    }\n\n    .agadir-luxe-marquee__group{\n      display:flex;\n      align-items:center;\n    }\n\n    .agadir-luxe-marquee__item{\n      display:flex;\n      align-items:center;\n      gap:14px;\n      padding:0 40px;\n      position:relative;\n    }\n\n    .agadir-luxe-marquee__item::after{\n      content:'';\n      position:absolute;\n      right:0;\n      top:50%;\n      transform:translateY(-50%);\n      width:1px;\n      height:20px;\n      background:linear-gradient(180deg,transparent,var(--alm-accent-light),transparent);\n    }\n\n    /* Pastille premium */\n    .agadir-luxe-marquee__icon{\n      width:8px;\n      height:8px;\n      border-radius:999px;\n      background:var(--alm-accent);\n      box-shadow:0 0 0 4px rgba(184,149,110,.15);\n      flex-shrink:0;\n    }\n\n    /* ✅ FONT DU SITE + GRAS */\n    .agadir-luxe-marquee__text{\n      font-family:var(--FONT-STACK-BODY, inherit);\n      font-size:14px;\n      font-weight:700;\n      font-style:normal;\n      color:var(--alm-text);\n      letter-spacing:.02em;\n      white-space:nowrap;\n    }\n\n    @keyframes agadirScroll{\n      0%{ transform:translateX(0); }\n      100%{ transform:translateX(-50%); }\n    }\n\n    @media (max-width:767px){\n      .agadir-luxe-marquee{\n        height:var(--alm-height-mobile);\n      }\n\n      .agadir-luxe-marquee__track{\n        animation-duration:var(--alm-speed-mobile);\n      }\n\n      .agadir-luxe-marquee__item{\n        padding:0 26px;\n      }\n\n      .agadir-luxe-marquee__text{\n        font-size:13px;\n      }\n    }\n\n    @media (prefers-reduced-motion:reduce){\n      .agadir-luxe-marquee__track{\n        animation:none;\n      }\n      .agadir-luxe-marquee__group:nth-child(2){\n        display:none;\n      }\n    }\n  </style>\n\n  <div class=\"agadir-luxe-marquee__wrapper\">\n    <div class=\"agadir-luxe-marquee__track\">\n\n      <!-- Groupe 1 -->\n      <div class=\"agadir-luxe-marquee__group\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n      <!-- Groupe 2 duplication -->\n      <div class=\"agadir-luxe-marquee__group\" aria-hidden=\"true\">\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">2 à 4 mois d’utilisation par compact</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résultat visible en 20 secondes</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d’argan d’Agadir, Maroc</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Résistante à l’eau et aux transferts</span>\n        </div>\n\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\"></span>\n          <span class=\"agadir-luxe-marquee__text\">Formule douce, sans irritation</span>\n        </div>\n\n      </div>\n\n    </div>\n  </div>\n</div>"
       }
     },
+    "image_with_text_mh8ia3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GxrKmm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ne laissez rien trahir votre assurance",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_RRVXqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HairMagic+ corrige ce que vous voyez et que personne d’autre ne remarquera.<br/>Une couvrance précise, un effet flou densifiant, une tenue irréprochable du matin au soir.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "ui_spacer_hM3Y3d": {
+          "type": "ui_spacer",
+          "settings": {
+            "spacer_desktop_height": 32,
+            "spacer_mobile_height": 16
+          }
+        },
+        "icon_with_text_VK4fgT": {
+          "type": "icon_with_text",
+          "settings": {
+            "select_icon": "check",
+            "icon_advanced_settings": true,
+            "icon_height_desktop": 30,
+            "icon_height": 30,
+            "icon_margin_desktop": 0,
+            "icon_margin": 0,
+            "text": "<p>Lalla Aïcha, grand-mère de la fondatrice</p>",
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "gap": 8,
+            "margin_top": 8,
+            "margin_bottom": 8,
+            "margin_left_desktop": 0,
+            "margin_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_GxrKmm",
+        "text_RRVXqT",
+        "ui_spacer_hM3Y3d",
+        "icon_with_text_VK4fgT"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "",
+        "heading_richtext": "<h2>Your headline here</h2>",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": true,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#faf7f2",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/hf_20260304_180652_0b3cd867-0b96-4c66-a6bd-1e0af85a2425.webp",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "left",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "ss_video_with_text_9_aiQHbe": {
       "type": "ss-video-with-text-9",
       "blocks": {
@@ -610,17 +688,17 @@
         "lazy": true
       }
     },
-    "image_with_text_mh8ia3": {
+    "image_with_text_PCYgRA": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_rjNDLU": {
+        "subheading_A4AJk7": {
           "type": "subheading",
           "settings": {
             "subheading": "Né à Agadir, au cœur du Maroc.",
             "subheading_disable_on_mobile": false
           }
         },
-        "heading_GxrKmm": {
+        "heading_nHiMhX": {
           "type": "heading",
           "settings": {
             "heading": "Un rituel transmis depuis des générations.",
@@ -629,7 +707,7 @@
             "size_heading_mobile": 100
           }
         },
-        "text_Wc3Ky7": {
+        "text_dCynXd": {
           "type": "text",
           "settings": {
             "text": "<p>Dans la région d’Agadir, les femmes marocaines prennent soin de leurs cheveux avec un trésor rare : l’huile d’argan. Pressée à la main, utilisée depuis des siècles, cette huile est bien plus qu’un ingrédient — c’est un héritage.</p><p>HairMagic+ est née de cette tradition. Nous avons voulu créer une poudre qui ne se contente pas <br/>de cacher — mais qui prend soin. Parce que votre cuir chevelu est de la peau, et qu’il mérite le même respect que votre visage.</p><p>Chaque compact HairMagic+ est une rencontre entre savoir-faire ancestral et science cosmétique moderne. Une formule épurée. Des actifs sélectionnés. Un geste qui honore la beauté plutôt que de la masquer.</p>",
@@ -637,14 +715,14 @@
             "disable_on_mobile": false
           }
         },
-        "ui_spacer_hM3Y3d": {
+        "ui_spacer_jpdnKN": {
           "type": "ui_spacer",
           "settings": {
             "spacer_desktop_height": 32,
             "spacer_mobile_height": 16
           }
         },
-        "text_eijRBM": {
+        "text_NgGChG": {
           "type": "text",
           "settings": {
             "text": "<p><strong>« La beauté, ce n’est pas se cacher. C’est se respecter. »</strong></p>",
@@ -652,7 +730,7 @@
             "disable_on_mobile": false
           }
         },
-        "icon_with_text_VK4fgT": {
+        "icon_with_text_zH3dbt": {
           "type": "icon_with_text",
           "settings": {
             "icon": "shopify://shop_images/zakariajawad_Ultra_realistic_portrait_of_an_elderly_Moroccan__12f4b17e-77d5-4341-b46d-e68c21997acc_0.png",
@@ -674,19 +752,19 @@
         }
       },
       "block_order": [
-        "subheading_rjNDLU",
-        "heading_GxrKmm",
-        "text_Wc3Ky7",
-        "ui_spacer_hM3Y3d",
-        "text_eijRBM",
-        "icon_with_text_VK4fgT"
+        "subheading_A4AJk7",
+        "heading_nHiMhX",
+        "text_dCynXd",
+        "ui_spacer_jpdnKN",
+        "text_NgGChG",
+        "icon_with_text_zH3dbt"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "advanced_heading": false,
         "title": "",
         "heading_richtext": "<h2>Your headline here</h2>",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop-percentage-image-width": 50,
         "full-width-enabled": true,
         "slide_height": "adapt_to_first_image",
@@ -736,6 +814,111 @@
         "background_color": "#ffffff",
         "margin-top": 12,
         "margin-bottom": 0
+      }
+    },
+    "collapsible_menu_QVR8rp": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_4MafK7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça fait naturel ou ça se voit ?",
+            "content": "<p>HairMagic+ utilise des pigments adaptatifs qui épousent votre couleur naturelle. Le résultat est un effet « flou doux » qui densifie visuellement la zone sans effet plâtre ni résidu visible. Même votre coiffeuse ne le remarquera pas.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_n4TYbr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça tache l’oreiller, le col ou les mains ?",
+            "content": "<p>Non. La formule est résistante aux transferts une fois appliquée et estompeée. Vous pouvez porter du blanc, prendre quelqu’un dans vos bras et dormir tranquille. Elle s’enlève uniquement au shampooing.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_4iwxgC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Et si je me trompe de teinte ?",
+            "content": "<p>On vous couvre. Si votre teinte ne correspond pas, contactez-nous et on vous envoie la bonne gratuitement. Zéro risque, zéro stress.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_jXWfdY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "J’ai le cuir chevelu sensible. C’est adapté ?",
+            "content": "<p>Absolument. HairMagic+ est formulée avec de l’huile d’argan, du panthénol et de la vitamine E — des actifs apaisants et hydratants. Pas de parabènes, pas d’irritants. Testée dermatologiquement et adaptée aux cuirs chevelus les plus réactifs.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_tABXQn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Combien de temps tient un compact ?",
+            "content": "<p>Avec une utilisation quotidienne ciblée (raie + ligne capillaire), un compact HairMagic+ dure en moyenne 2 à 4 mois. Un petit geste quotidien qui va très loin.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_zh8CkL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce que ça résiste à la pluie et à la transpiration ?",
+            "content": "<p>Oui. La formule water-resistant est conçue pour rester en place face à l’humidité, la chaleur et l’activité physique. Pour une tenue maximale les jours actifs, un léger voile de laque fixe tout parfaitement.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_8JcXLD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment je l’enlève ?",
+            "content": "<p>Un simple shampooing suffit. Pas de produit spécial, pas de double lavage. HairMagic+ part complètement au premier lavage.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_hQJ6DC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "C’est quoi la différence avec les sprays ou les fibres ?",
+            "content": "<p>Les sprays peuvent être collants, lourds et imprécis. Les fibres tombent et nécessitent une fixation. HairMagic+ est une poudre pressée, précise, légère, qui se fond dans le cheveu avec un rendu naturel et une tenue fiable. Et surtout, elle nourrit votre cuir chevelu au lieu de l’agresser.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "collapsible_tab_m8UhJP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pourquoi l’huile d’argan d’Agadir ?",
+            "content": "<p>L’huile d’argan d’Agadir est reconnue mondialement pour ses propriétés nourrissantes et protectrices. Nous l’avons intégrée parce que votre cuir chevelu mérite un soin, pas juste un camouflage. C’est notre manière d’honorer la tradition marocaine tout en répondant aux besoins des femmes modernes.</p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_4MafK7",
+        "collapsible_tab_n4TYbr",
+        "collapsible_tab_4iwxgC",
+        "collapsible_tab_jXWfdY",
+        "collapsible_tab_tABXQn",
+        "collapsible_tab_zh8CkL",
+        "collapsible_tab_8JcXLD",
+        "collapsible_tab_hQJ6DC",
+        "collapsible_tab_m8UhJP"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     },
     "ss_guarantee_7NAGWN": {
@@ -1193,111 +1376,6 @@
         "section_radius": 0,
         "lazy": true
       }
-    },
-    "collapsible_menu_QVR8rp": {
-      "type": "collapsible_menu",
-      "blocks": {
-        "collapsible_tab_4MafK7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Est-ce que ça fait naturel ou ça se voit ?",
-            "content": "<p>HairMagic+ utilise des pigments adaptatifs qui épousent votre couleur naturelle. Le résultat est un effet « flou doux » qui densifie visuellement la zone sans effet plâtre ni résidu visible. Même votre coiffeuse ne le remarquera pas.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_n4TYbr": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Est-ce que ça tache l’oreiller, le col ou les mains ?",
-            "content": "<p>Non. La formule est résistante aux transferts une fois appliquée et estompeée. Vous pouvez porter du blanc, prendre quelqu’un dans vos bras et dormir tranquille. Elle s’enlève uniquement au shampooing.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_4iwxgC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Et si je me trompe de teinte ?",
-            "content": "<p>On vous couvre. Si votre teinte ne correspond pas, contactez-nous et on vous envoie la bonne gratuitement. Zéro risque, zéro stress.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_jXWfdY": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "J’ai le cuir chevelu sensible. C’est adapté ?",
-            "content": "<p>Absolument. HairMagic+ est formulée avec de l’huile d’argan, du panthénol et de la vitamine E — des actifs apaisants et hydratants. Pas de parabènes, pas d’irritants. Testée dermatologiquement et adaptée aux cuirs chevelus les plus réactifs.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_tABXQn": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Combien de temps tient un compact ?",
-            "content": "<p>Avec une utilisation quotidienne ciblée (raie + ligne capillaire), un compact HairMagic+ dure en moyenne 2 à 4 mois. Un petit geste quotidien qui va très loin.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_zh8CkL": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Est-ce que ça résiste à la pluie et à la transpiration ?",
-            "content": "<p>Oui. La formule water-resistant est conçue pour rester en place face à l’humidité, la chaleur et l’activité physique. Pour une tenue maximale les jours actifs, un léger voile de laque fixe tout parfaitement.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_8JcXLD": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Comment je l’enlève ?",
-            "content": "<p>Un simple shampooing suffit. Pas de produit spécial, pas de double lavage. HairMagic+ part complètement au premier lavage.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_hQJ6DC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "C’est quoi la différence avec les sprays ou les fibres ?",
-            "content": "<p>Les sprays peuvent être collants, lourds et imprécis. Les fibres tombent et nécessitent une fixation. HairMagic+ est une poudre pressée, précise, légère, qui se fond dans le cheveu avec un rendu naturel et une tenue fiable. Et surtout, elle nourrit votre cuir chevelu au lieu de l’agresser.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "collapsible_tab_m8UhJP": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Pourquoi l’huile d’argan d’Agadir ?",
-            "content": "<p>L’huile d’argan d’Agadir est reconnue mondialement pour ses propriétés nourrissantes et protectrices. Nous l’avons intégrée parce que votre cuir chevelu mérite un soin, pas juste un camouflage. C’est notre manière d’honorer la tradition marocaine tout en répondant aux besoins des femmes modernes.</p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_tab_4MafK7",
-        "collapsible_tab_n4TYbr",
-        "collapsible_tab_4iwxgC",
-        "collapsible_tab_jXWfdY",
-        "collapsible_tab_tABXQn",
-        "collapsible_tab_zh8CkL",
-        "collapsible_tab_8JcXLD",
-        "collapsible_tab_hQJ6DC",
-        "collapsible_tab_m8UhJP"
-      ],
-      "name": "t:sections.collapsible_menu.presets.name",
-      "settings": {
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "compact-size-enabled": true,
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
     }
   },
   "order": [
@@ -1305,10 +1383,11 @@
     "main",
     "marquee_images_zPkDJK",
     "custom_liquid_ANY4ja",
+    "image_with_text_mh8ia3",
     "ss_video_with_text_9_aiQHbe",
     "multicolumn_kdANBW",
     "ss_video_with_text_9_zgCdNE",
-    "image_with_text_mh8ia3",
+    "image_with_text_PCYgRA",
     "testimonials_HHDNMe",
     "collapsible_menu_QVR8rp",
     "ss_guarantee_7NAGWN",
