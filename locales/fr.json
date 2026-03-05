@@ -602,6 +602,9 @@
       },
       "general": {
         "cart": "Panier"
+      },
+      "throttle": {
+        "cart_summary_heading": "Votre Rituel"
       }
     }
   }
