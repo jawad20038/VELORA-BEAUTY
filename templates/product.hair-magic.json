@@ -987,6 +987,7 @@
         },
         "feature_bKaTEi": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "icon": "box",
             "text": "Livraison gratuite",
@@ -995,6 +996,7 @@
         },
         "feature_k3TrJB": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "icon": "headset",
             "text": "Service client 7J/J",
@@ -1003,6 +1005,7 @@
         },
         "feature_44ewkV": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "icon": "shield_check",
             "text": "Satisfait ou remboursé",
@@ -1011,6 +1014,7 @@
         },
         "feature_6hiDxd": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "icon": "credit_card",
             "text": "Paiement sécurisé",
