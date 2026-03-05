@@ -606,6 +606,9 @@
       "throttle": {
         "cart_summary_heading": "Votre Rituel"
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Votre Rituel"
     }
   }
 }
