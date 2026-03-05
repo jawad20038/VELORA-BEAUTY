@@ -594,5 +594,12 @@
   },
   "cross_sell": {
     "empty_msg": "Aucun produit disponible à afficher. Ce bloc ne sera pas visible pour les clients sur la vitrine."
+  },
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "or": "★★★★★ Noté 4.9/5 par plus de 100'000 clientes satisfaites."
+      }
+    }
   }
 }
