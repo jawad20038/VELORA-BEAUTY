@@ -37,6 +37,7 @@
         },
         "custom_liquid_dHXXUn": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"ar-s1\">\n  <div class=\"ar-s1__hero\">\n    <span class=\"ar-s1__num\">20s</span>\n    <div class=\"ar-s1__text\">\n      <p class=\"ar-s1__main\">pour couvrir racines grises, zones clairsemées et ligne capillaire.</p>\n      <p class=\"ar-s1__proof\">Sans teinture · Sans désordre · Avec soin</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ar-s1 { padding: 0; margin: 8px 0 0; }\n  .ar-s1__hero {\n    display: flex;\n    align-items: flex-start;\n    gap: 10px;\n  }\n  .ar-s1__num {\n    font-family: Georgia, 'Times New Roman', serif;\n    font-size: 28px;\n    font-weight: 700;\n    color: #A17B3A;\n    line-height: 1;\n    letter-spacing: -0.03em;\n    flex-shrink: 0;\n    position: relative;\n    top: -2px;\n  }\n  .ar-s1__main {\n    font-family: var(--FONT-STACK-BODY, sans-serif);\n    font-size: 12.5px;\n    font-weight: 400;\n    line-height: 1.45;\n    color: #444;\n    margin: 0 0 5px;\n  }\n  .ar-s1__proof {\n    font-family: var(--FONT-STACK-BODY, sans-serif);\n    font-size: 9.5px;\n    font-weight: 600;\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    color: #3D2E2A;\n    margin: 0;\n  }\n</style>"
           }
@@ -1232,12 +1233,12 @@
       "name": "SS - FAQ #1",
       "settings": {
         "heading": "Vos questions. Nos réponses honnêtes.",
-        "icon_color": "#fff",
-        "hover_color": "#EFEFEF",
-        "question_color": "#fff",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
         "background_color": "#a17b3a",
-        "answer_color": "#000",
-        "answer_bg_color": "#fff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
         "questions-font-size": 1.1
       }
     }
