@@ -291,7 +291,7 @@
       }
     },
     "cart": {
-      "title": "Votre panier",
+      "title": "Votre Rituel",
       "caption": "Articles dans le panier",
       "remove_title": "Supprimer {{ title }}",
       "subtotal": "Sous-total",
