@@ -1134,7 +1134,7 @@
         "feature_bg_color": "#ffffff",
         "feature_border_color": "#e2e8f0",
         "background_style": "solid",
-        "background_color": "#f7f9fd",
+        "background_color": "#faf7f2",
         "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%)",
         "border_color": "#121212",
         "margin_top": 0,
