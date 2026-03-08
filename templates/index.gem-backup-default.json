@@ -1,0 +1,225 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_CmWjWt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"agadir-luxe-marquee\">\n  <style>\n    \/* ============================================\n       AGADIR RITUAL — MARQUEE ULTRA LUXE\n       Premium Scrolling Trust Banner\n       ============================================ *\/\n    \n    @import url('https:\/\/fonts.googleapis.com\/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap');\n    \n    .agadir-luxe-marquee {\n      \/* Palette Agadir Ritual *\/\n      --alm-bg-primary: #2C2321;\n      --alm-bg-secondary: #1A1615;\n      --alm-text: #FAF7F2;\n      --alm-accent: #B8956E;\n      --alm-accent-light: rgba(184, 149, 110, 0.3);\n      --alm-border: rgba(184, 149, 110, 0.15);\n      \n      \/* Animation *\/\n      --alm-speed: 40s;\n      \n      \/* Dimensions *\/\n      --alm-height: 64px;\n      --alm-height-mobile: 56px;\n      \n      position: relative;\n      background: linear-gradient(\n        180deg,\n        var(--alm-bg-secondary) 0%,\n        var(--alm-bg-primary) 50%,\n        var(--alm-bg-secondary) 100%\n      );\n      height: var(--alm-height);\n      overflow: hidden;\n      border-top: 1px solid var(--alm-border);\n      border-bottom: 1px solid var(--alm-border);\n    }\n    \n    \/* ===== LIGNES DÉCORATIVES LUXE ===== *\/\n    .agadir-luxe-marquee::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      height: 1px;\n      background: linear-gradient(\n        90deg,\n        transparent 0%,\n        var(--alm-accent-light) 20%,\n        var(--alm-accent) 50%,\n        var(--alm-accent-light) 80%,\n        transparent 100%\n      );\n      z-index: 3;\n    }\n    \n    .agadir-luxe-marquee::after {\n      content: '';\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      right: 0;\n      height: 1px;\n      background: linear-gradient(\n        90deg,\n        transparent 0%,\n        var(--alm-accent-light) 20%,\n        var(--alm-accent) 50%,\n        var(--alm-accent-light) 80%,\n        transparent 100%\n      );\n      z-index: 3;\n    }\n    \n    \/* ===== EFFET DE FONDU PREMIUM ===== *\/\n    .agadir-luxe-marquee__fade {\n      position: absolute;\n      top: 0;\n      bottom: 0;\n      width: 150px;\n      z-index: 2;\n      pointer-events: none;\n    }\n    \n    .agadir-luxe-marquee__fade--left {\n      left: 0;\n      background: linear-gradient(\n        to right,\n        var(--alm-bg-primary) 0%,\n        var(--alm-bg-primary) 20%,\n        transparent 100%\n      );\n    }\n    \n    .agadir-luxe-marquee__fade--right {\n      right: 0;\n      background: linear-gradient(\n        to left,\n        var(--alm-bg-primary) 0%,\n        var(--alm-bg-primary) 20%,\n        transparent 100%\n      );\n    }\n    \n    \/* ===== CONTENEUR PRINCIPAL ===== *\/\n    .agadir-luxe-marquee__wrapper {\n      display: flex;\n      align-items: center;\n      height: 100%;\n    }\n    \n    .agadir-luxe-marquee__track {\n      display: flex;\n      align-items: center;\n      width: max-content;\n      animation: agadirLuxeScroll var(--alm-speed) linear infinite;\n    }\n    \n    .agadir-luxe-marquee:hover .agadir-luxe-marquee__track {\n      animation-play-state: paused;\n    }\n    \n    \/* ===== GROUPE DE CONTENU ===== *\/\n    .agadir-luxe-marquee__group {\n      display: flex;\n      align-items: center;\n      height: 100%;\n    }\n    \n    \/* ===== ITEM INDIVIDUEL ===== *\/\n    .agadir-luxe-marquee__item {\n      display: flex;\n      align-items: center;\n      gap: 16px;\n      padding: 0 48px;\n      height: 100%;\n      position: relative;\n    }\n    \n    \/* Ligne verticale subtile entre items *\/\n    .agadir-luxe-marquee__item::after {\n      content: '';\n      position: absolute;\n      right: 0;\n      top: 50%;\n      transform: translateY(-50%);\n      width: 1px;\n      height: 24px;\n      background: linear-gradient(\n        180deg,\n        transparent 0%,\n        var(--alm-accent-light) 50%,\n        transparent 100%\n      );\n    }\n    \n    \/* ===== ICÔNE ===== *\/\n    .agadir-luxe-marquee__icon {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 28px;\n      height: 28px;\n      flex-shrink: 0;\n      position: relative;\n    }\n    \n    .agadir-luxe-marquee__icon img {\n      width: 28px;\n      height: 28px;\n      object-fit: contain;\n      opacity: 0.9;\n      transition: opacity 0.3s ease, transform 0.3s ease;\n    }\n    \n    .agadir-luxe-marquee__item:hover .agadir-luxe-marquee__icon img {\n      opacity: 1;\n      transform: scale(1.05);\n    }\n    \n    \/* Halo subtil autour de l'icône *\/\n    .agadir-luxe-marquee__icon::before {\n      content: '';\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%);\n      width: 40px;\n      height: 40px;\n      border-radius: 50%;\n      background: radial-gradient(\n        circle,\n        var(--alm-accent-light) 0%,\n        transparent 70%\n      );\n      opacity: 0;\n      transition: opacity 0.3s ease;\n    }\n    \n    .agadir-luxe-marquee__item:hover .agadir-luxe-marquee__icon::before {\n      opacity: 1;\n    }\n    \n    \/* ===== TEXTE ===== *\/\n    .agadir-luxe-marquee__text {\n      font-family: 'Cormorant Garamond', 'Georgia', serif;\n      font-size: 15px;\n      font-weight: 400;\n      font-style: italic;\n      color: var(--alm-text);\n      letter-spacing: 0.04em;\n      white-space: nowrap;\n      transition: color 0.3s ease;\n    }\n    \n    .agadir-luxe-marquee__item:hover .agadir-luxe-marquee__text {\n      color: var(--alm-accent);\n    }\n    \n    \/* ===== SÉPARATEUR DÉCORATIF ===== *\/\n    .agadir-luxe-marquee__separator {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 32px;\n      height: 100%;\n      color: var(--alm-accent);\n      font-size: 8px;\n      opacity: 0.7;\n    }\n    \n    .agadir-luxe-marquee__separator svg {\n      width: 12px;\n      height: 12px;\n      fill: currentColor;\n    }\n    \n    \/* ===== ANIMATION ===== *\/\n    @keyframes agadirLuxeScroll {\n      0% {\n        transform: translateX(0);\n      }\n      100% {\n        transform: translateX(-50%);\n      }\n    }\n    \n    \/* ===== RESPONSIVE ===== *\/\n    @media screen and (max-width: 1024px) {\n      .agadir-luxe-marquee {\n        --alm-speed: 35s;\n      }\n      \n      .agadir-luxe-marquee__item {\n        padding: 0 36px;\n        gap: 12px;\n      }\n      \n      .agadir-luxe-marquee__fade {\n        width: 100px;\n      }\n    }\n    \n    @media screen and (max-width: 767px) {\n      .agadir-luxe-marquee {\n        --alm-speed: 30s;\n        height: var(--alm-height-mobile);\n      }\n      \n      .agadir-luxe-marquee__fade {\n        width: 60px;\n      }\n      \n      .agadir-luxe-marquee__item {\n        padding: 0 28px;\n        gap: 10px;\n      }\n      \n      .agadir-luxe-marquee__item::after {\n        height: 18px;\n      }\n      \n      .agadir-luxe-marquee__icon {\n        width: 22px;\n        height: 22px;\n      }\n      \n      .agadir-luxe-marquee__icon img {\n        width: 22px;\n        height: 22px;\n      }\n      \n      .agadir-luxe-marquee__icon::before {\n        width: 32px;\n        height: 32px;\n      }\n      \n      .agadir-luxe-marquee__text {\n        font-size: 13px;\n      }\n      \n      .agadir-luxe-marquee__separator {\n        width: 24px;\n      }\n      \n      .agadir-luxe-marquee__separator svg {\n        width: 10px;\n        height: 10px;\n      }\n    }\n    \n    \/* ===== ACCESSIBILITÉ ===== *\/\n    @media (prefers-reduced-motion: reduce) {\n      .agadir-luxe-marquee__track {\n        animation: none;\n      }\n      \n      .agadir-luxe-marquee__group:nth-child(2) {\n        display: none;\n      }\n      \n      .agadir-luxe-marquee__wrapper {\n        justify-content: center;\n      }\n    }\n  <\/style>\n  \n  <!-- Effets de fondu latéraux -->\n  <div class=\"agadir-luxe-marquee__fade agadir-luxe-marquee__fade--left\"><\/div>\n  <div class=\"agadir-luxe-marquee__fade agadir-luxe-marquee__fade--right\"><\/div>\n  \n  <!-- Conteneur principal -->\n  <div class=\"agadir-luxe-marquee__wrapper\">\n    <div class=\"agadir-luxe-marquee__track\">\n      \n      <!-- ===== GROUPE 1 ===== -->\n      <div class=\"agadir-luxe-marquee__group\">\n        \n        <!-- Item 1 : Huile d'Argan -->\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <!-- REMPLACE PAR TON URL D'IMAGE -->\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Gemini_Generated_Image_br6nm4br6nm4br6n-removebg-preview.png?v=1771249840\" alt=\"Argan\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d'argan des coopératives d'Agadir<\/span>\n        <\/div>\n        \n        <!-- Séparateur -->\n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n        <!-- Item 2 : Dermatologique -->\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <!-- REMPLACE PAR TON URL D'IMAGE -->\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Design_sans_titre_-_2026-02-16T145703.299.png?v=1771250641\" alt=\"Dermatologique\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Formules testées sous contrôle dermatologique<\/span>\n        <\/div>\n        \n        <!-- Séparateur -->\n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n        <!-- Item 3 : Végan -->\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <!-- REMPLACE PAR TON URL D'IMAGE -->\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Design_sans_titre_-_2026-02-16T150317.956.png?v=1771250641\" alt=\"Végan\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Végan & Cruelty-free<\/span>\n        <\/div>\n        \n        <!-- Séparateur -->\n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n        <!-- Item 4 : Savoir-faire Marocain -->\n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <!-- REMPLACE PAR TON URL D'IMAGE -->\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Design_sans_titre_-_2026-02-16T150135.326.png?v=1771250642\" alt=\"Maroc\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Savoir-faire marocain<\/span>\n        <\/div>\n        \n        <!-- Séparateur -->\n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n      <\/div>\n      \n      <!-- ===== GROUPE 2 (Duplication pour boucle infinie) ===== -->\n      <div class=\"agadir-luxe-marquee__group\">\n        \n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Gemini_Generated_Image_br6nm4br6nm4br6n-removebg-preview.png?v=1771249840\" alt=\"Argan\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Huile d'argan des coopératives d'Agadir<\/span>\n        <\/div>\n        \n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Gemini_Generated_Image_6v4ntm6v4ntm6v4n-removebg-preview.png?v=1771249840\" alt=\"Dermatologique\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Formules testées sous contrôle dermatologique<\/span>\n        <\/div>\n        \n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Design_sans_titre_-_2026-02-16T150317.956.png?v=1771250641\" alt=\"Végan\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Végan & Cruelty-free<\/span>\n        <\/div>\n        \n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n        <div class=\"agadir-luxe-marquee__item\">\n          <span class=\"agadir-luxe-marquee__icon\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0751\/4685\/4590\/files\/Design_sans_titre_-_2026-02-16T150135.326.png?v=1771250642\" alt=\"Maroc\">\n          <\/span>\n          <span class=\"agadir-luxe-marquee__text\">Savoir-faire marocain<\/span>\n        <\/div>\n        \n        <span class=\"agadir-luxe-marquee__separator\">\n          <svg viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\"\/>\n          <\/svg>\n        <\/span>\n        \n      <\/div>\n      \n    <\/div>\n  <\/div>\n<\/div>"
+      }
+    },
+    "image_with_text_NAfh4M": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4kQbz9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Né à Agadir. Formulé pour les femmes d'aujourd'hui.",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_d4qCEP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Notre Histoire",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_9idaXF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elle en verse quelques gouttes dans ses mains. Elle ferme les yeux.<\/p><p>Et soudain…<br\/>Elle n’est plus dans son appartement moderne.<br\/>Elle est à Agadir, dans la cour,<br\/>sous le soleil, avec sa grand-mère.<\/p><p>Elle comprend alors quelque chose de puissant...<\/p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_4gNFLV": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "En savoir plus",
+            "button_link": "shopify:\/\/pages\/notre-histoire",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4kQbz9",
+        "heading_d4qCEP",
+        "text_9idaXF",
+        "button_4gNFLV"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "",
+        "heading_richtext": "<h2>Your headline here<\/h2>",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#faf7f2",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify:\/\/shop_images\/tempImageqZQt2t_-_Modifie.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify:\/\/shop_images\/tempImageqZQt2t_-_Modifie.jpg",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 32,
+        "margin-bottom": 20
+      }
+    },
+    "featured_collection_8cfCD3": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "Nos Rituels",
+        "heading_richtext": "<h2>Your headline here<\/h2>",
+        "disable_on_mobile": false,
+        "hide_empty_section": false,
+        "collection": "nos-rituels",
+        "product_list": [],
+        "products_to_show": 4,
+        "enable_stack_products": false,
+        "show_view_all": true,
+        "button_select": "primary",
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "16",
+        "make_products_full_width": true,
+        "number_of_column_mobile": 2.1,
+        "spacing_mobile": "16",
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "enable_vendor_link": false,
+        "show_product_rating": false,
+        "enable_quick_add_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#ffffff",
+        "margin-top": 32,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_f8LxXz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bJGzNP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enrichie en :",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 90
+          }
+        },
+        "subheading_n4yC4U": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Huile d’argan . Panthénol .            Vitamine E",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "text_D6Bnrh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une poudre raffinée qui camoufle instantanément les cheveux blancs, apporte une densité naturelle et résiste à l’eau, la transpiration et au sport.<\/p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_7AjhNp": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Découvrir HairMagic+",
+            "button_link": "shopify:\/\/products\/hairmagic-poudre-racine",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bJGzNP",
+        "subheading_n4yC4U",
+        "text_D6Bnrh",
+        "button_7AjhNp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "",
+        "heading_richtext": "<h2>Your headline here<\/h2>",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "#faf7f2",
+        "section-color-overlay": "#faf7f2",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "#faf7f2",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify:\/\/shop_images\/hf_20260304_172919_ce7a41aa-ca0c-40da-8eb5-a31ee99aa955.webp",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "blog_posts_i6rEtr": {
+      "type": "blog-posts",
+      "name": "t:sections.blog-posts.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "",
+        "heading_richtext": "<h2>Your headline here<\/h2>",
+        "swipe_on_mobile": true,
+        "full-width-enabled": false,
+        "blog": "actualites",
+        "post_limit": 3,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "view_all_button_select": "primary",
+        "show_image": true,
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "button_select": "link",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_CmWjWt",
+    "image_with_text_NAfh4M",
+    "featured_collection_8cfCD3",
+    "image_with_text_f8LxXz",
+    "blog_posts_i6rEtr"
+  ]
+}
